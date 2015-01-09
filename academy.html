@@ -362,20 +362,21 @@
     }
 
     a {
-      color: #2ba6cb; 
+      color: #77bd1f; 
       text-decoration: none;
+      border-bottom: 1px solid #77bd1f;
     }
 
     a:hover { 
-      color: #2795b6 !important;
+      color: #77bd1f !important;
     }
 
     a:active { 
-      color: #2795b6 !important;
+      color: #77bd1f !important;
     }
 
     a:visited { 
-      color: #2ba6cb !important;
+      color: #77bd1f !important;
     }
 
     h1 a, 
@@ -384,7 +385,7 @@
     h4 a, 
     h5 a, 
     h6 a {
-      color: #2ba6cb;
+      color: #77bd1f;
     }
 
     h1 a:active, 
@@ -393,7 +394,7 @@
     h4 a:active, 
     h5 a:active, 
     h6 a:active { 
-      color: #2ba6cb !important; 
+      color: #77bd1f !important; 
     } 
 
     h1 a:visited, 
@@ -402,7 +403,7 @@
     h4 a:visited, 
     h5 a:visited, 
     h6 a:visited { 
-      color: #2ba6cb !important; 
+      color: #77bd1f !important; 
     } 
 
     /* Panels */
@@ -440,7 +441,7 @@
       display: block;
       width: auto !important;
       text-align: center;
-      background: #2ba6cb;
+      background: #77bd1f;
       border: 1px solid #2284a1;
       color: #ffffff;
       padding: 8px 0;
@@ -701,7 +702,7 @@
 
       @import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
       * {
-        font-family: Raleway, Gotham, Arial, sans-serif !important;
+        font-family: Raleway0, Gotham0, Helvetica, Arial, sans-serif !important;
       }
       body, p, li {
         font-size: 12px;
@@ -775,6 +776,13 @@
       h1 {
         font-size: 25px;
       }
+      h2.subheading {
+        font-size: 14px;
+        color: #53606d;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 3px;
+      }
 
       .text-align-right {
         text-align: right;
@@ -795,7 +803,7 @@
 
       /*////// COLORS //////*/
       .text-theme {
-        color: #75c3eb;
+        color: #77bd1f;
       }
       .text-white {
         color: #ffffff;
@@ -806,7 +814,7 @@
       }
 
       .border-bottom-theme {
-        border-bottom: 6px solid #75c3eb;
+        border-bottom: 6px solid #77bd1f;
       }
 
       /*////// BACKGROUND COLORS //////*/
@@ -816,10 +824,58 @@
         color: #ffffff;
       }
 
+      /*////// SPOTLIGHT //////*/
+      table.spotlight {
+        background-color: #d8e0e1;
+      }
+
+      table.spotlight .row {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      table.spotlight h2 {
+        color: #53606d;
+        font-size: 18px;
+      }
+
+      table.spotlight h3 {
+        color: #77bd1f;
+        font-size: 18px;
+        text-transform: uppercase;
+        padding: 20px;
+      }
+
+      table.spotlight td.module-wrapper {
+        padding: 0;
+        padding: 0 10px;
+      }
+      table.spotlight td.module  {
+        background-color: #53606d;
+        width: 210px;
+        text-align: center;
+        padding: 0;
+      }
+      table.spotlight td.module.one {
+        margin: 0 20px 0 40px;
+      }
+
+      table.spotlight td.module.two {
+        margin: 0 50px 0 20px;
+      }
+      table.spotlight td p {
+        text-align: center;
+        font-weight: normal;
+        color: #f0f0f0;
+        padding: 0 20px;
+        font-size: 14px;
+        margin: 0;
+      }
+
       /*////// BUTTONS //////*/
       .button {
-        background-color: #75c3eb;
-        color: #ffffff !important;
+        background-color: #77bd1f;
+        color: #53606d !important;
         padding: 11px 15px 9px;
         border-radius: 4px;
         text-transform: uppercase;
@@ -828,11 +884,7 @@
       }
 
       .button:hover {
-        color: #ffffff !important;
-      }
-
-      .button span span {
-        color: #55606f;
+        color: #53606d !important;
       }
 
       /*////// ICONS //////*/
@@ -841,7 +893,7 @@
       }
 
 
-      /*////// PROPERTY REMOVERS //////*/
+      /*////// NO PADDING //////*/
       td.no-padding-top {
         padding-top: 0;
       }
@@ -932,7 +984,7 @@
                               <tr>
                                 <td>
 
-                                  <img class="border-bottom-theme" src="http://in.tune.com/l/23402/2015-01-08/ptn6t/23402/56608/bg_phone.png" width="580" height="136" pardot-region>
+                                  <img class="border-bottom-theme" src="images/bg-coffeecup-nologo.png" width="580" height="136" pardot-region>
 
                                 </td>
                                 <td class="expander"></td>
@@ -951,7 +1003,7 @@
                 </table>
                 <!-- // HERO IMAGE -->
 
-                <!-- CENTERED HEADING // -->
+                <!-- EMAIL BODY (TOP) // -->
                 <table class="email-body container">
                   <tr>
                     <td>
@@ -967,7 +1019,8 @@
                               <tr>
                                 <td>
 
-                                  <h1 class="text-theme center" pardot-region>Partner Portal Overview</h1>
+                                  <h2 class="subheading" pardot-region>Tune Academy</h2>
+                                  <h1 class="text-theme" pardot-region>November Training Schedule</h1>
 
                                 </td>
                                 <td class="expander"></td>
@@ -981,73 +1034,26 @@
                       </table>
                       <!-- // ROW 1 -->
 
-                    </td>
-                  </tr>
-                </table>
-                <!-- // CENTERED HEADING -->
-
-                <!-- EMAIL BODY // -->
-                <table class="container">
-                  <tr>
-                    <td>
-
-                      <!-- ROW 1 // -->
-                      <table class="row">
-                        <tr>
-                          
-                          <!-- BODY CONTENT // -->
-                          <td class="wrapper offset-by-one last">
-
-                            <table class="ten columns">
-                              <tr>
-                                <td pardot-region="email-body">
-
-                                  <p>With the recent launch of our TUNE partner portal, partners are excited to hear about all the new features that are available to them. We invite you to join us for a live walk-through of the new interface where you'll learn how to:</p>
-
-                                  <ul>
-                                    <li>Troubleshoot measurement and reporting questions for your clients</li>
-                                    <li>Discover where you rank relative to other integrated publishers</li>
-                                    <li>Check on your campaign performance</li>
-                                  </ul>
-
-                                  <p>This will be an interactive training with live Q&amp;A available during the session. Login today and come with questions! This training is only available to MobileAppTracking integrated partners. We hope you'll be able to join us.</p>
-                                </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
-
-                          </td>
-                          <!-- // BODY CONTENT -->
-
-                        </tr>
-                      </table>
-                      <!-- // ROW 1 -->
-
                       <!-- ROW 2 // -->
-                      <table class="row call-to-action">
+                      <table class="row" pardot-repeatable>
                         <tr>
                           
-                          <!-- BODY CONTENT // -->
+                          <!-- HEADING // -->
                           <td class="wrapper offset-by-one last">
 
                             <table class="ten columns">
                               <tr>
-                                <td class="center">
+                                <td>
 
-                                  <div pardot-removable>
-                                    <div pardot-region>
-                                      <b>Thursday, November 20, 2014</b> 10:30-11:00AM PST
-                                    </div>
-                                  </div>
-
-                                 <a href="#" class="button" pardot-region>11/27 - 10:30AM Register Now</a>
+                                  <h2 class="subheading" pardot-region>Fundamentals Training</h2>
+                                  <p pardot-region>Geared for new users, this four part webinar series will guide users through the basic concepts of mobile attribution, setting up your account, reporting campaign success, and how to optimize your campaign performance. Each session is offered at two different times to allow our global audience a chance to attend a live session.</p>
                                 </td>
                                 <td class="expander"></td>
                               </tr>
                             </table>
 
                           </td>
-                          <!-- // BODY CONTENT -->
+                          <!-- // HEADING -->
 
                         </tr>
                       </table>
@@ -1056,7 +1062,175 @@
                     </td>
                   </tr>
                 </table>
-                <!-- // EMAIL BODY-->
+                <!-- // EMAIL BODY (TOP) -->
+
+                <!-- SPOTLIGHT -->
+                <table class="spotlight container" pardot-removable>
+                  <tr>
+                    <td>
+
+                      <!-- ROW 1 // -->
+                      <table class="row">
+                        <tr>
+                          <td class="wrapper offset-by-one last">
+
+                            <table class="ten columns">
+                              <tr>
+                                <td>
+
+                                  <h2 class="center" pardot-region>Product Spotlight Trainings</h2>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // ROW 1 -->
+
+                      <!-- MODULE ROWS // -->
+
+                        <!-- MODULE TITLE // -->
+                        <table class="container" pardot-repeatable>
+                          <tr>
+                            <td>
+
+                              <table class="block-grid two-up">
+                                <tr>
+
+                                  <!-- MODULE 1 // -->
+                                  <td class="module-wrapper">
+                                    
+                                    <table>
+                                      <tr>
+                                        <td class="module one">
+                                          <h3 class="center" pardot-region>Holiday Prep Webinar</h3>
+                                        </td>
+                                      </tr>
+                                    </table>
+
+                                  </td>
+                                  <!-- // MODULE 1 -->
+
+                                  <!-- MODULE 2 // -->
+                                  <td class="module-wrapper">
+                                    
+                                    <table>
+                                      <tr>
+                                        <td class="module two">
+                                          <h3 class="center" pardot-region>API SDK AND API
+EXPLORER OVERVIEW</h3>
+                                        </td>
+                                      </tr>
+                                    </table>
+
+                                  </td>
+                                  <!-- // MODULE 2 -->
+
+                                </tr>
+                              </table>
+
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- // MODULE TITLE -->
+
+                        <!-- MODULE BODY // -->
+                        <table class="container" pardot-repeatable>
+                          <tr>
+                            <td>
+
+                              <table class="block-grid two-up">
+                                <tr>
+
+                                  <!-- MODULE 1 // -->
+                                  <td class="module-wrapper">
+                                    
+                                    <table>
+                                      <tr>
+                                        <td class="module one">
+                                          <p>Seasonal insights and MAT best practices to help you make the most of the season.</p>
+                                        </td>
+                                      </tr>
+                                    </table>
+
+                                  </td>
+                                  <!-- // MODULE 1 -->
+
+                                  <!-- MODULE 2 // -->
+                                  <td class="module-wrapper" style="background-color: orange;">
+                                    
+                                    <table style="background-color: lime;">
+                                      <tr style="background-color: blue;">
+                                        <td style="background-color: purple" class="module two">
+                                          <p>Seasonal insights and MAT best practices to help you make the most of the season.</p>
+                                        </td>
+                                      </tr>
+                                    </table>
+
+                                  </td>
+                                  <!-- // MODULE 2 -->
+
+                                </tr>
+                              </table>
+
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- // MODULE BODY -->
+
+                        <!-- MODULE TITLE // -->
+                        <table class="container" pardot-repeatable>
+                          <tr>
+                            <td>
+
+                              <table class="block-grid two-up">
+                                <tr>
+
+                                  <!-- MODULE 1 // -->
+                                  <td class="module-wrapper">
+                                    
+                                    <table>
+                                      <tr>
+                                        <td class="module one">
+                                          <h3 class="center" pardot-region>11/14 10:30AM<br>Register Now</h3>
+                                        </td>
+                                      </tr>
+                                    </table>
+
+                                  </td>
+                                  <!-- // MODULE 1 -->
+
+                                  <!-- MODULE 2 // -->
+                                  <td class="module-wrapper">
+                                    
+                                    <table>
+                                      <tr>
+                                        <td class="module two">
+                                          <h3 class="center" pardot-region>11/14 10:30AM<br>Register Now</h3>
+                                        </td>
+                                      </tr>
+                                    </table>
+
+                                  </td>
+                                  <!-- // MODULE 2 -->
+
+                                </tr>
+                              </table>
+
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- // MODULE TITLE -->
+
+                      <!-- // MODULE ROWS -->
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- SPOTLIGHT -->
 
                 <!-- EMAIL FOOTER // -->
                 <table class="container email-footer">

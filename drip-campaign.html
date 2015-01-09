@@ -362,20 +362,21 @@
     }
 
     a {
-      color: #2ba6cb; 
+      color: #70c4e7; 
       text-decoration: none;
+      border-bottom: 1px solid #70c4e7;
     }
 
     a:hover { 
-      color: #2795b6 !important;
+      color: #70c4e7 !important;
     }
 
     a:active { 
-      color: #2795b6 !important;
+      color: #70c4e7 !important;
     }
 
     a:visited { 
-      color: #2ba6cb !important;
+      color: #70c4e7 !important;
     }
 
     h1 a, 
@@ -384,7 +385,7 @@
     h4 a, 
     h5 a, 
     h6 a {
-      color: #2ba6cb;
+      color: #70c4e7;
     }
 
     h1 a:active, 
@@ -393,7 +394,7 @@
     h4 a:active, 
     h5 a:active, 
     h6 a:active { 
-      color: #2ba6cb !important; 
+      color: #70c4e7 !important; 
     } 
 
     h1 a:visited, 
@@ -402,7 +403,7 @@
     h4 a:visited, 
     h5 a:visited, 
     h6 a:visited { 
-      color: #2ba6cb !important; 
+      color: #70c4e7 !important; 
     } 
 
     /* Panels */
@@ -440,7 +441,7 @@
       display: block;
       width: auto !important;
       text-align: center;
-      background: #2ba6cb;
+      background: #70c4e7;
       border: 1px solid #2284a1;
       color: #ffffff;
       padding: 8px 0;
@@ -818,8 +819,8 @@
 
       /*////// BUTTONS //////*/
       .button {
-        background-color: #75c3eb;
-        color: #ffffff !important;
+        background-color: #70c4e7;
+        color: #53606d !important;
         padding: 11px 15px 9px;
         border-radius: 4px;
         text-transform: uppercase;
@@ -828,16 +829,30 @@
       }
 
       .button:hover {
-        color: #ffffff !important;
-      }
-
-      .button span span {
-        color: #55606f;
+        color: #53606d !important;
       }
 
       /*////// ICONS //////*/
       .social-icon {
         margin: 15px auto 0;
+      }
+
+      /*////// CALL TO ACTION //////*/
+      td.call-to-action {
+        background-color: #53606d;
+        padding: 15px;
+        text-align: center;
+      }
+
+      td.call-to-action p {
+        color: #f0f0f0;
+        font-size: 15px;
+        text-align: center;
+        padding: 0 15px;
+      }
+
+      td.call-to-action .button {
+        font-weight: bold;
       }
 
 
@@ -967,7 +982,7 @@
                               <tr>
                                 <td>
 
-                                  <h1 class="text-theme center" pardot-region>Partner Portal Overview</h1>
+                                  <h1 class="text-theme center" pardot-region>Start Working with New Partners!</h1>
 
                                 </td>
                                 <td class="expander"></td>
@@ -986,6 +1001,43 @@
                 </table>
                 <!-- // CENTERED HEADING -->
 
+                <!-- CALL TO ACTION // -->
+                <table class="container">
+                  <tr>
+                    <td>
+
+                      <!-- ROW 1 // -->
+                      <table class="row">
+                        <tr>
+                          
+                          <!-- CALL TO ACTION BOX // -->
+                          <td class="wrapper offset-by-one last">
+
+                            <table class="ten columns">
+                              <tr>
+                                <td class="call-to-action">
+
+                                  <a href="#" class="button" pardot-region>Login to your account</a>
+
+                                  <p pardot-region>Login to your MobileAppTracking account and visit the <a href="#">Integrated Partners Page</a> to start reaching and re-engaging your users.</p>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                          <!-- // CALL TO ACTION BOX -->
+
+                        </tr>
+                      </table>
+                      <!-- // ROW 1 -->
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CALL TO ACTION -->
+
                 <!-- EMAIL BODY // -->
                 <table class="container">
                   <tr>
@@ -1000,17 +1052,20 @@
 
                             <table class="ten columns">
                               <tr>
-                                <td pardot-region="email-body">
+                                <td pardot-region>
 
-                                  <p>With the recent launch of our TUNE partner portal, partners are excited to hear about all the new features that are available to them. We invite you to join us for a live walk-through of the new interface where you'll learn how to:</p>
+                                  <p>Conducting keyword research is an integral part of improving your ASO (App Store Optimization) and increasing organic downloads - a great place to start with user acquisition.</p>
 
-                                  <ul>
-                                    <li>Troubleshoot measurement and reporting questions for your clients</li>
-                                    <li>Discover where you rank relative to other integrated publishers</li>
-                                    <li>Check on your campaign performance</li>
-                                  </ul>
-
-                                  <p>This will be an interactive training with live Q&amp;A available during the session. Login today and come with questions! This training is only available to MobileAppTracking integrated partners. We hope you'll be able to join us.</p>
+                                  <p>Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles.</p>
+                                   
+                                  <p>Broken down to five simple steps, this guide helps you understand and master:</p>
+                                  <ol>
+                                    <li>Generating an initial list of keywords</li>
+                                    <li>Keyword categorization</li>
+                                    <li>Keyword valuation</li>
+                                    <li>Keyword implementation</li>
+                                    <li>Tracking the ongoing performance of your keywords</li>
+                                  </ol>
                                 </td>
                                 <td class="expander"></td>
                               </tr>
@@ -1022,36 +1077,6 @@
                         </tr>
                       </table>
                       <!-- // ROW 1 -->
-
-                      <!-- ROW 2 // -->
-                      <table class="row call-to-action">
-                        <tr>
-                          
-                          <!-- BODY CONTENT // -->
-                          <td class="wrapper offset-by-one last">
-
-                            <table class="ten columns">
-                              <tr>
-                                <td class="center">
-
-                                  <div pardot-removable>
-                                    <div pardot-region>
-                                      <b>Thursday, November 20, 2014</b> 10:30-11:00AM PST
-                                    </div>
-                                  </div>
-
-                                 <a href="#" class="button" pardot-region>11/27 - 10:30AM Register Now</a>
-                                </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
-
-                          </td>
-                          <!-- // BODY CONTENT -->
-
-                        </tr>
-                      </table>
-                      <!-- // ROW 2 -->
 
                     </td>
                   </tr>
