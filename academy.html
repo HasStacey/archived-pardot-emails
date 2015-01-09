@@ -702,7 +702,7 @@
 
       @import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
       * {
-        font-family: Raleway0, Gotham0, Helvetica, Arial, sans-serif !important;
+        font-family: Ralewayx, Gotham, Helvetica, Arial, sans-serif !important;
       }
       body, p, li {
         font-size: 12px;
@@ -839,52 +839,31 @@
         font-size: 18px;
       }
 
-      table.spotlight h3 {
-        color: #77bd1f;
-        font-size: 18px;
-        text-transform: uppercase;
-        padding: 20px;
-      }
-
-      table.spotlight td.module-wrapper {
-        padding: 0;
-        padding: 0 10px;
-      }
-      table.spotlight td.module  {
-        background-color: #53606d;
-        width: 210px;
-        text-align: center;
-        padding: 0;
-      }
-      table.spotlight td.module.one {
-        margin: 0 20px 0 40px;
-      }
-
-      table.spotlight td.module.two {
-        margin: 0 50px 0 20px;
-      }
-      table.spotlight td p {
-        text-align: center;
-        font-weight: normal;
-        color: #f0f0f0;
-        padding: 0 20px;
-        font-size: 14px;
-        margin: 0;
-      }
 
       /*////// BUTTONS //////*/
-      .button {
-        background-color: #77bd1f;
-        color: #53606d !important;
+      a.button,
+      a.button:hover,
+      a.button:active,
+      a.button:visited {
+        background-color: #53606d;
+        color: #ffffff !important;
         padding: 11px 15px 9px;
         border-radius: 4px;
         text-transform: uppercase;
+        text-align: center;
         display: inline-block;
         margin: 15px 0;
+        border: 0;
+        text-decoration:none !important;
       }
 
-      .button:hover {
+      a.button:hover {
         color: #53606d !important;
+      }
+
+      a.no-underline {
+        text-decoration: none;
+        border-bottom: none;
       }
 
       /*////// ICONS //////*/
@@ -1065,11 +1044,11 @@
                 <!-- // EMAIL BODY (TOP) -->
 
                 <!-- SPOTLIGHT -->
-                <table class="spotlight container" pardot-removable>
+                <table class="spotlight container" pardot-repeatable>
                   <tr>
                     <td>
 
-                      <!-- ROW 1 // -->
+                      <!-- HEADER // -->
                       <table class="row">
                         <tr>
                           <td class="wrapper offset-by-one last">
@@ -1088,149 +1067,173 @@
                           </td>
                         </tr>
                       </table>
-                      <!-- // ROW 1 -->
+                      <!-- // HEADER -->
 
-                      <!-- MODULE ROWS // -->
+                      <!-- MODULE LAYOUT // -->
+                      <table style="margin-bottom: 25px;" pardot-repeatable>
+                        <tr>
 
-                        <!-- MODULE TITLE // -->
-                        <table class="container" pardot-repeatable>
-                          <tr>
-                            <td>
+                          <!-- GAP COLUMN // -->
+                          <td style="width: 50px;"></td>
+                          <!-- // GAP COLUMN -->
 
-                              <table class="block-grid two-up">
-                                <tr>
+                          <!-- MODULE CONTENT COLUMNS // -->
+                          <td style="width: 480px;">
+                            <table style="background: #53606d;">
 
-                                  <!-- MODULE 1 // -->
-                                  <td class="module-wrapper">
-                                    
-                                    <table>
-                                      <tr>
-                                        <td class="module one">
-                                          <h3 class="center" pardot-region>Holiday Prep Webinar</h3>
-                                        </td>
-                                      </tr>
-                                    </table>
+                              <!-- ICONS // -->
+                              <tr>
+                                <td style="background: #53606d; width: 210px; text-align: center; color: #ffffff; padding: 10px;" pardot-region>
+                                  <img src="images/icon-gift.png" style="display: inline; float: none;">
+                                </td>
+                                <td style="background: #d8e0e1; width: 60px;"></td>
+                                <td style="background: #53606d; width: 210px; text-align: center; color: #ffffff; padding: 10px;" pardot-region>
+                                  <img src="images/icon-list.png" style="display: inline; float: none;">
+                                </td>
+                              </tr>
+                              <!-- // ICONS -->
 
-                                  </td>
-                                  <!-- // MODULE 1 -->
+                              <!-- HEADINGS // -->
+                              <tr>
+                                <td style="background: #53606d; width: 210px; text-align: center; color: #77bd1f; padding: 0 10px; text-transform: uppercase; font-size: 16px;" pardot-region>
+                                  Headline goes here
+                                </td>
+                                <td style="background: #d8e0e1; width: 60px;"></td>
+                                <td style="background: #53606d; width: 210px; text-align: center; color: #77bd1f; padding: 0 10px; text-transform: uppercase; font-size: 16px;" pardot-region>
+                                  Headline goes here
+                                </td>
+                              </tr>
+                              <!-- // HEADINGS -->
 
-                                  <!-- MODULE 2 // -->
-                                  <td class="module-wrapper">
-                                    
-                                    <table>
-                                      <tr>
-                                        <td class="module two">
-                                          <h3 class="center" pardot-region>API SDK AND API
-EXPLORER OVERVIEW</h3>
-                                        </td>
-                                      </tr>
-                                    </table>
+                              <!-- CONTENT // -->
+                              <tr>
+                                <td style="background: #53606d; width: 210px; text-align: center; color: #ffffff; padding: 10px;" pardot-region>
+                                  This is the content. 
+                                </td>
+                                <td style="background: #d8e0e1; width: 60px;"></td>
+                                <td style="background: #53606d; width: 210px; text-align: center; color: #ffffff; padding: 10px;" pardot-region>
+                                  This is the content.
+                                </td>
+                              </tr>
+                              <!-- // CONTENT -->
 
-                                  </td>
-                                  <!-- // MODULE 2 -->
+                              <!-- FOOTER // -->
+                              <tr>
+                                <td valign="middle" style="background: #53606d; width: 210px; text-align: center; color: #77bd1f; padding: 5px 10px 10px; text-transform: uppercase; font-size: 16px;">
+                                  <a class="no-underline" href="" pardot-region>11/14 10:30am<br>Register Now</a>
+                                </td>
+                                <td style="background: #d8e0e1; width: 60px;"></td>
+                                <td valign="middle" style="background: #53606d; width: 210px; text-align: center; color: #77bd1f; padding: 5px 10px 10px; text-transform: uppercase; font-size: 16px;">
+                                  <a class="no-underline" href="" pardot-region>11/14 10:30am<br>Register Now</a>
+                                </td>
+                              </tr>
+                              <!-- // FOOTER -->
 
-                                </tr>
-                              </table>
+                            </table>
+                          </td>
+                          <!-- // MODULE CONTENT COLUMNS -->
 
-                            </td>
-                          </tr>
-                        </table>
-                        <!-- // MODULE TITLE -->
-
-                        <!-- MODULE BODY // -->
-                        <table class="container" pardot-repeatable>
-                          <tr>
-                            <td>
-
-                              <table class="block-grid two-up">
-                                <tr>
-
-                                  <!-- MODULE 1 // -->
-                                  <td class="module-wrapper">
-                                    
-                                    <table>
-                                      <tr>
-                                        <td class="module one">
-                                          <p>Seasonal insights and MAT best practices to help you make the most of the season.</p>
-                                        </td>
-                                      </tr>
-                                    </table>
-
-                                  </td>
-                                  <!-- // MODULE 1 -->
-
-                                  <!-- MODULE 2 // -->
-                                  <td class="module-wrapper" style="background-color: orange;">
-                                    
-                                    <table style="background-color: lime;">
-                                      <tr style="background-color: blue;">
-                                        <td style="background-color: purple" class="module two">
-                                          <p>Seasonal insights and MAT best practices to help you make the most of the season.</p>
-                                        </td>
-                                      </tr>
-                                    </table>
-
-                                  </td>
-                                  <!-- // MODULE 2 -->
-
-                                </tr>
-                              </table>
-
-                            </td>
-                          </tr>
-                        </table>
-                        <!-- // MODULE BODY -->
-
-                        <!-- MODULE TITLE // -->
-                        <table class="container" pardot-repeatable>
-                          <tr>
-                            <td>
-
-                              <table class="block-grid two-up">
-                                <tr>
-
-                                  <!-- MODULE 1 // -->
-                                  <td class="module-wrapper">
-                                    
-                                    <table>
-                                      <tr>
-                                        <td class="module one">
-                                          <h3 class="center" pardot-region>11/14 10:30AM<br>Register Now</h3>
-                                        </td>
-                                      </tr>
-                                    </table>
-
-                                  </td>
-                                  <!-- // MODULE 1 -->
-
-                                  <!-- MODULE 2 // -->
-                                  <td class="module-wrapper">
-                                    
-                                    <table>
-                                      <tr>
-                                        <td class="module two">
-                                          <h3 class="center" pardot-region>11/14 10:30AM<br>Register Now</h3>
-                                        </td>
-                                      </tr>
-                                    </table>
-
-                                  </td>
-                                  <!-- // MODULE 2 -->
-
-                                </tr>
-                              </table>
-
-                            </td>
-                          </tr>
-                        </table>
-                        <!-- // MODULE TITLE -->
-
-                      <!-- // MODULE ROWS -->
+                          <!-- GAP COLUMN -->
+                          <td style="width: 50px;"></td>
+                          <!-- // GAP COLUMN -->
+                        </tr>
+                      </table>
+                      <!-- // MODULE LAYOUT -->
 
                     </td>
                   </tr>
                 </table>
                 <!-- SPOTLIGHT -->
+
+                <!-- EMAIL BODY (BOTTOM) // -->
+                <table class="email-body container" style="margin-top: 40px;" pardot-repeatable>
+                  <tr>
+                    <td>
+
+                      <!-- ROW 1 // -->
+                      <table class="row">
+                        <tr>
+                          
+                          <!-- HEADING // -->
+                          <td class="wrapper offset-by-one last">
+
+                            <table class="ten columns">
+                              <tr>
+                                <td style="padding: 0 !important;">
+
+                                  <!-- SECTION HEADING // -->
+                                  <h2 class="subheading" pardot-region>Fundamentals Training Series</h2>
+                                  <!-- // SECTION HEADING -->
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                          <!-- // HEADING -->
+
+                        </tr>
+                      </table>
+                      <!-- // ROW 1 -->
+
+                      <table class="row" pardot-repeatable>
+                        <tr>
+
+                          <!-- REPEATABLE CONTENT // -->
+                          <td class="wrapper offset-by-one last" style="padding-top: 0 !important;">
+
+                            <table class="ten columns">
+                              <tr>
+                                <td>
+
+                                  <!-- ICON AND LINK // -->
+                                  <table style="margin: 10px 0 0;">
+                                    <tr>
+                                      <td width="15" style="padding-top: 3px;"><img src="images/icon-link.png"></td>
+                                      <td><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>Mobile Attribution Essentials</a></td>
+                                    </tr>
+                                  </table>
+                                  <!-- // ICON AND LINK -->
+
+                                  <!-- DESCRIPTION // -->
+                                  <p pardot-region>This webinar will review the key concepts, technology and termso  fthe mobile attribution space, as well as reviewing common attribution methodologies.</p>
+                                  <!-- // DESCRIPTION -->
+
+                                  <!-- TWO BUTTONS // -->
+                                  <table pardot-removable>
+                                    <tr>
+                                      <td width="220"><a href="" class="button" style="display: block;" pardot-region>11/27 - 7:00am Register</td>
+                                      <td width="40"></td>
+                                      <td width="220"><a href="" class="button" style="display: block;" pardot-region>11/27 - 7:00am Register</td>
+                                    </tr>
+                                  </table>
+                                  <!-- // TWO BUTTONS -->
+
+                                  <!-- SINGLE BUTTON // -->
+                                  <table pardot-removable>
+                                    <tr>
+                                      <td width="130"></td>
+                                      <td width="220"><a href="" class="button" style="display: block;" pardot-region>11/27 - 7:00am Register</td>
+                                      <td width="130"></td>
+                                    </tr>
+                                  </table>
+                                  <!-- // SINGLE BUTTON -->
+                                </td>
+                              </tr>
+                            </table>
+
+                          </td>
+                          <!-- // REPEATABLE CONTENT -->
+
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- // EMAIL BODY (BOTTOM) -->
+
+
 
                 <!-- EMAIL FOOTER // -->
                 <table class="container email-footer">
