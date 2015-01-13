@@ -360,21 +360,20 @@
     }
 
     a {
-      color: #70c4e7; 
+      color: #007aff; 
       text-decoration: none;
-      border-bottom: 1px solid #70c4e7;
     }
 
     a:hover { 
-      color: #70c4e7 !important;
+      color: #007aff !important;
     }
 
     a:active { 
-      color: #70c4e7 !important;
+      color: #007aff !important;
     }
 
     a:visited { 
-      color: #70c4e7 !important;
+      color: #007aff !important;
     }
 
     h1 a, 
@@ -383,7 +382,7 @@
     h4 a, 
     h5 a, 
     h6 a {
-      color: #70c4e7;
+      color: #007aff;
     }
 
     h1 a:active, 
@@ -392,7 +391,7 @@
     h4 a:active, 
     h5 a:active, 
     h6 a:active { 
-      color: #70c4e7 !important; 
+      color: #007aff !important; 
     } 
 
     h1 a:visited, 
@@ -401,7 +400,7 @@
     h4 a:visited, 
     h5 a:visited, 
     h6 a:visited { 
-      color: #70c4e7 !important; 
+      color: #007aff !important; 
     } 
 
     /* Panels */
@@ -439,7 +438,7 @@
       display: block;
       width: auto !important;
       text-align: center;
-      background: #70c4e7;
+      background: #007aff;
       border: 1px solid #2284a1;
       color: #ffffff;
       padding: 8px 0;
@@ -700,7 +699,7 @@
 
       @import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
       * {
-        font-family: Raleway, Gotham, Arial, sans-serif !important;
+        font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;
       }
       body, p, li {
         font-size: 12px;
@@ -735,7 +734,6 @@
       /*////// FOOTER //////*/
       table.email-footer {
         background-color: #007aff;
-        margin-top: 20px;
       }
 
       .email-footer .row {
@@ -774,6 +772,13 @@
       h1 {
         font-size: 25px;
       }
+      h2.subheading {
+        font-size: 14px;
+        color: #53606d;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 3px;
+      }
 
       .text-align-right {
         text-align: right;
@@ -794,7 +799,7 @@
 
       /*////// COLORS //////*/
       .text-theme {
-        color: #75c3eb;
+        color: #a1a9ac;
       }
       .text-white {
         color: #ffffff;
@@ -805,7 +810,7 @@
       }
 
       .border-bottom-theme {
-        border-bottom: 6px solid #75c3eb;
+        border-bottom: 6px solid #007aff;
       }
 
       /*////// BACKGROUND COLORS //////*/
@@ -815,22 +820,52 @@
         color: #ffffff;
       }
 
+      /*////// SPOTLIGHT //////*/
+      table.spotlight {
+        background-color: #d8e0e1;
+      }
+
+      table.spotlight .row {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      table.spotlight h2 {
+        color: #007aff;
+        font-size: 20px;
+        margin-top: 10px;
+      }
+
+      table.spotlight h4 {
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+
+
       /*////// BUTTONS //////*/
       a.button,
       a.button:hover,
       a.button:active,
       a.button:visited {
-        background-color: #70c4e7;
-        color: #53606d !important;
+        background-color: #007aff;
+        color: #ffffff !important;
         padding: 11px 15px 9px;
         border-radius: 4px;
         text-transform: uppercase;
+        text-align: center;
         display: inline-block;
         margin: 15px 0;
+        border: 0;
+        text-decoration:none !important;
       }
 
       a.button:hover {
         color: #53606d !important;
+      }
+
+      a.no-underline {
+        text-decoration: none;
+        border-bottom: none;
       }
 
       /*////// ICONS //////*/
@@ -838,22 +873,8 @@
         margin: 15px auto 0;
       }
 
-      /*////// CALL TO ACTION //////*/
-      td.call-to-action {
-        background-color: #53606d;
-        padding: 15px;
-        text-align: center;
-      }
 
-      td.call-to-action p {
-        color: #f0f0f0;
-        font-size: 15px;
-        text-align: center;
-        padding: 0 15px;
-      }
-
-
-      /*////// PROPERTY REMOVERS //////*/
+      /*////// NO PADDING //////*/
       td.no-padding-top {
         padding-top: 0;
       }
@@ -944,7 +965,7 @@
                               <tr>
                                 <td>
 
-                                  <img class="border-bottom-theme" src="http://storage.pardot.com/23402/56784/2015_email_bg_phone.png" width="580" height="136" pardot-region>
+                                  <img class="border-bottom-theme" src="http://storage.pardot.com/23402/56794/2015_email_bg_we_heart_performance.jpg" width="580" height="136" pardot-region>
 
                                 </td>
                                 <td class="expander"></td>
@@ -963,13 +984,13 @@
                 </table>
                 <!-- // HERO IMAGE -->
 
-                <!-- CENTERED HEADING // -->
+                <!-- EMAIL BODY (TOP) // -->
                 <table class="email-body container">
                   <tr>
                     <td>
 
                       <!-- ROW 1 // -->
-                      <table class="row">
+                      <table class="row" pardot-repeatable>
                         <tr>
                           
                           <!-- HEADING // -->
@@ -979,8 +1000,12 @@
                               <tr>
                                 <td>
 
-                                  <h1 class="text-theme center" pardot-region>Start Working with New Partners!</h1>
+                                  <h2 class="subheading" pardot-region>TUNE January Newsletter</h2>
+                                  <h1 class="text-theme" pardot-region>Make A BIG Impact with MAT</h1>
 
+                                  <img src="http://placehold.it/480x225" style="margin: 25px 0;" pardot-region>
+
+                                  <p><span pardot-region>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression...</span> <a href="" pardot-region>Read the Full Article</a><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="display: inline; float: none; padding-left: 3px;"></p>
                                 </td>
                                 <td class="expander"></td>
                               </tr>
@@ -993,30 +1018,157 @@
                       </table>
                       <!-- // ROW 1 -->
 
+                      <table class="row">
+                        <tr>
+                          <td>
+
+                            <table>
+
+                              <!-- REPEATABLE ROW // -->
+                              <tr pardot-repeatable>
+
+                                <!-- BLANK COLUMN // -->
+                                <td style="width: 50px;"></td>
+                                <!-- // BLANK COLUMN -->
+
+                                <!-- CONTENT COLUMN 1 // -->
+                                <td style="width: 225px;">
+
+                                  <h3 style="font-size: 18px; margin-bottom: 10px; margin-top: 10px;"><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>MySQL Proxy is the Big Data Toolkit at TUNE</a></h3>
+                                  <p pardot-region>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+
+                                </td>
+                                <!-- // CONTENT COLUMN 2 -->
+
+                                <!-- BLANK COLUMN // -->
+                                <td style="width: 30px;"></td>
+                                <!-- // BLANK COLUMN -->
+
+                                <!-- CONTENT COLUMN 2 // -->
+                                <td style="width: 225px;">
+
+                                  <h3 style="font-size: 18px; margin-bottom: 10px; margin-top: 10px;"><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></h3>
+                                  <p pardot-region>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+
+                                </td>
+                                <!-- // CONTENT COLUMN 2 -->
+
+                                <!-- BLANK COLUMN // -->
+                                <td style="width: 50px;"></td>
+                                <!-- // BLANK COLUMN -->
+
+                              </tr>
+                              <!-- // REPEATABLE ROW -->
+                            </table>
+
+                          </td>
+                        </tr>
+                      </table>
+
                     </td>
                   </tr>
                 </table>
-                <!-- // CENTERED HEADING -->
+                <!-- // EMAIL BODY (TOP) -->
 
-                <!-- CALL TO ACTION // -->
+
+                <!-- ARTICLE LINKS // -->
                 <table class="container">
                   <tr>
                     <td>
 
-                      <!-- ROW 1 // -->
-                      <table class="row">
+                      <!-- HEADING // -->
+                      <table class="row" pardot-repeatable>
                         <tr>
-                          
-                          <!-- CALL TO ACTION BOX // -->
                           <td class="wrapper offset-by-one last">
 
                             <table class="ten columns">
                               <tr>
-                                <td class="call-to-action">
+                                <td style="padding-bottom: 0 !important; padding-top: 20px;">
+                                  <h2 class="subheading" pardot-region>Must Read Blog Posts</h2>
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></p>
 
-                                  <a href="#" class="button" pardot-region>Login to your account</a>
+                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></p>
 
-                                  <p pardot-region>Login to your MobileAppTracking account and visit the <a href="#">Integrated Partners Page</a> to start reaching and re-engaging your users.</p>
+                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></p>
+
+                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></p>
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // HEADING -->
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- // ARTICLE LINKS -->
+
+
+                <!-- NEWS LINKS // -->
+                <table class="container">
+                  <tr>
+                    <td>
+
+                      <!-- HEADING // -->
+                      <table class="row" pardot-repeatable>
+                        <tr>
+                          <td class="wrapper offset-by-one last">
+
+                            <table class="ten columns">
+                              <tr>
+                                <td style="padding-bottom: 0 !important; padding-top: 20px;">
+                                  <h2 class="subheading" pardot-region>In the News</h2>
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></p>
+
+                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></p>
+
+                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></p>
+                                  
+                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></p>
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // HEADING -->
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- // NEWS LINKS -->
+
+                <!-- SPOTLIGHT // -->
+                <table class="spotlight container" style="margin-top: 40px;" pardot-repeatable>
+                  <tr>
+                    <td>
+
+                      <!-- HEADER // -->
+                      <table class="row">
+                        <tr>
+                          <td class="wrapper offset-by-one last">
+
+                            <table class="ten columns">
+                              <tr>
+                                <td>
+
+                                  <h2 class="center" pardot-region>Upcoming Events</h2>
 
                                 </td>
                                 <td class="expander"></td>
@@ -1024,61 +1176,99 @@
                             </table>
 
                           </td>
-                          <!-- // CALL TO ACTION BOX -->
-
                         </tr>
                       </table>
-                      <!-- // ROW 1 -->
+                      <!-- // HEADER -->
 
-                    </td>
-                  </tr>
-                </table>
-                <!-- // CALL TO ACTION -->
+                      <!-- MODULE LAYOUT // -->
+                      <table style="margin-bottom: 25px;" pardot-repeatable>
+                        <tr>
 
-                <!-- EMAIL BODY // -->
-                <table class="container">
-                  <tr>
-                    <td>
+                          <!-- GAP COLUMN // -->
+                          <td style="width: 50px;"></td>
+                          <!-- // GAP COLUMN -->
 
-                      <!-- ROW 1 // -->
+                          <!-- MODULE CONTENT COLUMNS // -->
+                          <td style="width: 480px;">
+                            <table>
+
+                              <!-- IMAGES // -->
+                              <tr>
+                                <!-- IMAGE 1 // -->
+                                <td valign="middle" style="width: 130px; text-align: center;">
+                                  <img src="http://www.placehold.it/130x80">
+                                </td>
+                                <!-- // IMAGE 1 -->
+
+                                <td style="width: 45px;"></td>
+
+                                <!-- IMAGE 2 // -->
+                                <td valign="middle" style="width: 130px; text-align: center;">
+                                  <img src="http://www.placehold.it/130x80">
+                                </td>
+                                <!-- // IMAGE 2 -->
+
+                                <td style="width: 45px;"></td>
+
+                                <!-- IMAGE 3 // -->
+                                <td valign="middle" style="width: 130px; text-align: center;">
+                                  <img src="http://www.placehold.it/130x80">
+                                </td>
+                                <!-- // IMAGE 3 -->
+
+                              </tr>
+                              <!-- // IMAGES -->
+
+                            </table>
+                          </td>
+                          <!-- // MODULE CONTENT COLUMNS -->
+
+                          <!-- GAP COLUMN -->
+                          <td style="width: 50px;"></td>
+                          <!-- // GAP COLUMN -->
+                        </tr>
+                      </table>
+                      <!-- // MODULE LAYOUT -->
+
+                      <!-- CALL TO ACTION // -->
                       <table class="row">
                         <tr>
-                          
-                          <!-- BODY CONTENT // -->
-                          <td class="wrapper offset-by-one last">
+                          <td class="wrapper offset-by-one">
 
-                            <table class="ten columns">
+                            <table class="ten columns last">
                               <tr>
-                                <td pardot-region>
+                                <td>
 
-                                  <p>Conducting keyword research is an integral part of improving your ASO (App Store Optimization) and increasing organic downloads - a great place to start with user acquisition.</p>
+                                  <h4 class="center" pardot-region>Want to meet with us?</h4>
 
-                                  <p>Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles.</p>
-                                   
-                                  <p>Broken down to five simple steps, this guide helps you understand and master:</p>
-                                  <ol>
-                                    <li>Generating an initial list of keywords</li>
-                                    <li>Keyword categorization</li>
-                                    <li>Keyword valuation</li>
-                                    <li>Keyword implementation</li>
-                                    <li>Tracking the ongoing performance of your keywords</li>
-                                  </ol>
+                                  <p style="text-align: center;" class="center" pardot-region>Attending a conference and want to meet up with us to talk about hte latest in mobile marketing? Give us your info and we'll set up a time to chat.</p>
+
+
+                                  <!-- SINGLE BUTTON // -->
+                                  <table pardot-removable>
+                                    <tr>
+                                      <td width="130" style="padding: 0 !important;"></td>
+                                      <td width="220" style="padding: 0 !important;"><a href="http://www.tune.com/events" class="button" style="display: block;" pardot-region>Let's Get Together</td>
+                                      <td width="130" style="padding: 0 !important;"></td>
+                                    </tr>
+                                  </table>
+                                  <!-- // SINGLE BUTTON -->
+
                                 </td>
                                 <td class="expander"></td>
                               </tr>
                             </table>
 
                           </td>
-                          <!-- // BODY CONTENT -->
-
                         </tr>
                       </table>
-                      <!-- // ROW 1 -->
+                      <!-- // CALL TO ACTION -->
 
                     </td>
                   </tr>
                 </table>
-                <!-- // EMAIL BODY-->
+                <!-- // SPOTLIGHT -->
+
 
                 <!-- EMAIL FOOTER // -->
                 <table class="container email-footer">
