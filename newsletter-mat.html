@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width"/>
 
     <style type="text/css">
+
+    /* Testing */
+/*    *[pardot-region] {
+      outline: 1px solid orange;
+    }
+    *[pardot-removable] {
+      outline: 2px solid red;
+    }
+    *[pardot-repeatable] {
+      outline: 2px solid lime;
+    }*/
       
     /**********************************************
     * Ink v1.0.5 - Copyright 2013 ZURB Inc        *
@@ -984,13 +995,14 @@
                 </table>
                 <!-- // HERO IMAGE -->
 
-                <!-- EMAIL BODY (TOP) // -->
-                <table class="email-body container">
+
+                <!-- FEATURED CONTENT // -->
+                <table class="container" pardot-repeatable>
                   <tr>
                     <td>
 
                       <!-- ROW 1 // -->
-                      <table class="row" pardot-repeatable>
+                      <table class="row">
                         <tr>
                           
                           <!-- HEADING // -->
@@ -1018,6 +1030,17 @@
                       </table>
                       <!-- // ROW 1 -->
 
+                    </td>
+                  </tr>
+                </table>
+                <!-- // FEATURED CONTENT -->
+                
+
+                <!-- TWO UP MICRO POSTS // -->
+                <table class="container" pardot-repeatable>
+                  <tr>
+                    <td>
+
                       <table class="row">
                         <tr>
                           <td>
@@ -1025,7 +1048,7 @@
                             <table>
 
                               <!-- REPEATABLE ROW // -->
-                              <tr pardot-repeatable>
+                              <tr>
 
                                 <!-- BLANK COLUMN // -->
                                 <td style="width: 50px;"></td>
@@ -1068,16 +1091,61 @@
                     </td>
                   </tr>
                 </table>
-                <!-- // EMAIL BODY (TOP) -->
+                <!-- // TWO UP MICRO POSTS -->
+                
+
+                <!-- SINGLE MICRO POST // -->
+                <table class="container" pardot-repeatable>
+                  <tr>
+                    <td>
+
+                      <table class="row">
+                        <tr>
+                          <td>
+
+                            <table>
+
+                              <!-- REPEATABLE ROW // -->
+                              <tr>
+
+                                <!-- BLANK COLUMN // -->
+                                <td style="width: 50px;"></td>
+                                <!-- // BLANK COLUMN -->
+
+                                <!-- CONTENT COLUMN 1 // -->
+                                <td style="width: 480px;">
+
+                                  <h3 style="font-size: 18px; margin-bottom: 10px; margin-top: 10px;"><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>MySQL Proxy is the Big Data Toolkit at TUNE</a></h3>
+                                  <p pardot-region>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+
+                                </td>
+                                <!-- // CONTENT COLUMN 1 -->
+
+                                <!-- BLANK COLUMN // -->
+                                <td style="width: 50px;"></td>
+                                <!-- // BLANK COLUMN -->
+
+                              </tr>
+                              <!-- // REPEATABLE ROW -->
+                            </table>
+
+                          </td>
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- // SINGLE MICRO POST -->
 
 
                 <!-- ARTICLE LINKS // -->
-                <table class="container">
+                <table class="container" pardot-repeatable>
                   <tr>
                     <td>
 
                       <!-- HEADING // -->
-                      <table class="row" pardot-repeatable>
+                      <table class="row">
                         <tr>
                           <td class="wrapper offset-by-one last">
 
@@ -1114,12 +1182,12 @@
 
 
                 <!-- NEWS LINKS // -->
-                <table class="container">
+                <table class="container" pardot-repeatable>
                   <tr>
                     <td>
 
                       <!-- HEADING // -->
-                      <table class="row" pardot-repeatable>
+                      <table class="row">
                         <tr>
                           <td class="wrapper offset-by-one last">
 
@@ -1181,7 +1249,7 @@
                       <!-- // HEADER -->
 
                       <!-- MODULE LAYOUT // -->
-                      <table style="margin-bottom: 25px;" pardot-repeatable>
+                      <table style="margin-bottom: 25px;">
                         <tr>
 
                           <!-- GAP COLUMN // -->

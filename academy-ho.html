@@ -5,17 +5,6 @@
     <meta name="viewport" content="width=device-width"/>
 
     <style type="text/css">
-
-    /* Testing */
-    *[pardot-region] {
-      outline: 1px solid orange;
-    }
-    *[pardot-removable] {
-      outline: 2px solid red;
-    }
-    *[pardot-repeatable] {
-      outline: 2px solid lime;
-    }
       
     /**********************************************
     * Ink v1.0.5 - Copyright 2013 ZURB Inc        *
@@ -130,7 +119,7 @@
     }
 
     td.wrapper {
-      padding: 20px 20px 20px 0px;
+      padding: 10px 20px 0px 0px;
       position: relative;
     }
 
@@ -141,7 +130,7 @@
 
     table.columns td,
     table.column td {
-      padding: 0px; 
+      padding: 0px 0px 10px; 
     }
 
     table.columns td.sub-columns,
@@ -362,29 +351,30 @@
       line-height:21px;
     }
 
-/*    p { 
+    p { 
       margin-bottom: 10px;
-    }*/
+    }
 
     small {
       font-size: 10px;
     }
 
     a {
-      color: #007aff; 
+      color: #77bd1f; 
       text-decoration: none;
+      border-bottom: 1px solid #77bd1f;
     }
 
     a:hover { 
-      color: #007aff !important;
+      color: #77bd1f !important;
     }
 
     a:active { 
-      color: #007aff !important;
+      color: #77bd1f !important;
     }
 
     a:visited { 
-      color: #007aff !important;
+      color: #77bd1f !important;
     }
 
     h1 a, 
@@ -393,7 +383,7 @@
     h4 a, 
     h5 a, 
     h6 a {
-      color: #007aff;
+      color: #77bd1f;
     }
 
     h1 a:active, 
@@ -402,7 +392,7 @@
     h4 a:active, 
     h5 a:active, 
     h6 a:active { 
-      color: #007aff !important; 
+      color: #77bd1f !important; 
     } 
 
     h1 a:visited, 
@@ -411,7 +401,7 @@
     h4 a:visited, 
     h5 a:visited, 
     h6 a:visited { 
-      color: #007aff !important; 
+      color: #77bd1f !important; 
     } 
 
     /* Panels */
@@ -449,7 +439,7 @@
       display: block;
       width: auto !important;
       text-align: center;
-      background: #007aff;
+      background: #77bd1f;
       border: 1px solid #2284a1;
       color: #ffffff;
       padding: 8px 0;
@@ -710,7 +700,7 @@
 
       @import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
       * {
-        font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;
+        font-family: Ralewayx, Gotham, Helvetica, Arial, sans-serif !important;
       }
       body, p, li {
         font-size: 12px;
@@ -745,6 +735,7 @@
       /*////// FOOTER //////*/
       table.email-footer {
         background-color: #007aff;
+        margin-top: 20px;
       }
 
       .email-footer .row {
@@ -770,7 +761,7 @@
       }
 
       .email-footer .footer-logo {
-        margin-top: 13px;
+        margin-top: 5px;
       }
 
       /*////// HERO IMAGE //////*/
@@ -808,15 +799,10 @@
       }
 
 
-      /*////// THEME COLORS //////*/
-      .text-theme a,
-      .text-theme a:visited,
-      .text-theme a:active,
-      .text-theme a:focus,
+      /*////// COLORS //////*/
       .text-theme {
-        color: #a1a9ac !important; /* Heading text color */
+        color: #77bd1f;
       }
-
       .text-white {
         color: #ffffff;
       }
@@ -826,7 +812,7 @@
       }
 
       .border-bottom-theme {
-        border-bottom: 6px solid #007aff;
+        border-bottom: 6px solid #77bd1f;
       }
 
       /*////// BACKGROUND COLORS //////*/
@@ -838,23 +824,17 @@
 
       /*////// SPOTLIGHT //////*/
       table.spotlight {
-        background-color: #dce5e4;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        background-color: #d8e0e1;
       }
-      table.spotlight.last {
-        margin-bottom: 0;
+
+      table.spotlight .row {
+        padding-top: 10px;
+        padding-bottom: 10px;
       }
 
       table.spotlight h2 {
-        color: #007aff;
+        color: #53606d;
         font-size: 20px;
-        margin-top: 10px;
-      }
-
-      table.spotlight h4 {
-        font-size: 18px;
-        margin-bottom: 5px;
       }
 
 
@@ -863,8 +843,8 @@
       a.button:hover,
       a.button:active,
       a.button:visited {
-        background-color: #007aff;
-        color: #ffffff !important;
+        background-color: #53606d;
+        color: #77bd1f !important;
         padding: 11px 15px 9px;
         border-radius: 4px;
         text-transform: uppercase;
@@ -876,16 +856,12 @@
       }
 
       a.button:hover {
-        color: #53606d !important;
+        color: #77bd1f !important;
       }
 
       a.no-underline {
         text-decoration: none;
         border-bottom: none;
-      }
-
-      .lone-buttons a.button {
-        margin: 0;
       }
 
       /*////// ICONS //////*/
@@ -910,8 +886,9 @@
       <tr>
         <td class="center" align="center" valign="top">
           <center>
+          <!-- EMAIL CONTENT // -->
 
-          <!-- EMAIL HEADER WITH LOGO AND VIEW ONLINE LINK // -->
+          <!-- EMAIL HEADER // -->
           <table class="email-header container">
             <tr>
               <td>
@@ -961,99 +938,50 @@
               </td>
             </tr>
           </table> 
-          <!-- // EMAIL HEADER WITH LOGO AND VIEW ONLINE LINK -->
+          <!-- // EMAIL HEADER -->         
 
-          <!-- CONTENT WRAPPER // -->
+          <!-- // CONTENT WRAPPER -->
           <table class="container email-wrapper">
-            <!-- NON MOVABLE CONTENT HEADER // -->
             <tr>
               <td>
 
-                      <!-- HERO IMAGE // -->
-                      <table class="container email-hero-image">
+                <!-- HERO IMAGE // -->
+                <table class="container email-hero-image">
+                  <tr>
+                    <td>
+
+                      <!-- ROW 1 // -->
+                      <table class="row">
                         <tr>
-                          <td>
+                          
+                          <!-- HERO IMAGE // -->
+                          <td class="wrapper last no-padding-top">
 
-                            <!-- ROW 1 // -->
-                            <table class="row">
+                            <table class="twelve columns">
                               <tr>
-                                
-                                <!-- HERO IMAGE // -->
-                                <td class="wrapper last no-padding-top">
+                                <td>
 
-                                  <table class="twelve columns">
-                                    <tr>
-                                      <td>
-
-                                        <img class="border-bottom-theme" src="http://storage.pardot.com/23402/56790/2015_email_bg_we_heart_mobile.jpg" width="580" height="136" pardot-region>
-
-                                      </td>
-                                      <td class="expander"></td>
-                                    </tr>
-                                  </table>
+                                  <img class="border-bottom-theme" src="http://storage.pardot.com/23402/57246/2015_email_bg_academy_ho.jpg" width="580" height="136" pardot-region>
 
                                 </td>
-                                <!-- // HERO IMAGE -->
-
+                                <td class="expander"></td>
                               </tr>
                             </table>
-                            <!-- // ROW 1 -->
 
                           </td>
+                          <!-- // HERO IMAGE -->
+
                         </tr>
                       </table>
-                      <!-- // HERO IMAGE -->
+                      <!-- // ROW 1 -->
 
+                    </td>
+                  </tr>
+                </table>
+                <!-- // HERO IMAGE -->
 
-                      <!-- NON MOVABLE FEATURED CONTENT // -->
-                      <table class="container">
-                        <tr>
-                          <td>
-
-                            <!-- ROW 1 // -->
-                            <table class="row">
-                              <tr>
-                                
-                                <!-- HEADING // -->
-                                <td class="wrapper offset-by-one last">
-
-                                  <table class="ten columns">
-                                    <tr>
-                                      <td>
-
-                                        <h2 class="subheading" pardot-region>TUNE January Newsletter</h2>
-                                        <h1 class="text-theme" pardot-region>Title Content Module; not removable, movable or repeatable. 2 line limit plz.</h1>
-
-                                        <p><img src="http://placehold.it/480x225" style="margin: 25px 0;" pardot-removable></p>
-
-                                        <p style="margin-top: 1em; clear: both;" pardot-repeatable><span pardot-region>Remove the image and the paragraph to use as a title only. If you keep the paragraph and the link, be sure to use ellipses...</span> <span pardot-removable><a href="" pardot-region>Read the Full Article</a><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="display: inline; float: none; padding-left: 3px;"></span></p>
-                                      </td>
-                                      <td class="expander"></td>
-                                    </tr>
-                                  </table>
-
-                                </td>
-                                <!-- // HEADING -->
-
-                              </tr>
-                            </table>
-                            <!-- // ROW 1 -->
-
-                          </td>
-                        </tr>
-                      </table>
-                      <!-- // NON MOVABLE FEATURED CONTENT -->
-
-              </td>
-            </tr>
-            <tr>
-            <!-- // NON MOVABLE CONTENT HEADER -->
-
-            <!-- MOVABLE CONTENT // -->
-            <tr>
-              <td>
-                <!-- REPEATABLE & MOVABLE FULL CONTENT MODULE // -->
-                <table class="container" pardot-repeatable>
+                <!-- EMAIL BODY (TOP) // -->
+                <table class="email-body container">
                   <tr>
                     <td>
 
@@ -1068,11 +996,9 @@
                               <tr>
                                 <td>
 
-                                  <h1 class="text-theme" pardot-region>Full content module; movable and repeatable. 2 line limit plz.</h1>
+                                  <h2 class="subheading" pardot-region>HasOffers Academy</h2>
+                                  <h1 class="text-theme" pardot-region>November Training Schedule</h1>
 
-                                  <p><img src="http://placehold.it/480x225" style="margin: 25px 0;" pardot-removable></p>
-
-                                  <p style="margin-top: 1em; clear: both;" pardot-repeatable><span pardot-region>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression...</span> <span pardot-removable><a href="" pardot-region>Read the Full Article</a><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="display: inline; float: none; padding-left: 3px;"></span></p>
                                 </td>
                                 <td class="expander"></td>
                               </tr>
@@ -1085,19 +1011,8 @@
                       </table>
                       <!-- // ROW 1 -->
 
-                    </td>
-                  </tr>
-                </table>
-                <!-- // REPEATABLE & MOVABLE FULL CONTENT MODULE -->
-
-
-                <!-- LESSER CONTENT MODULE // -->
-                <table class="container" pardot-repeatable>
-                  <tr>
-                    <td>
-
-                      <!-- ROW 1 // -->
-                      <table class="row">
+                      <!-- ROW 2 // -->
+                      <table class="row" pardot-repeatable>
                         <tr>
                           
                           <!-- HEADING // -->
@@ -1107,11 +1022,8 @@
                               <tr>
                                 <td>
 
-                                  <h2 class="subheading" pardot-region>Lesser Content Module; repeatable &amp; movable. Please limit headline to two lines.</h2>
-
-                                  <p style="clear: both;"><span pardot-region>Good for small or even larger blocks of text. First paragraph is static but the link can be removed if needed.</span> <span pardot-removable><a href="" pardot-region>Read the Full Article</a><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="display: inline; float: none; padding-left: 3px;"></span></p>
-
-                                  <p style="margin-top: 1em; clear: both;" pardot-repeatable><span pardot-region>This paragraph is repeatable. Parlez-vous francais? Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</span> <span pardot-removable><a href="" pardot-region>Read the Full Article</a><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="display: inline; float: none; padding-left: 3px;"></span></p>
+                                  <h2 class="subheading" pardot-region>Fundamentals Training</h2>
+                                  <p pardot-region>Geared for new users, this four part webinar series will guide users through the basic concepts of mobile attribution, setting up your account, reporting campaign success, and how to optimize your campaign performance. Each session is offered at two different times to allow our global audience a chance to attend a live session.</p>
                                 </td>
                                 <td class="expander"></td>
                               </tr>
@@ -1122,281 +1034,12 @@
 
                         </tr>
                       </table>
-                      <!-- // ROW 1 -->
+                      <!-- // ROW 2 -->
 
                     </td>
                   </tr>
                 </table>
-                <!-- // LESSER CONTENT MODULE -->
-
-                <!-- DUAL CTA BUTTONS CENTERED // -->
-                <table class="container lone-buttons" pardot-repeatable>
-                  <tr>
-                    <td>
-                      <table class="row">
-                        <tr>
-                          <td class="wrapper offset-by-one last">
-
-                            <table class="ten columns">
-                              <tr>
-                                <td>
-
-                                  <!-- TWO BUTTONS // -->
-                                  <table>
-                                    <tr>
-                                      <td width="220"><a href="" class="button" style="display: block;" pardot-region>11/27 - 7:00am Register</td>
-                                      <td width="40"></td>
-                                      <td width="220"><a href="" class="button" style="display: block;" pardot-region>11/27 - 7:00am Register</td>
-                                    </tr>
-                                  </table>
-                                  <!-- // TWO BUTTONS -->
-
-                                </td>
-                              </tr>
-                            </table>
-
-                          </td>
-                        </tr>
-                      </table>
-
-                    </td>
-                  </tr>
-                </table>
-                <!-- // DUAL CTA BUTTONS CENTERED -->
-                
-
-                <!-- TWO UP MICRO POSTS // -->
-                <table class="container" pardot-repeatable>
-                  <tr>
-                    <td>
-
-                      <table class="row">
-                        <tr>
-                          <td class="wrapper">
-
-                            <table>
-
-                              <!-- REPEATABLE ROW // -->
-                              <tr>
-
-                                <!-- BLANK COLUMN // -->
-                                <td style="width: 50px;"></td>
-                                <!-- // BLANK COLUMN -->
-
-                                <!-- CONTENT COLUMN 1 // -->
-                                <td style="width: 225px;">
-
-                                  <h3 style="font-size: 18px; margin-bottom: 10px;"><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>Two-Column Micro-Post; Heading is link. Limit 3 lines, plz.</a></h3>
-                                  <p pardot-region>Limit to 4 lines max. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
-
-                                </td>
-                                <!-- // CONTENT COLUMN 2 -->
-
-                                <!-- BLANK COLUMN // -->
-                                <td style="width: 30px;"></td>
-                                <!-- // BLANK COLUMN -->
-
-                                <!-- CONTENT COLUMN 2 // -->
-                                <td style="width: 225px;">
-
-                                  <h3 style="font-size: 18px; margin-bottom: 10px;"><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>Two-Column Micro-Post; Heading is link. Limit 3 lines, plz.</a></h3>
-                                  <p pardot-region>Limit to 4 lines max. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
-
-                                </td>
-                                <!-- // CONTENT COLUMN 2 -->
-
-                                <!-- BLANK COLUMN // -->
-                                <td style="width: 50px;"></td>
-                                <!-- // BLANK COLUMN -->
-
-                              </tr>
-                              <!-- // REPEATABLE ROW -->
-                            </table>
-
-                          </td>
-                        </tr>
-                      </table>
-
-                    </td>
-                  </tr>
-                </table>
-                <!-- // TWO UP MICRO POSTS -->
-                
-
-                <!-- SINGLE MICRO POST // -->
-                <table class="container" pardot-repeatable>
-                  <tr>
-                    <td>
-
-                      <table class="row">
-                        <tr>
-                          <td class="wrapper">
-
-                            <table>
-                              <tr>
-
-                                <!-- BLANK COLUMN // -->
-                                <td style="width: 50px;"></td>
-                                <!-- // BLANK COLUMN -->
-
-                                <!-- CONTENT COLUMN 1 // -->
-                                <td style="width: 480px;">
-
-                                  <h3 style="font-size: 18px; margin-bottom: 10px;"><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>Single Column Micro-post. Limit 1 line plz.</a></h3>
-                                  <p pardot-region>Just a little text to describe the micro-post or link. Body text should wrap to two lines or more. Limit 3 lines.</p>
-
-                                </td>
-                                <!-- // CONTENT COLUMN 1 -->
-
-                                <!-- BLANK COLUMN // -->
-                                <td style="width: 50px;"></td>
-                                <!-- // BLANK COLUMN -->
-
-                              </tr>
-                            </table>
-
-                          </td>
-                        </tr>
-                      </table>
-
-                    </td>
-                  </tr>
-                </table>
-                <!-- // SINGLE MICRO POST -->
-
-                <!-- REPEATABLE LINKS // -->
-                <table class="container" pardot-repeatable>
-                  <tr>
-                    <td>
-
-                      <!-- HEADING // -->
-                      <table class="row">
-                        <tr>
-                          <td class="wrapper offset-by-one last">
-
-                            <table class="ten columns">
-                              <tr>
-                                <td>
-                                  <h2 class="subheading" pardot-region>Repeatable Links List</h2>
-                                </td>
-                                <td class="expander"></td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>Duplicate links or the whole list!</a></p>
-
-                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></p>
-
-                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></p>
-
-                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a style="color: #007aff; text-decoration: none !important;" href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></p>
-                                </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
-
-                          </td>
-                        </tr>
-                      </table>
-                      <!-- // HEADING -->
-
-                    </td>
-                  </tr>
-                </table>
-                <!-- // REPEATABLE LINKS -->
-
-                <!-- SINGLE CTA BUTTON CENTERED // -->
-                <table class="container lone-buttons" pardot-repeatable>
-                  <tr>
-                    <td>
-                      <table class="row">
-                        <tr>
-                          <td class="wrapper offset-by-one last">
-
-                            <table class="ten columns">
-                              <tr>
-                                <td>
-
-                                  <!-- SINGLE BUTTON // -->
-                                  <table>
-                                    <tr>
-                                      <td width="130"></td>
-                                      <td width="220"><a href="" class="button" style="display: block;" pardot-region>11/27 - 7:00am Register</td>
-                                      <td width="130"></td>
-                                    </tr>
-                                  </table>
-                                  <!-- // SINGLE BUTTON -->
-
-                                </td>
-                              </tr>
-                            </table>
-
-                          </td>
-                        </tr>
-                      </table>
-
-                    </td>
-                  </tr>
-                </table>
-                <!-- // SINGLE CTA BUTTON CENTERED -->
-
-                <!-- REPEATABLE LINKS WITH DESCRIPTIONS LIST // -->
-                <table class="email-body container" pardot-repeatable>
-                  <tr>
-                    <td>
-                      <table class="row">
-                        <tr>
-                          <td class="wrapper offset-by-one last">
-
-                            <table class="ten columns">
-                              <tr>
-                                <td>
-
-                                  <!-- HEADING // -->
-                                  <h2 class="subheading" pardot-region>Repeatable Links List (With Descriptions)</h2>
-                                  <!-- // HEADING -->
-
-                                  <!-- REPEATABLE ITEM // -->
-                                  <table style="margin-top: 6px;">
-                                    <tr>
-                                      <td width="15" style="padding-top: 3px;"><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png"></td>
-                                      <td style="padding-bottom: 0;"><a style="color: #007aff; text-decoration: none !important; border-bottom: 0 !important;" href="#" pardot-region>Mobile Attribution Essentials</a></td>
-                                    </tr>
-                                    <tr>
-
-                                      <!-- DESCRIPTION // -->
-                                      <td colspan="2"><p pardot-region>This webinar will review the key concepts, technology and terms of the mobile attribution space, as well as reviewing common attribution methodologies.</p></td>
-                                      <!-- // DESCRIPTION -->
-                                    </tr>
-                                  </table>
-                                  <!-- // REPEATABLE ITEM -->
-
-                                  <!-- REPEATABLE ITEM // -->
-                                  <table style="margin-top: 20px;" pardot-repeatable>
-                                    <tr>
-                                      <td width="15" style="padding-top: 3px;"><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png"></td>
-                                      <td style="padding-bottom: 0;"><a style="color: #007aff; text-decoration: none !important; border-bottom: 0 !important;" href="#" pardot-region>Mobile Attribution Essentials</a></td>
-                                    </tr>
-                                    <tr>
-
-                                      <!-- DESCRIPTION // -->
-                                      <td colspan="2"><p pardot-region>This webinar will review the key concepts, technology and terms of the mobile attribution space, as well as reviewing common attribution methodologies.</p></td>
-                                      <!-- // DESCRIPTION -->
-                                    </tr>
-                                  </table>
-                                  <!-- // REPEATABLE ITEM -->
-                                </td>
-                              </tr>
-                            </table>
-
-                          </td>
-                        </tr>
-                      </table>
-
-                    </td>
-                  </tr>
-                </table>
-                <!-- // REPEATABLE LINKS WITH DESCRIPTIONS LIST -->
+                <!-- // EMAIL BODY (TOP) -->
 
                 <!-- SPOTLIGHT -->
                 <table class="spotlight container" pardot-repeatable>
@@ -1438,23 +1081,23 @@
 
                               <!-- ICONS // -->
                               <tr>
-                                <td style="background: #53606d; width: 210px; text-align: center; color: #ffffff; padding: 10px;">
-                                  <img src="http://storage.pardot.com/23402/56798/2015_email_icon_gift.png" style="display: inline; float: none;" pardot-region>
+                                <td style="background: #53606d; width: 210px; text-align: center; color: #ffffff; padding: 10px;" pardot-region>
+                                  <img src="http://storage.pardot.com/23402/56798/2015_email_icon_gift.png" style="display: inline; float: none;">
                                 </td>
-                                <td style="background: #dce5e4; width: 60px;"></td>
-                                <td style="background: #53606d; width: 210px; text-align: center; color: #ffffff; padding: 10px;">
-                                  <img src="http://storage.pardot.com/23402/56806/2015_email_icon_list.png" style="display: inline; float: none;" pardot-region>
+                                <td style="background: #d8e0e1; width: 60px;"></td>
+                                <td style="background: #53606d; width: 210px; text-align: center; color: #ffffff; padding: 10px;" pardot-region>
+                                  <img src="http://storage.pardot.com/23402/56806/2015_email_icon_list.png" style="display: inline; float: none;">
                                 </td>
                               </tr>
                               <!-- // ICONS -->
 
                               <!-- HEADINGS // -->
                               <tr>
-                                <td style="background: #53606d; width: 210px; text-align: center; padding: 0 10px; text-transform: uppercase; font-size: 16px;" class="text-theme" pardot-region>
+                                <td style="background: #53606d; width: 210px; text-align: center; color: #77bd1f; padding: 0 10px; text-transform: uppercase; font-size: 16px;" pardot-region>
                                   Headline goes here
                                 </td>
-                                <td style="background: #dce5e4; width: 60px;"></td>
-                                <td style="background: #53606d; width: 210px; text-align: center; padding: 0 10px; text-transform: uppercase; font-size: 16px;" class="text-theme" pardot-region>
+                                <td style="background: #d8e0e1; width: 60px;"></td>
+                                <td style="background: #53606d; width: 210px; text-align: center; color: #77bd1f; padding: 0 10px; text-transform: uppercase; font-size: 16px;" pardot-region>
                                   Headline goes here
                                 </td>
                               </tr>
@@ -1465,7 +1108,7 @@
                                 <td style="background: #53606d; width: 210px; text-align: center; color: #ffffff; padding: 10px;" pardot-region>
                                   This is the content. 
                                 </td>
-                                <td style="background: #dce5e4; width: 60px;"></td>
+                                <td style="background: #d8e0e1; width: 60px;"></td>
                                 <td style="background: #53606d; width: 210px; text-align: center; color: #ffffff; padding: 10px;" pardot-region>
                                   This is the content.
                                 </td>
@@ -1474,11 +1117,11 @@
 
                               <!-- FOOTER // -->
                               <tr>
-                                <td valign="middle" style="background: #53606d; width: 210px; text-align: center; padding: 5px 10px 10px; text-transform: uppercase; font-size: 16px;" class="text-theme">
+                                <td valign="middle" style="background: #53606d; width: 210px; text-align: center; color: #77bd1f; padding: 5px 10px 10px; text-transform: uppercase; font-size: 16px;">
                                   <a class="no-underline" href="" pardot-region>11/14 10:30am<br>Register Now</a>
                                 </td>
-                                <td style="background: #dce5e4; width: 60px;"></td>
-                                <td valign="middle" style="background: #53606d; width: 210px; text-align: center; padding: 5px 10px 10px; text-transform: uppercase; font-size: 16px;" class="text-theme">
+                                <td style="background: #d8e0e1; width: 60px;"></td>
+                                <td valign="middle" style="background: #53606d; width: 210px; text-align: center; color: #77bd1f; padding: 5px 10px 10px; text-transform: uppercase; font-size: 16px;">
                                   <a class="no-underline" href="" pardot-region>11/14 10:30am<br>Register Now</a>
                                 </td>
                               </tr>
@@ -1500,202 +1143,62 @@
                 </table>
                 <!-- SPOTLIGHT -->
 
-                <!-- CALL TO ACTION ON WHITE BACKGROUND WITH TEXT // -->
-                <table class="container" pardot-repeatable>
+                <!-- EMAIL BODY (BOTTOM) // -->
+                <table class="email-body container" style="margin-top: 40px;" pardot-repeatable>
                   <tr>
                     <td>
 
+                      <!-- ROW 1 // -->
                       <table class="row">
                         <tr>
-                          <td class="wrapper offset-by-one">
+                          
+                          <!-- HEADING // -->
+                          <td class="wrapper offset-by-one last">
 
-                            <table class="ten columns last">
+                            <table class="ten columns">
                               <tr>
-                                <td>
+                                <td style="padding: 0 !important;">
 
-                                  <h1 class="center" pardot-region>Have a Topic to Share?</h1>
-
-                                  <p style="text-align: center;" class="center" pardot-region>Looking to find answers to or further discuss privacy and policy issues? Send us an email with your topic suggestions and we can feature them in an upcoming newsletter.</p>
-
-
-                                  <!-- SINGLE BUTTON // -->
-                                  <table pardot-removable>
-                                    <tr>
-                                      <td width="130"></td>
-                                      <td width="220"><a href="" class="button" style="display: block;" pardot-region>Send Us Your Ideas</td>
-                                      <td width="130"></td>
-                                    </tr>
-                                  </table>
-                                  <!-- // SINGLE BUTTON -->
-
+                                  <!-- SECTION HEADING // -->
+                                  <h2 class="subheading" pardot-region>Fundamentals Training Series</h2>
+                                  <!-- // SECTION HEADING -->
                                 </td>
                                 <td class="expander"></td>
                               </tr>
                             </table>
 
                           </td>
+                          <!-- // HEADING -->
+
                         </tr>
                       </table>
+                      <!-- // ROW 1 -->
 
-                    </td>
-                  </tr>
-                </table>
-                <!-- // CALL TO ACTION ON WHITE BACKGROUND WITH TEXT -->
-
-              </td>
-            </tr>
-            <!-- // MOVABLE CONTENT -->
-
-            <!-- NON-MOVABLE CONTENT: PRE-FOOTER SPOTLIGHT // -->
-            <tr>
-              <td>
-
-                <!-- SPOTLIGHT:LAST EVENTS CTA // -->
-                <table class="spotlight last container" pardot-removable>
-                  <tr>
-                    <td>
-
-                      <!-- HEADER // -->
-                      <table class="row">
+                      <table class="row" pardot-repeatable>
                         <tr>
-                          <td class="wrapper offset-by-one last">
+
+                          <!-- REPEATABLE CONTENT // -->
+                          <td class="wrapper offset-by-one last" style="padding-top: 0 !important;">
 
                             <table class="ten columns">
                               <tr>
                                 <td>
 
-                                  <h2 class="center" pardot-region>Upcoming Events</h2>
-
-                                </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
-
-                          </td>
-                        </tr>
-                      </table>
-                      <!-- // HEADER -->
-
-                      <!-- 2 COLUMN MODULE LAYOUT // -->
-                      <table style="margin-bottom: 25px;" pardot-removable>
-                        <tr>
-
-                          <!-- GAP COLUMN // -->
-                          <td style="width: 50px;"></td>
-                          <!-- // GAP COLUMN -->
-
-                          <!-- MODULE CONTENT COLUMNS // -->
-                          <td style="width: 480px;">
-                            <table>
-
-                              <!-- IMAGES // -->
-                              <tr>
-                                <!-- IMAGE 1 // -->
-                                <td valign="middle" style="width: 215px; text-align: center;">
-                                  <img src="http://www.placehold.it/215x120" pardot-region>
-                                </td>
-                                <!-- // IMAGE 1 -->
-
-                                <td style="width: 50px;"></td>
-
-                                <!-- IMAGE 2 // -->
-                                <td valign="middle" style="width: 215px; text-align: center;">
-                                  <img src="http://www.placehold.it/215x120" pardot-region>
-                                </td>
-                                <!-- // IMAGE 2 -->
-
-                              </tr>
-                              <!-- // IMAGES -->
-
-                            </table>
-                          </td>
-                          <!-- // MODULE CONTENT COLUMNS -->
-
-                          <!-- GAP COLUMN -->
-                          <td style="width: 50px;"></td>
-                          <!-- // GAP COLUMN -->
-                        </tr>
-                      </table>
-                      <!-- // 2 COLUMN MODULE LAYOUT -->
-
-                      <!-- 3 COLUMN MODULE LAYOUT // -->
-                      <table style="margin-bottom: 25px;" pardot-removable>
-                        <tr>
-
-                          <!-- GAP COLUMN // -->
-                          <td style="width: 50px;"></td>
-                          <!-- // GAP COLUMN -->
-
-                          <!-- MODULE CONTENT COLUMNS // -->
-                          <td style="width: 480px;">
-                            <table>
-
-                              <!-- IMAGES // -->
-                              <tr>
-                                <!-- IMAGE 1 // -->
-                                <td valign="middle" style="width: 130px; text-align: center;">
-                                  <img src="http://www.placehold.it/130x80" pardot-region>
-                                </td>
-                                <!-- // IMAGE 1 -->
-
-                                <td style="width: 45px;"></td>
-
-                                <!-- IMAGE 2 // -->
-                                <td valign="middle" style="width: 130px; text-align: center;">
-                                  <img src="http://www.placehold.it/130x80" pardot-region>
-                                </td>
-                                <!-- // IMAGE 2 -->
-
-                                <td style="width: 45px;"></td>
-
-                                <!-- IMAGE 3 // -->
-                                <td valign="middle" style="width: 130px; text-align: center;">
-                                  <img src="http://www.placehold.it/130x80" pardot-region>
-                                </td>
-                                <!-- // IMAGE 3 -->
-
-                              </tr>
-                              <!-- // IMAGES -->
-
-                            </table>
-                          </td>
-                          <!-- // MODULE CONTENT COLUMNS -->
-
-                          <!-- GAP COLUMN -->
-                          <td style="width: 50px;"></td>
-                          <!-- // GAP COLUMN -->
-                        </tr>
-                      </table>
-                      <!-- // 3 COLUMN MODULE LAYOUT -->
-
-                      <!-- CALL TO ACTION // -->
-                      <table class="row">
-                        <tr>
-                          <td class="wrapper offset-by-one">
-
-                            <table class="ten columns last">
-                              <tr>
-                                <td>
-
-                                  <h4 class="center" pardot-region>Want to meet with us?</h4>
-
-                                  <p style="text-align: center;" class="center" pardot-region>Attending a conference and want to meet up with us to talk about the latest in mobile marketing? Give us your info and we'll set up a time to chat.</p>
-
-
-                                  <!-- SINGLE BUTTON // -->
-                                  <table pardot-removable>
+                                  <!-- ICON AND LINK // -->
+                                  <table style="margin: 10px 0 0;">
                                     <tr>
-                                      <td width="130" style="padding: 0 !important;"></td>
-                                      <td width="220" style="padding: 0 !important;"><a href="http://www.tune.com/events" class="button" style="display: block;" pardot-region>Let's Get Together</td>
-                                      <td width="130" style="padding: 0 !important;"></td>
+                                      <td width="15" style="padding-top: 3px;"><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png"></td>
+                                      <td style="padding-bottom: 0;"><a style="color: #007aff; text-decoration: none !important; border-bottom: 0 !important;" href="#" pardot-region>Mobile Attribution Essentials</a></td>
                                     </tr>
                                   </table>
-                                  <!-- // SINGLE BUTTON -->
+                                  <!-- // ICON AND LINK -->
 
-
+                                  <!-- DESCRIPTION // -->
+                                  <p pardot-region>This webinar will review the key concepts, technology and termso  fthe mobile attribution space, as well as reviewing common attribution methodologies.</p>
+                                  <!-- // DESCRIPTION -->
 
                                   <!-- TWO BUTTONS // -->
-                                  <table pardot-removable>
+                                  <table pardot-repeatable>
                                     <tr>
                                       <td width="220"><a href="" class="button" style="display: block;" pardot-region>11/27 - 7:00am Register</td>
                                       <td width="40"></td>
@@ -1704,27 +1207,31 @@
                                   </table>
                                   <!-- // TWO BUTTONS -->
 
+                                  <!-- SINGLE BUTTON // -->
+                                  <table pardot-repeatable>
+                                    <tr>
+                                      <td width="130"></td>
+                                      <td width="220"><a href="" class="button" style="display: block;" pardot-region>11/27 - 7:00am Register</td>
+                                      <td width="130"></td>
+                                    </tr>
+                                  </table>
+                                  <!-- // SINGLE BUTTON -->
                                 </td>
-                                <td class="expander"></td>
                               </tr>
                             </table>
 
                           </td>
+                          <!-- // REPEATABLE CONTENT -->
+
                         </tr>
                       </table>
-                      <!-- // CALL TO ACTION -->
 
                     </td>
                   </tr>
                 </table>
-                <!-- // SPOTLIGHT:LAST EVENTS CTA -->
-              </td>
-            </tr>
-            <!-- // NON-MOVABLE CONTENT: PRE-FOOTER SPOTLIGHT -->
+                <!-- // EMAIL BODY (BOTTOM) -->
 
-            <!-- NON-MOVABLE CONTENT: FOOTER // -->
-            <tr>
-              <td>
+
 
                 <!-- EMAIL FOOTER // -->
                 <table class="container email-footer">
@@ -1741,7 +1248,7 @@
                               <tr>
                                 <td>
 
-                                  <a href="http://www.tune.com"><img class="footer-logo" src="http://storage.pardot.com/23402/56810/2015_email_tune_logo_knockout.png" width="80" height="20"></a>
+                                  <a href="http://www.tune.com"><img class="footer-logo" src="http://storage.pardot.com/23402/57250/2015_email_ho_logo_knockout.png" width="80" ></a>
 
                                 </td>
                                 <td class="expander"></td>
@@ -1801,12 +1308,15 @@
                   </tr>
                 </table>
                 <!-- // EMAIL FOOTER -->
+
               </td>
             </tr>
-            <!-- // NON-MOVABLE CONTENT: FOOTER -->
           </table>
           <!-- // CONTENT WRAPPER -->
 
+
+
+          <!-- // EMAIL CONTENT -->
           </center>
         </td>
       </tr>
