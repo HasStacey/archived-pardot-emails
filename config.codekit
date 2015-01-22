@@ -2,20 +2,29 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18270",
 "files": {
-	"\/academy.html": {
+	"\/academy-ho.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/academy.html",
+		"inputAbbreviatedPath": "\/academy-ho.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/boilerplate.html": {
+	"\/academy-tune.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/boilerplate.html",
+		"inputAbbreviatedPath": "\/academy-tune.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog-recap.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog-recap.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -47,178 +56,266 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/images\/bg-coffeecup-nologo.png": {
+	"\/images\/2015-email-bg-academy-ho.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27801,
+		"inputAbbreviatedPath": "\/images\/2015-email-bg-academy-ho.jpg",
+		"outputAbbreviatedPath": "\/images\/2015-email-bg-academy-ho.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2015-email-bg-academy-tune.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28341,
+		"inputAbbreviatedPath": "\/images\/2015-email-bg-academy-tune.jpg",
+		"outputAbbreviatedPath": "\/images\/2015-email-bg-academy-tune.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2015-email-bg-coffee-cup-on-top-of-tablet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19070,
+		"inputAbbreviatedPath": "\/images\/2015-email-bg-coffee-cup-on-top-of-tablet.jpg",
+		"outputAbbreviatedPath": "\/images\/2015-email-bg-coffee-cup-on-top-of-tablet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2015-email-bg-coffeecup-nologo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 147230,
-		"inputAbbreviatedPath": "\/images\/bg-coffeecup-nologo.png",
-		"outputAbbreviatedPath": "\/images\/bg-coffeecup-nologo.png",
+		"inputAbbreviatedPath": "\/images\/2015-email-bg-coffeecup-nologo.png",
+		"outputAbbreviatedPath": "\/images\/2015-email-bg-coffeecup-nologo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/bg-phone.png": {
+	"\/images\/2015-email-bg-laptop-with-books.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27420,
+		"inputAbbreviatedPath": "\/images\/2015-email-bg-laptop-with-books.jpg",
+		"outputAbbreviatedPath": "\/images\/2015-email-bg-laptop-with-books.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2015-email-bg-looking-up-building.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31282,
+		"inputAbbreviatedPath": "\/images\/2015-email-bg-looking-up-building.jpg",
+		"outputAbbreviatedPath": "\/images\/2015-email-bg-looking-up-building.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2015-email-bg-phone-and-record.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13821,
+		"inputAbbreviatedPath": "\/images\/2015-email-bg-phone-and-record.jpg",
+		"outputAbbreviatedPath": "\/images\/2015-email-bg-phone-and-record.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2015-email-bg-phone.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 14246,
-		"inputAbbreviatedPath": "\/images\/bg-phone.png",
-		"outputAbbreviatedPath": "\/images\/bg-phone.png",
+		"inputAbbreviatedPath": "\/images\/2015-email-bg-phone.png",
+		"outputAbbreviatedPath": "\/images\/2015-email-bg-phone.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/bg-privacy-newsletter.png": {
+	"\/images\/2015-email-bg-postback-lanyard.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35418,
+		"inputAbbreviatedPath": "\/images\/2015-email-bg-postback-lanyard.jpg",
+		"outputAbbreviatedPath": "\/images\/2015-email-bg-postback-lanyard.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2015-email-bg-privacy-newsletter.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 24900,
-		"inputAbbreviatedPath": "\/images\/bg-privacy-newsletter.png",
-		"outputAbbreviatedPath": "\/images\/bg-privacy-newsletter.png",
+		"inputAbbreviatedPath": "\/images\/2015-email-bg-privacy-newsletter.png",
+		"outputAbbreviatedPath": "\/images\/2015-email-bg-privacy-newsletter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/bg-this-week-in-marketing.jpg": {
+	"\/images\/2015-email-bg-this-week-in-marketing.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 16029,
-		"inputAbbreviatedPath": "\/images\/bg-this-week-in-marketing.jpg",
-		"outputAbbreviatedPath": "\/images\/bg-this-week-in-marketing.jpg",
+		"inputAbbreviatedPath": "\/images\/2015-email-bg-this-week-in-marketing.jpg",
+		"outputAbbreviatedPath": "\/images\/2015-email-bg-this-week-in-marketing.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/bg-we-heart-mobile.jpg": {
+	"\/images\/2015-email-bg-we-heart-mobile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 15320,
-		"inputAbbreviatedPath": "\/images\/bg-we-heart-mobile.jpg",
-		"outputAbbreviatedPath": "\/images\/bg-we-heart-mobile.jpg",
+		"inputAbbreviatedPath": "\/images\/2015-email-bg-we-heart-mobile.jpg",
+		"outputAbbreviatedPath": "\/images\/2015-email-bg-we-heart-mobile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/bg-we-heart-performance.jpg": {
+	"\/images\/2015-email-bg-we-heart-performance.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 29204,
-		"inputAbbreviatedPath": "\/images\/bg-we-heart-performance.jpg",
-		"outputAbbreviatedPath": "\/images\/bg-we-heart-performance.jpg",
+		"inputAbbreviatedPath": "\/images\/2015-email-bg-we-heart-performance.jpg",
+		"outputAbbreviatedPath": "\/images\/2015-email-bg-we-heart-performance.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/bg-wineglasses.png": {
+	"\/images\/2015-email-bg-wineglasses.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 156142,
-		"inputAbbreviatedPath": "\/images\/bg-wineglasses.png",
-		"outputAbbreviatedPath": "\/images\/bg-wineglasses.png",
+		"inputAbbreviatedPath": "\/images\/2015-email-bg-wineglasses.png",
+		"outputAbbreviatedPath": "\/images\/2015-email-bg-wineglasses.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/facebook.png": {
+	"\/images\/2015-email-ho-logo-knockout.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2421,
+		"inputAbbreviatedPath": "\/images\/2015-email-ho-logo-knockout.png",
+		"outputAbbreviatedPath": "\/images\/2015-email-ho-logo-knockout.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2015-email-icon-facebook.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1067,
-		"inputAbbreviatedPath": "\/images\/facebook.png",
-		"outputAbbreviatedPath": "\/images\/facebook.png",
+		"inputAbbreviatedPath": "\/images\/2015-email-icon-facebook.png",
+		"outputAbbreviatedPath": "\/images\/2015-email-icon-facebook.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/googleplus.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1234,
-		"inputAbbreviatedPath": "\/images\/googleplus.png",
-		"outputAbbreviatedPath": "\/images\/googleplus.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/icon-gift.png": {
+	"\/images\/2015-email-icon-gift.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1744,
-		"inputAbbreviatedPath": "\/images\/icon-gift.png",
-		"outputAbbreviatedPath": "\/images\/icon-gift.png",
+		"inputAbbreviatedPath": "\/images\/2015-email-icon-gift.png",
+		"outputAbbreviatedPath": "\/images\/2015-email-icon-gift.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/icon-link.png": {
+	"\/images\/2015-email-icon-link.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1101,
-		"inputAbbreviatedPath": "\/images\/icon-link.png",
-		"outputAbbreviatedPath": "\/images\/icon-link.png",
+		"inputAbbreviatedPath": "\/images\/2015-email-icon-link.png",
+		"outputAbbreviatedPath": "\/images\/2015-email-icon-link.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/icon-list.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2129,
-		"inputAbbreviatedPath": "\/images\/icon-list.png",
-		"outputAbbreviatedPath": "\/images\/icon-list.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/linkedin.png": {
+	"\/images\/2015-email-icon-linkedin.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1115,
-		"inputAbbreviatedPath": "\/images\/linkedin.png",
-		"outputAbbreviatedPath": "\/images\/linkedin.png",
+		"inputAbbreviatedPath": "\/images\/2015-email-icon-linkedin.png",
+		"outputAbbreviatedPath": "\/images\/2015-email-icon-linkedin.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/tune-logo-knockout.png": {
+	"\/images\/2015-email-icon-list.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/tune-logo-knockout.png",
-		"outputAbbreviatedPath": "\/images\/tune-logo-knockout.png",
+		"initialSize": 2129,
+		"inputAbbreviatedPath": "\/images\/2015-email-icon-list.png",
+		"outputAbbreviatedPath": "\/images\/2015-email-icon-list.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/tune-logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/tune-logo.png",
-		"outputAbbreviatedPath": "\/images\/tune-logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/twitter.png": {
+	"\/images\/2015-email-icon-twitter.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1174,
-		"inputAbbreviatedPath": "\/images\/twitter.png",
-		"outputAbbreviatedPath": "\/images\/twitter.png",
+		"inputAbbreviatedPath": "\/images\/2015-email-icon-twitter.png",
+		"outputAbbreviatedPath": "\/images\/2015-email-icon-twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2015-email-tune-logo-knockout.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 678,
+		"inputAbbreviatedPath": "\/images\/2015-email-tune-logo-knockout.png",
+		"outputAbbreviatedPath": "\/images\/2015-email-tune-logo-knockout.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2015-email-tune-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 937,
+		"inputAbbreviatedPath": "\/images\/2015-email-tune-logo.png",
+		"outputAbbreviatedPath": "\/images\/2015-email-tune-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2015-emial-icon-googleplus.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1234,
+		"inputAbbreviatedPath": "\/images\/2015-emial-icon-googleplus.png",
+		"outputAbbreviatedPath": "\/images\/2015-emial-icon-googleplus.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -228,6 +325,33 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/ink.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/junk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/junk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/newsletter-ho.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/newsletter-ho.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/newsletter-mat.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/newsletter-mat.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
