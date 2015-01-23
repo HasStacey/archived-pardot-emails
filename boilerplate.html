@@ -7,7 +7,7 @@
     <style type="text/css">
 
     /* Testing */
-    *[pardot-region] {
+/*    *[pardot-region] {
       outline: 1px solid orange;
     }
     *[pardot-removable] {
@@ -15,7 +15,7 @@
     }
     *[pardot-repeatable] {
       outline: 2px solid lime;
-    }
+    }*/
       
     /**********************************************
     * Ink v1.0.5 - Copyright 2013 ZURB Inc        *
@@ -842,33 +842,6 @@
         color: #ffffff;
       }
 
-      /*////// SPOTLIGHT //////*/
-      table.spotlight {
-        background-color: #dce5e4;
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
-      table.spotlight.bg-white {
-        background-color: #ffffff;
-      }
-      table.spotlight.last {
-        margin-bottom: 0;
-      }
-
-      table.spotlight h2 {
-        color: #007aff;
-        font-size: 20px;
-        margin-top: 10px;
-      }
-      table.spotlight.bg-white h2 {
-        color: #222222;
-      }
-
-      table.spotlight h4 {
-        font-size: 18px;
-        margin-bottom: 5px;
-      }
-
 
       /*////// BUTTONS //////*/
       a.button,
@@ -910,6 +883,36 @@
         border: 0 !important;
       }
 
+      /*////// SPOTLIGHT //////*/
+      table.spotlight {
+        background-color: #dce5e4;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      table.spotlight:not(.bg-white) a.button {
+        background-color: #007aff;
+      }
+      table.spotlight.bg-white {
+        background-color: #ffffff;
+      }
+      table.spotlight.last {
+        margin-bottom: 0;
+      }
+
+      table.spotlight h2 {
+        color: #007aff;
+        font-size: 20px;
+        margin-top: 10px;
+      }
+      table.spotlight.bg-white h2 {
+        color: #222222;
+      }
+
+      table.spotlight h4 {
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+
     </style>
   </head>
   <body>
@@ -934,7 +937,9 @@
                         <tr>
                           <td>
 
-                            <a href="http://www.tune.com"><img src="http://storage.pardot.com/23402/56812/2015_email_tune_logo.png" width="97" height="24" alt="TUNE"></a>
+                            <center>
+                              <a href="http://www.tune.com"><img src="http://storage.pardot.com/23402/56812/2015_email_tune_logo.png" width="97" height="24" alt="TUNE"></a>
+                            </center>
 
                           </td>
                           <td class="expander"></td>

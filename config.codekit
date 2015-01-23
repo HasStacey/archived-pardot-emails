@@ -78,6 +78,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/2015-email-bg-business-meeting-tablet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24916,
+		"inputAbbreviatedPath": "\/images\/2015-email-bg-business-meeting-tablet.jpg",
+		"outputAbbreviatedPath": "\/images\/2015-email-bg-business-meeting-tablet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/2015-email-bg-coffee-cup-on-top-of-tablet.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -162,6 +173,28 @@
 		"initialSize": 24900,
 		"inputAbbreviatedPath": "\/images\/2015-email-bg-privacy-newsletter.png",
 		"outputAbbreviatedPath": "\/images\/2015-email-bg-privacy-newsletter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2015-email-bg-reports-tablet-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28466,
+		"inputAbbreviatedPath": "\/images\/2015-email-bg-reports-tablet-mobile.jpg",
+		"outputAbbreviatedPath": "\/images\/2015-email-bg-reports-tablet-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2015-email-bg-stock-people-at-event.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23782,
+		"inputAbbreviatedPath": "\/images\/2015-email-bg-stock-people-at-event.jpg",
+		"outputAbbreviatedPath": "\/images\/2015-email-bg-stock-people-at-event.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
