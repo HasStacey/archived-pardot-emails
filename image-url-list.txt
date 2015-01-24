@@ -1,0 +1,40 @@
+Image URL List:
+
+Logos:
+	HO Logo:					http://storage.pardot.com/23402/57998/2015_email_ho_by_tune_logo.png
+	HO Knockout:				http://storage.pardot.com/23402/57250/2015_email_ho_logo_knockout.png
+	Tune Logo:					http://storage.pardot.com/23402/56812/2015_email_tune_logo.png
+	Tune Knockout:				http://storage.pardot.com/23402/56810/2015_email_tune_logo_knockout.png
+
+Backgrounds:
+	Tune Academy:				http://storage.pardot.com/23402/57248/2015_email_bg_academy_tune.jpg
+	HO Academy:					http://storage.pardot.com/23402/57246/2015_email_bg_academy_ho.jpg
+	Coffee Cup (Academy):		http://storage.pardot.com/23402/56788/2015_email_bg_coffeecup_nologo.png
+	Wineglasses:				http://storage.pardot.com/23402/56800/2015_email_bg_wineglasses.png
+	We <3 Performance:			http://storage.pardot.com/23402/56794/2015_email_bg_we_heart_performance.jpg
+	This Week in Marketing:		http://storage.pardot.com/23402/56792/2015_email_bg_this_week_in_marketing.jpg
+	We <3 Mobile:				http://storage.pardot.com/23402/56790/2015_email_bg_we_heart_mobile.jpg
+	Privacy Header:				http://storage.pardot.com/23402/56786/2015_email_bg_privacy_newsletter.png
+	iPhone on Laptop:			http://storage.pardot.com/23402/56784/2015_email_bg_phone.png
+	Sketched Graphs:			http://storage.pardot.com/23402/58006/2015_email_bg_sketch_graphs.jpg
+	Notepad & Pen:				http://storage.pardot.com/23402/58004/2015_email_bg_notepad.jpg
+	HasTeam:					http://storage.pardot.com/23402/58008/2015_email_bg_hasteam.jpg
+	Reports:					http://storage.pardot.com/23402/58010/2015_email_bg_reports_tablet_mobile.jpg
+	Business Meeting:			http://storage.pardot.com/23402/58012/2015_email_bg_business_meeting_tablet.jpg
+	Stock ppl @ event:			http://storage.pardot.com/23402/58014/2015_email_bg_stock_people_at_event.jpg
+	Coffee on top of tablet:	http://storage.pardot.com/23402/58018/2015_email_bg_coffee_cup_on_top_of_tablet.jpg
+	Laptop with Books:			http://storage.pardot.com/23402/58016/2015_email_bg_laptop_with_books.jpg
+	Phone on Vinyl Record:		http://storage.pardot.com/23402/58020/2015_email_bg_phone_and_record.jpg
+	Postback Lanyard:			http://storage.pardot.com/23402/58022/2015_email_bg_postback_lanyard.jpg
+	Looking Up A Building:		http://storage.pardot.com/23402/58024/2015_email_bg_looking_up_building.jpg
+
+
+Social Icons:
+	Twitter:					http://storage.pardot.com/23402/56808/2015_email_icon_twitter.png
+	LinkedIn:					http://storage.pardot.com/23402/56804/2015_email_icon_linkedin.png
+	Facebook:					http://storage.pardot.com/23402/56796/2015_email_icon_facebook.png
+
+TUNE Icons:
+	List:						http://storage.pardot.com/23402/56806/2015_email_icon_list.png
+	External Link:				http://storage.pardot.com/23402/56802/2015_email_icon_link.png
+	Gift:						http://storage.pardot.com/23402/56798/2015_email_icon_gift.png
