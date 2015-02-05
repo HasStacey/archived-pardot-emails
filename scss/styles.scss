@@ -34,52 +34,79 @@ $c-black-half: #878b8f;
 
 // EMAIL SETTINGS
 //--------------------------------------------------------------------------
-$testing: false; // are you testing pardot regions? if yes, set to true.
-$theme: $c-blue; // Main Theme Color
+$testing: true; // are you testing pardot regions? if yes, set to true.
+$theme: $c-purple; // Main Theme Color
 
 
 
 // DEFAULT THEME: TUNE BLUE
-$text-color: $c-black;
+  // Text Color
+  $heading-color: $c-dkgrey-half; // Heading color -- sometimes same as $theme, sometimes not.
+  $text-color: $c-black;
+  $email-title-color: $theme;
+  $link-color: $c-blue; // ALWAYS $c-blue
 
-$primary-button-bg: $c-dkgrey-half; //#a9b0b7; // Buttons over white bg
-$primary-button-text: $c-white;
+  // Buttons over white BG
+  $primary-button-bg: $c-dkgrey-half; 
+  $primary-button-text: $c-white;
 
-$spotlight-bg: $c-slate;
-$spotlight-heading-color: $c-ltblue;
-$spotlight-text-color: $c-white;
+  // Spotlight
+  $spotlight-heading-color: $c-dkblue;
+  $spotlight-bg: $c-ltgrey;
+  $spotlight-text-color: $c-black;
+  $spotlight-button-bg: $theme;
+  $spotlight-button-text: $c-white;
 
-$spotlight-button-bg: $c-ltgrey; // Buttons over grey bg
-$spotlight-button-text: $c-slate;
-
-$link-color: $c-blue;
-$heading-color: $c-dkgrey-half; // Heading color -- sometimes same as $theme, sometimes not.
 
 
 // IF THE THEME IS ORANGE
 @if($theme == $c-orange) {
-  $spotlight-heading-color: $c-orange;
-  $primary-button-bg: $c-orange;
+  $primary-button-bg: $theme;
+
+  $spotlight-heading-color: $theme;
+  $spotlight-bg: $c-slate;
+  $spotlight-text-color: $c-white;
+}
+
+// IF THE THEME IS DKBLUE
+@if($theme == $c-dkblue) {
+  $primary-button-bg: $theme;
+  $heading-color: $theme; // Heading color -- sometimes same as $theme, sometimes not.
 }
 
 // IF THE THEME IS GREEN
 @if($theme == $c-green) {
-  $spotlight-heading-color: $c-green;
-  $primary-button-bg: $c-green;
+  $primary-button-bg: $theme;
+
+  $spotlight-heading-color: $theme;
+  $spotlight-bg: $c-slate;
+  $spotlight-text-color: $c-white;
+  $spotlight-button-bg: $c-ltgrey; // Buttons over grey bg
+  $spotlight-button-text: $c-slate;
 }
 
 // IF THE THEME IS PURPLE
 @if($theme == $c-purple) {
-  $spotlight-heading-color: $c-purple;
-  $primary-button-bg: $c-purple;
-  $spotlight-heading-color: $c-ltgrey;
+  $primary-button-bg: $theme;
+  $heading-color: $theme;
+
+  $spotlight-heading-color: $theme;
+  $spotlight-bg: $c-ltgrey;
+  $spotlight-text-color: $c-black;
+  $spotlight-button-bg: $theme;
+  $spotlight-button-text: $c-white;
+
 }
 
 // IF THE THEME IS LTBLUE
 @if($theme == $c-ltblue) {
-  $spotlight-heading-color: $c-ltblue;
-  $primary-button-bg: $c-ltblue;
-  $spotlight-button-bg: $c-ltblue;
+  $primary-button-bg: $theme;
+  $heading-color: $theme;
+
+  $spotlight-heading-color: $theme;
+  $spotlight-bg: $c-slate;
+  $spotlight-button-bg: $theme;
+  $spotlight-text-color: $c-white;
 }
 
 
@@ -498,6 +525,17 @@ $heading-color: $c-dkgrey-half; // Heading color -- sometimes same as $theme, so
         width: 95% !important;
       }
 
+      table[class="body"] .container.spotlight,
+      table[class="body"] .container.email-hero-image,
+      table[class="body"] .container.email-footer {
+        width: 100% !important;
+      }
+
+      table[class="body"] .container.spotlight .row{
+        padding: 0 2.5%;
+        width: 95% !important;
+      }
+
       table[class="body"] .row {
         width: 100% !important;
         display: block !important;
@@ -589,6 +627,18 @@ $heading-color: $c-dkgrey-half; // Heading color -- sometimes same as $theme, so
       table[class="body"] .show-for-small,
       table[class="body"] .hide-for-desktop {
         display: inherit !important;
+      }
+
+      table[class="body"] .email-header .wrapper.last {
+        padding-top: 0;
+      }
+
+      table[class="body"] .email-header .wrapper img {
+        float: none;
+      }
+
+      table[class="body"] .email-header .text-align-right {
+        text-align: center;
       }
     }
 
@@ -685,6 +735,10 @@ $heading-color: $c-dkgrey-half; // Heading color -- sometimes same as $theme, so
 
       .text-small {
         font-size: 11px;
+      }
+
+      .text-uppercase {
+        text-transform: uppercase;
       }
 
 
@@ -797,6 +851,12 @@ $heading-color: $c-dkgrey-half; // Heading color -- sometimes same as $theme, so
         margin-bottom: 5px;
       }
 
+      table.spotlight h5 {
+        color: $spotlight-heading-color;
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+
       table.spotlight.bg-white {
         background-color: #ffffff;
       }
@@ -813,4 +873,8 @@ $heading-color: $c-dkgrey-half; // Heading color -- sometimes same as $theme, so
       table.spotlight td.spotlight-heading,
       table.spotlight a.spotlight-heading{
         color: $spotlight-heading-color !important;
+      }
+
+      table.email-general-content p {
+        margin-bottom: 1em;
       }

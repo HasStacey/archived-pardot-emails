@@ -43,16 +43,16 @@
                               <!-- IMAGES // -->
                               <tr>
                                 <!-- IMAGE 1 // -->
-                                <td valign="middle" style="width: 215px; text-align: center;">
-                                  <img src="http://www.placehold.it/215x120" pardot-region>
+                                <td valign="middle" style="width: 230px; text-align: center;">
+                                  <img src="http://www.placehold.it/230x125" pardot-region>
                                 </td>
                                 <!-- // IMAGE 1 -->
 
-                                <td style="width: 50px;"></td>
+                                <td style="width: 20px;"></td>
 
                                 <!-- IMAGE 2 // -->
-                                <td valign="middle" style="width: 215px; text-align: center;">
-                                  <img src="http://www.placehold.it/215x120" pardot-region>
+                                <td valign="middle" style="width: 230px; text-align: center;">
+                                  <img src="http://www.placehold.it/230x125" pardot-region>
                                 </td>
                                 <!-- // IMAGE 2 -->
 
@@ -85,24 +85,24 @@
                               <!-- IMAGES // -->
                               <tr>
                                 <!-- IMAGE 1 // -->
-                                <td valign="middle" style="width: 130px; text-align: center;">
-                                  <img src="http://www.placehold.it/130x80" pardot-region>
+                                <td valign="middle" style="width: 146px; text-align: center;">
+                                  <img src="http://www.placehold.it/146x80" pardot-region>
                                 </td>
                                 <!-- // IMAGE 1 -->
 
-                                <td style="width: 45px;"></td>
+                                <td style="width: 21px;"></td>
 
                                 <!-- IMAGE 2 // -->
-                                <td valign="middle" style="width: 130px; text-align: center;">
-                                  <img src="http://www.placehold.it/130x80" pardot-region>
+                                <td valign="middle" style="width: 146px; text-align: center;">
+                                  <img src="http://www.placehold.it/146x80" pardot-region>
                                 </td>
                                 <!-- // IMAGE 2 -->
 
-                                <td style="width: 45px;"></td>
+                                <td style="width: 21px;"></td>
 
                                 <!-- IMAGE 3 // -->
-                                <td valign="middle" style="width: 130px; text-align: center;">
-                                  <img src="http://www.placehold.it/130x80" pardot-region>
+                                <td valign="middle" style="width: 146px; text-align: center;">
+                                  <img src="http://www.placehold.it/146x80" pardot-region>
                                 </td>
                                 <!-- // IMAGE 3 -->
 

@@ -12,7 +12,7 @@
                               <tr>
                                 <td>
 
-                                  <h2 class="center" pardot-region>Single Call to Action Module on Grey BG</h2>
+                                  <h2 class="center" pardot-region>Single Call to Action Module on Slate BG</h2>
 
                                 </td>
                                 <td class="expander"></td>

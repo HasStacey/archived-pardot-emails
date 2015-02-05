@@ -11,7 +11,15 @@
                             <table class="ten columns">
                               <tr>
                                 <td>
-                                  <h2 class="subheading" pardot-region>Repeatable Links List</h2>
+                                  <h2 class="subheading" pardot-region>
+                                    <?php 
+                                      if($isUpdate) {
+                                        echo "More New Features";
+                                      } else {
+                                        echo "Repeatable Links List";
+                                      }
+                                    ?>
+                                  </h2>
                                 </td>
                                 <td class="expander"></td>
                               </tr>

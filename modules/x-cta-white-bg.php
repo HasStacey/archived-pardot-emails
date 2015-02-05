@@ -6,7 +6,7 @@
                       <!-- HEADER // -->
                       <table class="row">
                         <tr>
-                          <td class="wrapper offset-by-one last">
+                          <td class="wrapper offset-by-one last <?php if($isPrivacy || $isUpdate){ echo ' no-padding-top'; } ?>">
 
                             <table class="ten columns">
                               <tr>
@@ -45,51 +45,59 @@
                       </table>
                       <!-- // TEXT -->
 
-                      <!-- TWO BUTTONS // -->
-                      <table class="row" pardot-removable>
-                        <tr>
-
-                          <!-- BUTTON 1 // -->
-                          <td class="wrapper offset-by-one no-padding-top">
-
-                            <table class="five columns">
+                      <?php
+                        if(!$isPrivacy && !$isUpdate) {
+                          ob_start();
+                          ?>
+                            <!-- TWO BUTTONS // -->
+                            <table class="row" pardot-removable>
                               <tr>
-                                <td class="center">
 
-                                  <center>
-                                    <a href="" class="button" style="display: block;" pardot-region>This is a button</a>
-                                </center>
+                                <!-- BUTTON 1 // -->
+                                <td class="wrapper offset-by-one no-padding-top">
+
+                                  <table class="five columns">
+                                    <tr>
+                                      <td class="center">
+
+                                        <center>
+                                          <a href="" class="button" style="display: block;" pardot-region>This is a button</a>
+                                      </center>
+
+                                      </td>
+                                      <td class="expander"></td>
+                                    </tr>
+                                  </table>
 
                                 </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
+                                <!-- // BUTTON 1 -->
 
-                          </td>
-                          <!-- // BUTTON 1 -->
+                                <!-- BUTTON 2 // -->
+                                <td class="wrapper last no-padding-top">
 
-                          <!-- BUTTON 2 // -->
-                          <td class="wrapper last no-padding-top">
+                                  <table class="five columns">
+                                    <tr>
+                                      <td class="center">
 
-                            <table class="five columns">
-                              <tr>
-                                <td class="center">
+                                        <center>
+                                          <a href="" class="button" style="display: block;" pardot-region>This is a button</a>
+                                      </center>
 
-                                  <center>
-                                    <a href="" class="button" style="display: block;" pardot-region>This is a button</a>
-                                </center>
+                                      </td>
+                                      <td class="expander"></td>
+                                    </tr>
+                                  </table>
 
                                 </td>
-                                <td class="expander"></td>
+                                <!-- // BUTTON 2 -->
+
                               </tr>
                             </table>
-
-                          </td>
-                          <!-- // BUTTON 2 -->
-
-                        </tr>
-                      </table>
-                      <!-- // TWO BUTTONS -->
+                            <!-- // TWO BUTTONS -->
+                          <?php
+                          ob_end_flush();
+                        }
+                      ?>
 
                       <!-- SINGLE BUTTON // -->
                       <table class="row" pardot-removable>

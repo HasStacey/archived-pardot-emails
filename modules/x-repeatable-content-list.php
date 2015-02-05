@@ -3,27 +3,50 @@
                   <tr>
                     <td>
 
-
-                      <!-- MODULE HEADING // -->
-                      <table class="row">
-                        <tr>
-                          <td class="wrapper offset-by-one last">
-
-                            <table class="ten columns">
+                      <?php
+                        if(!$isRecap) {
+                          ob_start();
+                          ?>
+                            <!-- MODULE HEADING // -->
+                            <table class="row">
                               <tr>
-                                <td>
+                                <td class="wrapper offset-by-one last <?php if($isPrivacy){ echo ' no-padding-bottom'; } ?>">
 
-                                  <h2 class="subheading" pardot-region>Repeatable Content Lists</h2>
-                                  <p pardot-removable>This webinar will review the key concepts, technology and terms of the mobile attribution space, as well as reviewing common attribution methodologies.</p>
+                                  <table class="ten columns">
+                                    <tr>
+                                      <td>
+
+                                        <h2 class="subheading" pardot-region>
+                                          <?php 
+                                            if($isPrivacy) {
+                                              echo "In The News";
+                                            } else {
+                                              echo "Repeatable Content Lists";
+                                            }
+                                          ?>
+                                        </h2>
+                                        <?php
+                                          if(!$isPrivacy) {
+                                            ob_start();
+                                            ?>
+                                              <p pardot-removable>This webinar will review the key concepts, technology and terms of the mobile attribution space, as well as reviewing common attribution methodologies.</p>
+                                            <?php
+                                            ob_end_flush();
+                                          }
+                                        ?>
+
+                                      </td>
+                                    </tr>
+                                  </table>
 
                                 </td>
                               </tr>
                             </table>
-
-                          </td>
-                        </tr>
-                      </table>
-                      <!-- // MODULE HEADING -->
+                            <!-- // MODULE HEADING -->
+                          <?php
+                          ob_end_flush();
+                        }
+                      ?>
 
                       <!-- LIST ITEM AND BUTTONS // -->
                       <table pardot-repeatable>
@@ -56,74 +79,82 @@
                             </table>
                             <!-- // LIST ITEM -->
 
-                            <!-- TWO BUTTONS // -->
-                            <table class="row" pardot-removable>
-                              <tr>
-
-                                <!-- BUTTON 1 // -->
-                                <td class="wrapper offset-by-one no-padding-top">
-
-                                  <table class="five columns">
+                            <?php
+                              if(!$isPrivacy) {
+                                ob_start();
+                                ?>
+                                  <!-- TWO BUTTONS // -->
+                                  <table class="row" pardot-removable>
                                     <tr>
-                                      <td class="center">
 
-                                        <center>
-                                          <a href="" class="button" style="display: block;" pardot-region>This is a button</a>
-                                      </center>
+                                      <!-- BUTTON 1 // -->
+                                      <td class="wrapper offset-by-one no-padding-top">
+
+                                        <table class="five columns">
+                                          <tr>
+                                            <td class="center">
+
+                                              <center>
+                                                <a href="" class="button" style="display: block;" pardot-region>This is a button</a>
+                                            </center>
+
+                                            </td>
+                                            <td class="expander"></td>
+                                          </tr>
+                                        </table>
 
                                       </td>
-                                      <td class="expander"></td>
-                                    </tr>
-                                  </table>
+                                      <!-- // BUTTON 1 -->
 
-                                </td>
-                                <!-- // BUTTON 1 -->
+                                      <!-- BUTTON 2 // -->
+                                      <td class="wrapper last no-padding-top">
 
-                                <!-- BUTTON 2 // -->
-                                <td class="wrapper last no-padding-top">
+                                        <table class="five columns">
+                                          <tr>
+                                            <td class="center">
 
-                                  <table class="five columns">
-                                    <tr>
-                                      <td class="center">
+                                              <center>
+                                                <a href="" class="button" style="display: block;" pardot-region>This is a button</a>
+                                            </center>
 
-                                        <center>
-                                          <a href="" class="button" style="display: block;" pardot-region>This is a button</a>
-                                      </center>
-
-                                      </td>
-                                      <td class="expander"></td>
-                                    </tr>
-                                  </table>
-
-                                </td>
-                                <!-- // BUTTON 2 -->
-
-                              </tr>
-                            </table>
-                            <!-- // TWO BUTTONS -->
-
-                            <!-- SINGLE BUTTON // -->
-                            <table class="row" pardot-removable>
-                              <tr>
-                                <td class="wrapper offset-by-three last no-padding-top">
-
-                                  <table class="six columns">
-                                    <tr>
-                                      <td class="center">
-
-                                        <center>
-                                          <a href="" class="button" style="display: block;" pardot-region>This is a button</a>
-                                      </center>
+                                            </td>
+                                            <td class="expander"></td>
+                                          </tr>
+                                        </table>
 
                                       </td>
-                                      <td class="expander"></td>
+                                      <!-- // BUTTON 2 -->
+
                                     </tr>
                                   </table>
+                                  <!-- // TWO BUTTONS -->
 
-                                </td>
-                              </tr>
-                            </table>
-                            <!-- // SINGLE BUTTON -->
+                                  <!-- SINGLE BUTTON // -->
+                                  <table class="row" pardot-removable>
+                                    <tr>
+                                      <td class="wrapper offset-by-three last no-padding-top">
+
+                                        <table class="six columns">
+                                          <tr>
+                                            <td class="center">
+
+                                              <center>
+                                                <a href="" class="button" style="display: block;" pardot-region>This is a button</a>
+                                            </center>
+
+                                            </td>
+                                            <td class="expander"></td>
+                                          </tr>
+                                        </table>
+
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- // SINGLE BUTTON -->
+                                <?php
+                                ob_end_flush();
+                              }
+                            ?>
 
                           </td>
                         </tr>

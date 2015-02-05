@@ -1,9 +1,38 @@
+<?php 
+
+// UNCOMMENT THE TEMPLATE YOU WOULD LIKE TO EXPORT
+// -------------------------------------------------------------------------------------
+
+  // $template = 'ho-drip';                // SCSS theme should be set to $c-purple
+  $template = 'ho-notification';     // SCSS theme should be set to $c-ltblue
+  // $template = 'ho-academy';          // SCSS theme should be set to $c-green
+  // $template = 'ho-newsletter';       // SCSS theme should be set to $c-blue
+
+  // $template = 'tune-drip';           // SCSS theme should be set to $c-purple
+  // $template = 'tune-notification';   // SCSS theme should be set to $c-ltblue
+  // $template = 'tune-academy';        // SCSS theme should be set to $c-green
+  // $template = 'tune-newsletter';     // SCSS theme should be set to $c-blue
+
+  // $template = 'recap';               // SCSS theme should be set to $c-orange
+  // $template = 'updates';             // SCSS theme should be set to $c-dkblue
+  // $template = 'privacy';             // SCSS theme should be set to $c-orange
+
+
+  // ARE YOU TESTING THE PARDOT REGIONS?
+  // -------------------------------------------------------------------------------------
+  $testing = false;
+  // $testing = true;
+
+  include('variables.php');
+
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width"/>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/<?php echo $color; if($testing) { echo '-testing'; } ?>.css">
   </head>
   <body>
     <table class="body">
@@ -12,8 +41,12 @@
           <center>
 
           <?php 
-            include('modules/header-tune.php'); 
-            //include('modules/header-ho.php');
+            // HEADER INFO //
+            if($isHasOffers) {
+              include('modules/header-ho.php');
+            } else {
+              include('modules/header-tune.php');
+            }
           ?>
 
           <!-- CONTENT WRAPPER // -->
@@ -24,8 +57,69 @@
 
                 <?php 
 
-                  include('modules/hero-image.php'); 
-                  include('modules/featured-content.php');
+                // BRANDED HERO IMAGES
+                // ------------------------------------------------------------------------------ /
+
+                // If this is the newsletter template
+                if($isNewsletter) {
+
+                  // HASOFFERS ------------ /
+
+                  // And if this requires the HasOffers header
+                  if($isHasOffers) {
+                    // And if this is the Academy template
+                    if($isAcademy) {
+                      // Include the HO Academy Image
+                      include('modules/hero-images/branded/hero-ho-academy.php'); 
+                    // If this isn't the academy template
+                    } else {
+                      // Include the We Heart Performance image
+                      include('modules/hero-images/branded/hero-heart-performance.php'); 
+                    }
+
+                  // NOT HASOFFERS -------- /
+
+                  // If this does not require the HasOffers header
+                  } else {
+                    // If this is the marketing recap template
+                    if($isRecap) {
+                      // Include the marketing recap header
+                      include('modules/hero-images/branded/hero-marketing.php'); 
+
+                    // If this is the privacy newsletter
+                    } elseif($isPrivacy) {
+                      // Include the privacy image
+                      include('modules/hero-images/branded/hero-privacy.php'); 
+
+                    // And if it is the academy template
+                    } elseif($isAcademy) {
+                      // Include the TUNE Academy hero image
+                      include('modules/hero-images/branded/hero-tune-academy.php'); 
+
+                    // And if it is the updates
+                    } elseif($isUpdate) {
+                      // Include the TUNE Academy hero image
+                      include('modules/hero-images/generic/hero-notepad-with-pen.php'); 
+
+                    // If this isn't the academy template
+                    } else {
+                      // Include the We Heart Mobile image
+                      include('modules/hero-images/branded/hero-heart-mobile.php');  
+                    }                   
+                  }
+
+                // If this is NOT the newsletter template
+                } else {
+                  // Include the generic hero image
+                  include('modules/hero-images/generic/hero-iphone-on-laptop.php');
+                }
+
+
+                // FEATURED CONTENT MODULE?
+                // ------------------------------------------------------------------------------ /
+                  if($isNewsletter) {
+                    include('modules/featured-content.php');
+                  }
 
                 ?>
 
@@ -41,16 +135,52 @@
 
                 <?php
 
-                  include('modules/x-full-content.php');
-                  include('modules/x-lesser-content.php');
-                  include('modules/x-spotlight-training.php');
-                  include('modules/x-micro-post-single.php');
-                  include('modules/x-micro-post-double.php');
-                  include('modules/x-cta-grey-bg.php');
-                  include('modules/x-cta-white-bg.php');
-                  include('modules/x-repeatable-link-list.php');
-                  include('modules/x-repeatable-content-list.php');
+                  if($isNewsletter) {
+                    // Academy
 
+                    // Recap
+                    if($isRecap) {
+                      include('modules/x-repeatable-content-list.php');
+
+                    // Privacy
+                    } elseif($isPrivacy) {
+                      include('modules/x-repeatable-content-list.php');
+                      include('modules/x-cta-white-bg.php');
+
+                    // Updates
+                    } elseif($isUpdate) {
+                      include('modules/x-full-content.php');
+                      include('modules/x-repeatable-link-list.php');
+                      include('modules/x-cta-white-bg.php');
+
+                    // Base Newsletter
+                    } else {
+                      include('modules/x-full-content.php');
+                      include('modules/x-lesser-content.php');
+                      include('modules/x-spotlight-training.php');
+                      include('modules/x-micro-post-single.php');
+                      include('modules/x-micro-post-double.php');
+                      include('modules/x-cta-grey-bg.php');
+                      include('modules/x-cta-white-bg.php');
+                      include('modules/x-repeatable-link-list.php');
+                      include('modules/x-repeatable-content-list.php');
+                      include('modules/x-two-images.php');
+                    }
+
+                  // Single CTA/Notification
+                  } else {
+                    
+                      include('modules/drip-centered-heading.php');
+
+                      // Drip Campaign
+                      if($isDrip) {
+                        include('modules/x-cta-grey-bg.php');
+                        include('modules/drip-general-content.php');
+                      } else {
+                        include('modules/notification-general-content.php');
+                      }
+                    include('modules/x-two-images.php');
+                  }
                 ?>
 
               </td>
@@ -58,7 +188,11 @@
             <!-- // MOVABLE CONTENT -->
 
             <?php 
-              include('modules/pre-footer-events-spotlight.php'); 
+              if($isNewsletter) {
+                if(!$isPrivacy && !$isUpdate) {
+                  include('modules/pre-footer-events-spotlight.php');
+                } 
+              }
               include('modules/footer.php');
             ?>
 

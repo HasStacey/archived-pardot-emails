@@ -7,26 +7,30 @@ Logos:
 	Tune Knockout:				http://storage.pardot.com/23402/56810/2015_email_tune_logo_knockout.png
 
 Backgrounds:
+
+  Branded:
 	Tune Academy:				http://storage.pardot.com/23402/57248/2015_email_bg_academy_tune.jpg
 	HO Academy:					http://storage.pardot.com/23402/57246/2015_email_bg_academy_ho.jpg
-	Coffee Cup (Academy):		http://storage.pardot.com/23402/56788/2015_email_bg_coffeecup_nologo.png
-	Wineglasses:				http://storage.pardot.com/23402/56800/2015_email_bg_wineglasses.png
 	We <3 Performance:			http://storage.pardot.com/23402/56794/2015_email_bg_we_heart_performance.jpg
 	This Week in Marketing:		http://storage.pardot.com/23402/56792/2015_email_bg_this_week_in_marketing.jpg
 	We <3 Mobile:				http://storage.pardot.com/23402/56790/2015_email_bg_we_heart_mobile.jpg
 	Privacy Header:				http://storage.pardot.com/23402/56786/2015_email_bg_privacy_newsletter.png
-	iPhone on Laptop:			http://storage.pardot.com/23402/56784/2015_email_bg_phone.png
-	Sketched Graphs:			http://storage.pardot.com/23402/58006/2015_email_bg_sketch_graphs.jpg
-	Notepad & Pen:				http://storage.pardot.com/23402/58004/2015_email_bg_notepad.jpg
 	HasTeam:					http://storage.pardot.com/23402/58008/2015_email_bg_hasteam.jpg
-	Reports:					http://storage.pardot.com/23402/58010/2015_email_bg_reports_tablet_mobile.jpg
-	Business Meeting:			http://storage.pardot.com/23402/58012/2015_email_bg_business_meeting_tablet.jpg
-	Stock ppl @ event:			http://storage.pardot.com/23402/58014/2015_email_bg_stock_people_at_event.jpg
-	Coffee on top of tablet:	http://storage.pardot.com/23402/58018/2015_email_bg_coffee_cup_on_top_of_tablet.jpg
-	Laptop with Books:			http://storage.pardot.com/23402/58016/2015_email_bg_laptop_with_books.jpg
-	Phone on Vinyl Record:		http://storage.pardot.com/23402/58020/2015_email_bg_phone_and_record.jpg
 	Postback Lanyard:			http://storage.pardot.com/23402/58022/2015_email_bg_postback_lanyard.jpg
+  
+  Generic:
+	Business Meeting:			http://storage.pardot.com/23402/58012/2015_email_bg_business_meeting_tablet.jpg
+	Coffee Cup (Academy):		http://storage.pardot.com/23402/56788/2015_email_bg_coffeecup_nologo.png
+	Coffee on top of tablet:	http://storage.pardot.com/23402/58018/2015_email_bg_coffee_cup_on_top_of_tablet.jpg
+	iPhone on Laptop:			http://storage.pardot.com/23402/56784/2015_email_bg_phone.png
+	Laptop with Books:			http://storage.pardot.com/23402/58016/2015_email_bg_laptop_with_books.jpg
 	Looking Up A Building:		http://storage.pardot.com/23402/58024/2015_email_bg_looking_up_building.jpg
+	Notepad & Pen:				http://storage.pardot.com/23402/58004/2015_email_bg_notepad.jpg
+	Phone on Vinyl Record:		http://storage.pardot.com/23402/58020/2015_email_bg_phone_and_record.jpg
+	Reports:					http://storage.pardot.com/23402/58010/2015_email_bg_reports_tablet_mobile.jpg
+	Sketched Graphs:			http://storage.pardot.com/23402/58006/2015_email_bg_sketch_graphs.jpg
+	Stock ppl @ event:			http://storage.pardot.com/23402/58014/2015_email_bg_stock_people_at_event.jpg
+	Wineglasses:				http://storage.pardot.com/23402/56800/2015_email_bg_wineglasses.png
 
 
 Social Icons:
