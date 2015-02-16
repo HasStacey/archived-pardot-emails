@@ -34,8 +34,8 @@ $c-black-half: #878b8f;
 
 // EMAIL SETTINGS
 //--------------------------------------------------------------------------
-$testing: true; // are you testing pardot regions? if yes, set to true.
-$theme: $c-purple; // Main Theme Color
+$testing: false; // are you testing pardot regions? if yes, set to true.
+$theme: $c-orange; // Main Theme Color
 
 
 
@@ -859,6 +859,8 @@ $theme: $c-purple; // Main Theme Color
 
       table.spotlight.bg-white {
         background-color: #ffffff;
+        margin-top: 0 !important;
+        //margin-bottom: 0 !important;
       }
 
       table.spotlight.bg-white h2,
@@ -878,3 +880,18 @@ $theme: $c-purple; // Main Theme Color
       table.email-general-content p {
         margin-bottom: 1em;
       }
+
+      /*  Media Queries */
+
+    @media only screen and (max-width: 600px) { 
+      .footer-logo {
+        padding-top: 0 !important;
+        margin-top: 5px !important;
+      }
+
+      .footer-colophon,
+      .footer-social {
+        padding: 0 !important;
+      }
+
+    }

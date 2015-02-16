@@ -1,10 +1,12 @@
 
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width"/>
-    <style>
+
+<style>
 /**********************************************
 * Ink v1.0.5 - Copyright 2013 ZURB Inc        *
 **********************************************/
@@ -769,7 +771,8 @@ table.spotlight h5 {
   text-transform: uppercase; }
 
 table.spotlight.bg-white {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  margin-top: 0 !important; }
 
 table.spotlight.bg-white h2,
 table.spotlight.bg-white h4 {
@@ -784,7 +787,8 @@ table.spotlight a.spotlight-heading {
 
 table.email-general-content p {
   margin-bottom: 1em; }
-    </style>
+</style>
+      
   </head>
   <body>
     <table class="body">
@@ -904,7 +908,7 @@ table.email-general-content p {
                                         <h2 class="subheading" pardot-region>
                                           Product Updates                                        </h2>
                                                                                       <h1 class="text-theme" pardot-region>Title Content Module; not removable, movable or repeatable. 2 line limit plz.</h1>
-                                                                                          <p><img src="http://placehold.it/480x225" style="margin: 25px 0;" pardot-region pardot-removable></p>
+                                                                                          <p pardot-region pardot-removable><img src="http://placehold.it/480x225" style="margin: 25px 0;"></p>
                                                                                           <p style="margin-top: 1em; clear: both;" pardot-repeatable><span pardot-region>Remove the image and the paragraph to use as a title only. If you keep the paragraph and the link, be sure to use ellipses...</span> <span pardot-removable><a href="" pardot-region>Read the Full Article</a><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="display: inline; float: none; padding-left: 3px;"></span></p>
                                                                                   </td>
                                       <td class="expander"></td>
@@ -950,7 +954,7 @@ table.email-general-content p {
 
                                   <h1 class="text-theme" pardot-region>Full content module; movable and repeatable. 2 line limit plz.</h1>
 
-                                  <p><img src="http://placehold.it/480x225" style="margin: 25px 0;" pardot-removable pardot-region></p>
+                                  <p pardot-removable pardot-region><img src="http://placehold.it/480x225" style="margin: 25px 0;"></p>
 
                                   <p style="margin-top: 1em; clear: both;" pardot-repeatable><span pardot-region>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression...</span> <span pardot-removable><a href="" pardot-region>Read the Full Article</a><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="display: inline; float: none; padding-left: 3px;"></span></p>
                                 </td>
@@ -1089,13 +1093,13 @@ table.email-general-content p {
                       <!-- HEADER // -->
                       <table class="row">
                         <tr>
-                          <td class="wrapper offset-by-one last  no-padding-top">
+                          <td class="wrapper offset-by-one last no-padding-top  no-padding-top">
 
                             <table class="ten columns">
                               <tr>
                                 <td>
 
-                                  <h2 class="center" pardot-region>Have a Topic to Share?</h2>
+                                  <h2 class="center" pardot-region>Additional Support Documentation</h2>
 
                                 </td>
                                 <td class="expander"></td>
@@ -1116,7 +1120,10 @@ table.email-general-content p {
                               <tr>
                                 <td>
 
-                                  <p style="text-align: center;" class="center" pardot-region>Looking to find answers to or further discuss privacy and policy issues? Send us an email with your topic suggestions and we can feature them in an upcoming newsletter.</p>
+                                  <p style="text-align: center;" class="center" pardot-region>
+
+                                    Visit our support site to access all of our MAT documentation, see updated status of our services, and link to our free training sessions!
+                                  </p>
 
                                 </td>
                                 <td class="expander"></td>
@@ -1139,8 +1146,7 @@ table.email-general-content p {
                                 <td class="center">
 
                                   <center>
-                                    <a href="" class="button" style="display: block;" pardot-region>This is a button</a>
-                                </center>
+                                  <a href="http://support.mobileapptracking.com/" class="button" style="display: block;" pardot-region>Visit Support Site</a>                                </center>
 
                                 </td>
                                 <td class="expander"></td>

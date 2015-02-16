@@ -4,7 +4,7 @@
 // -------------------------------------------------------------------------------------
 
   // $template = 'ho-drip';                // SCSS theme should be set to $c-purple
-  $template = 'ho-notification';     // SCSS theme should be set to $c-ltblue
+  // $template = 'ho-notification';     // SCSS theme should be set to $c-ltblue
   // $template = 'ho-academy';          // SCSS theme should be set to $c-green
   // $template = 'ho-newsletter';       // SCSS theme should be set to $c-blue
 
@@ -13,7 +13,7 @@
   // $template = 'tune-academy';        // SCSS theme should be set to $c-green
   // $template = 'tune-newsletter';     // SCSS theme should be set to $c-blue
 
-  // $template = 'recap';               // SCSS theme should be set to $c-orange
+  $template = 'recap';               // SCSS theme should be set to $c-orange
   // $template = 'updates';             // SCSS theme should be set to $c-dkblue
   // $template = 'privacy';             // SCSS theme should be set to $c-orange
 
@@ -21,7 +21,9 @@
   // ARE YOU TESTING THE PARDOT REGIONS?
   // -------------------------------------------------------------------------------------
   $testing = false;
-  // $testing = true;
+ // $testing = true;
+
+  // $production = true;
 
   include('variables.php');
 
@@ -32,7 +34,31 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width"/>
-    <link rel="stylesheet" type="text/css" href="css/<?php echo $color; if($testing) { echo '-testing'; } ?>.css">
+
+    <?php if($production) {
+      ob_start();
+      ?>
+        <link rel="stylesheet" type="text/css" href="css/<?php echo $color; if($testing) { echo '-testing'; } ?>.css">
+
+      <?php
+      ob_end_flush();
+    } else {
+      ?>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+      <?php
+    }
+    ?>
+
+    <?php if($development) {
+      ob_start();
+      ?>
+
+
+      <?php
+      ob_end_flush();
+    }
+    ?>
+  
   </head>
   <body>
     <table class="body">

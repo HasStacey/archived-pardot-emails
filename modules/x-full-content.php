@@ -16,7 +16,7 @@
 
                                   <h1 class="text-theme" pardot-region>Full content module; movable and repeatable. 2 line limit plz.</h1>
 
-                                  <p><img src="http://placehold.it/480x225" style="margin: 25px 0;" pardot-removable pardot-region></p>
+                                  <p pardot-removable pardot-region><img src="http://placehold.it/480x225" style="margin: 25px 0;"></p>
 
                                   <p style="margin-top: 1em; clear: both;" pardot-repeatable><span pardot-region>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression...</span> <span pardot-removable><a href="" pardot-region>Read the Full Article</a><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="display: inline; float: none; padding-left: 3px;"></span></p>
                                 </td>

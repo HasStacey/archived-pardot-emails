@@ -6,13 +6,13 @@
                       <!-- HEADER // -->
                       <table class="row">
                         <tr>
-                          <td class="wrapper offset-by-one last <?php if($isPrivacy || $isUpdate){ echo ' no-padding-top'; } ?>">
+                          <td class="wrapper offset-by-one last no-padding-top <?php if($isPrivacy || $isUpdate){ echo ' no-padding-top'; } ?>">
 
                             <table class="ten columns">
                               <tr>
                                 <td>
 
-                                  <h2 class="center" pardot-region>Have a Topic to Share?</h2>
+                                  <h2 class="center" pardot-region><?php if($isUpdate) { echo 'Additional Support Documentation'; } else { echo 'Have a Topic to Share?'; } ?></h2>
 
                                 </td>
                                 <td class="expander"></td>
@@ -33,7 +33,17 @@
                               <tr>
                                 <td>
 
-                                  <p style="text-align: center;" class="center" pardot-region>Looking to find answers to or further discuss privacy and policy issues? Send us an email with your topic suggestions and we can feature them in an upcoming newsletter.</p>
+                                  <p style="text-align: center;" class="center" pardot-region>
+
+                                    <?php
+                                      if($isUpdate) {
+                                        echo 'Visit our support site to access all of our MAT documentation, see updated status of our services, and link to our free training sessions!';
+                                      } else {
+                                        echo 'Looking to find answers to or further discuss privacy and policy issues? Send us an email with your topic suggestions and we can feature them in an upcoming newsletter.';
+                                      }
+                                    ?>
+
+                                  </p>
 
                                 </td>
                                 <td class="expander"></td>
@@ -109,7 +119,13 @@
                                 <td class="center">
 
                                   <center>
-                                    <a href="" class="button" style="display: block;" pardot-region>This is a button</a>
+                                  <?php
+                                    if($isUpdate) {
+                                      echo '<a href="http://support.mobileapptracking.com/" class="button" style="display: block;" pardot-region>Visit Support Site</a>';
+                                    } else {
+                                      echo '<a href="" class="button" style="display: block;" pardot-region>This is a button wtf</a>';
+                                    }
+                                    ?>
                                 </center>
 
                                 </td>

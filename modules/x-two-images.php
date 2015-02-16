@@ -27,9 +27,9 @@
 
             <table class="five columns">
               <tr>
-                <td>
+                <td pardot-region>
 
-                  <img class="center" src="http://placehold.it/230x131" pardot-region>
+                  <img class="center" src="http://placehold.it/230x131">
 
                 </td>
                 <td class="expander"></td>
@@ -41,9 +41,9 @@
 
             <table class="five columns">
               <tr>
-                <td>
+                <td pardot-region>
 
-                  <img class="center" src="http://placehold.it/230x131" pardot-region>
+                  <img class="center" src="http://placehold.it/230x131">
 
                 </td>
                 <td class="expander"></td>

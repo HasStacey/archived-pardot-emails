@@ -762,7 +762,8 @@ table.spotlight h5 {
   text-transform: uppercase; }
 
 table.spotlight.bg-white {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  margin-top: 0 !important; }
 
 table.spotlight.bg-white h2,
 table.spotlight.bg-white h4 {

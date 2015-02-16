@@ -11,7 +11,7 @@
                         <tr>
 
                           <!-- FOOTER LOGO // -->
-                          <td class="wrapper offset-by-one">
+                          <td class="wrapper offset-by-one footer-logo">
 
                             <table class="two columns">
                               <tr>
@@ -28,7 +28,7 @@
                           <!-- // FOOTER LOGO -->
 
                           <!-- FOOTER LINKS // -->
-                          <td class="wrapper colophon">
+                          <td class="wrapper footer-colophon">
 
                             <table class="six columns">
                               <tr>
@@ -47,7 +47,7 @@
                           <!-- // FOOTER LINKS -->
 
                           <!-- FOOTER SOCIAL // -->
-                          <td class="wrapper last">
+                          <td class="wrapper footer-social last">
 
                             <table class="two columns">
                               <tr>
