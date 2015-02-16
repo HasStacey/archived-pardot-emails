@@ -1,1299 +1,492 @@
-
-
+<!-- Inliner Build Version 4380b7741bb759d6cb997545f3add21ad48f010b -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width"/>
-
-<style>
-/**********************************************
-* Ink v1.0.5 - Copyright 2013 ZURB Inc        *
-**********************************************/
-/* Client-specific Styles & Reset */
-#outlook a {
-  padding: 0; }
-
-body {
-  width: 100% !important;
-  min-width: 100%;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  margin: 0;
-  padding: 0; }
-
-.ExternalClass {
-  width: 100%; }
-
-.ExternalClass,
-.ExternalClass p,
-.ExternalClass span,
-.ExternalClass font,
-.ExternalClass td,
-.ExternalClass div {
-  line-height: 100%; }
-
-#backgroundTable {
-  margin: 0;
-  padding: 0;
-  width: 100% !important;
-  line-height: 100% !important; }
-
-img {
-  outline: none;
-  text-decoration: none;
-  -ms-interpolation-mode: bicubic;
-  width: auto;
-  max-width: 100%;
-  float: left;
-  clear: both;
-  display: block; }
-
-center {
-  width: 100%;
-  min-width: 580px; }
-
-a img {
-  border: none; }
-
-p {
-  margin: 0 0 0 10px; }
-
-table {
-  border-spacing: 0;
-  border-collapse: collapse; }
-
-td {
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
-  border-collapse: collapse !important; }
-
-table, tr, td {
-  padding: 0;
-  vertical-align: top;
-  text-align: left; }
-
-hr {
-  color: #d9d9d9;
-  background-color: #d9d9d9;
-  height: 1px;
-  border: none; }
-
-/* Responsive Grid */
-table.body {
-  height: 100%;
-  width: 100%; }
-
-table.container {
-  width: 580px;
-  margin: 0 auto;
-  text-align: inherit; }
-
-table.row {
-  padding: 0px;
-  width: 100%;
-  position: relative; }
-
-table.container table.row {
-  display: block; }
-
-td.wrapper {
-  padding: 20px 20px 20px 0px;
-  position: relative; }
-
-.email-header td.wrapper,
-.email-footer td.wrapper {
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-table.columns,
-table.column {
-  margin: 0 auto; }
-
-table.columns td,
-table.column td {
-  padding: 0px; }
-
-table.columns td.sub-columns,
-table.column td.sub-columns,
-table.columns td.sub-column,
-table.column td.sub-column {
-  padding-right: 10px; }
-
-td.sub-column, td.sub-columns {
-  min-width: 0px; }
-
-table.row td.last,
-table.container td.last {
-  padding-right: 0px; }
-
-table.one {
-  width: 30px; }
-
-table.two {
-  width: 80px; }
-
-table.three {
-  width: 130px; }
-
-table.four {
-  width: 180px; }
-
-table.five {
-  width: 230px; }
-
-table.six {
-  width: 280px; }
-
-table.seven {
-  width: 330px; }
-
-table.eight {
-  width: 380px; }
-
-table.nine {
-  width: 430px; }
-
-table.ten {
-  width: 480px; }
-
-table.eleven {
-  width: 530px; }
-
-table.twelve {
-  width: 580px; }
-
-table.one center {
-  min-width: 30px; }
-
-table.two center {
-  min-width: 80px; }
-
-table.three center {
-  min-width: 130px; }
-
-table.four center {
-  min-width: 180px; }
-
-table.five center {
-  min-width: 230px; }
-
-table.six center {
-  min-width: 280px; }
-
-table.seven center {
-  min-width: 330px; }
-
-table.eight center {
-  min-width: 380px; }
-
-table.nine center {
-  min-width: 430px; }
-
-table.ten center {
-  min-width: 480px; }
-
-table.eleven center {
-  min-width: 530px; }
-
-table.twelve center {
-  min-width: 580px; }
-
-table.one .panel center {
-  min-width: 10px; }
-
-table.two .panel center {
-  min-width: 60px; }
-
-table.three .panel center {
-  min-width: 110px; }
-
-table.four .panel center {
-  min-width: 160px; }
-
-table.five .panel center {
-  min-width: 210px; }
-
-table.six .panel center {
-  min-width: 260px; }
-
-table.seven .panel center {
-  min-width: 310px; }
-
-table.eight .panel center {
-  min-width: 360px; }
-
-table.nine .panel center {
-  min-width: 410px; }
-
-table.ten .panel center {
-  min-width: 460px; }
-
-table.eleven .panel center {
-  min-width: 510px; }
-
-table.twelve .panel center {
-  min-width: 560px; }
-
-.body .columns td.one,
-.body .column td.one {
-  width: 8.333333%; }
-
-.body .columns td.two,
-.body .column td.two {
-  width: 16.666666%; }
-
-.body .columns td.three,
-.body .column td.three {
-  width: 25%; }
-
-.body .columns td.four,
-.body .column td.four {
-  width: 33.333333%; }
-
-.body .columns td.five,
-.body .column td.five {
-  width: 41.666666%; }
-
-.body .columns td.six,
-.body .column td.six {
-  width: 50%; }
-
-.body .columns td.seven,
-.body .column td.seven {
-  width: 58.333333%; }
-
-.body .columns td.eight,
-.body .column td.eight {
-  width: 66.666666%; }
-
-.body .columns td.nine,
-.body .column td.nine {
-  width: 75%; }
-
-.body .columns td.ten,
-.body .column td.ten {
-  width: 83.333333%; }
-
-.body .columns td.eleven,
-.body .column td.eleven {
-  width: 91.666666%; }
-
-.body .columns td.twelve,
-.body .column td.twelve {
-  width: 100%; }
-
-td.offset-by-one {
-  padding-left: 50px; }
-
-td.offset-by-two {
-  padding-left: 100px; }
-
-td.offset-by-three {
-  padding-left: 150px; }
-
-td.offset-by-four {
-  padding-left: 200px; }
-
-td.offset-by-five {
-  padding-left: 250px; }
-
-td.offset-by-six {
-  padding-left: 300px; }
-
-td.offset-by-seven {
-  padding-left: 350px; }
-
-td.offset-by-eight {
-  padding-left: 400px; }
-
-td.offset-by-nine {
-  padding-left: 450px; }
-
-td.offset-by-ten {
-  padding-left: 500px; }
-
-td.offset-by-eleven {
-  padding-left: 550px; }
-
-td.expander {
-  visibility: hidden;
-  width: 0px;
-  padding: 0 !important; }
-
-table.columns .text-pad,
-table.column .text-pad {
-  padding-left: 10px;
-  padding-right: 10px; }
-
-table.columns .left-text-pad,
-table.columns .text-pad-left,
-table.column .left-text-pad,
-table.column .text-pad-left {
-  padding-left: 10px; }
-
-table.columns .right-text-pad,
-table.columns .text-pad-right,
-table.column .right-text-pad,
-table.column .text-pad-right {
-  padding-right: 10px; }
-
-/* Block Grid */
-.block-grid {
-  width: 100%;
-  max-width: 580px; }
-
-.block-grid td {
-  display: inline-block;
-  padding: 10px; }
-
-.two-up td {
-  width: 270px; }
-
-.three-up td {
-  width: 173px; }
-
-.four-up td {
-  width: 125px; }
-
-.five-up td {
-  width: 96px; }
-
-.six-up td {
-  width: 76px; }
-
-.seven-up td {
-  width: 62px; }
-
-.eight-up td {
-  width: 52px; }
-
-/* Alignment & Visibility Classes */
-table.center, td.center {
-  text-align: center; }
-
-h1.center,
-h2.center,
-h3.center,
-h4.center,
-h5.center,
-h6.center {
-  text-align: center; }
-
-span.center {
-  display: block;
-  width: 100%;
-  text-align: center; }
-
-img.center {
-  margin: 0 auto;
-  float: none; }
-
-.show-for-small,
-.hide-for-desktop {
-  display: none; }
-
-/* Typography */
-body, table.body, h1, h2, h3, h4, h5, h6, p, td {
-  color: #2f2c27;
-  font-family: "Helvetica", "Arial", sans-serif;
-  font-weight: normal;
-  padding: 0;
-  margin: 0;
-  text-align: left;
-  line-height: 1.3; }
-
-h1, h2, h3, h4, h5, h6 {
-  word-break: normal; }
-
-h1 {
-  font-size: 40px; }
-
-h2 {
-  font-size: 36px; }
-
-h3 {
-  font-size: 32px; }
-
-h4 {
-  font-size: 28px; }
-
-h5 {
-  font-size: 24px; }
-
-h6 {
-  font-size: 20px; }
-
-body, table.body, p, td {
-  font-size: 14px;
-  line-height: 19px; }
-
-p.lead, p.lede, p.leed {
-  font-size: 18px;
-  line-height: 21px; }
-
-/*    p { 
-      margin-bottom: 10px;
-    }*/
-small {
-  font-size: 10px; }
-
-a {
-  color: #007aff;
-  text-decoration: none; }
-
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body style="width: 100% !important; min-width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; text-align: left; line-height: 24px; font-size: 12px; background: #f5f7f7; margin: 0; padding: 0;" bgcolor="#f5f7f7"><style type="text/css">
 a:hover {
-  color: #007aff; }
-
+color: #007aff;
+}
 a:active {
-  color: #007aff; }
-
+color: #007aff;
+}
 a:visited {
-  color: #007aff; }
-
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-  color: #007aff; }
-
-h1 a:active,
-h2 a:active,
-h3 a:active,
-h4 a:active,
-h5 a:active,
+color: #007aff;
+}
+h1 a:active {
+color: #007aff;
+}
+h2 a:active {
+color: #007aff;
+}
+h3 a:active {
+color: #007aff;
+}
+h4 a:active {
+color: #007aff;
+}
+h5 a:active {
+color: #007aff;
+}
 h6 a:active {
-  color: #007aff; }
-
-h1 a:visited,
-h2 a:visited,
-h3 a:visited,
-h4 a:visited,
-h5 a:visited,
+color: #007aff;
+}
+h1 a:visited {
+color: #007aff;
+}
+h2 a:visited {
+color: #007aff;
+}
+h3 a:visited {
+color: #007aff;
+}
+h4 a:visited {
+color: #007aff;
+}
+h5 a:visited {
+color: #007aff;
+}
 h6 a:visited {
-  color: #007aff; }
-
-/* Panels */
-.panel {
-  background: #f2f2f2;
-  border: 1px solid #d9d9d9;
-  padding: 10px !important; }
-
-.sub-grid table {
-  width: 100%; }
-
-.sub-grid td.sub-columns {
-  padding-bottom: 0; }
-
-/* Outlook First */
-body.outlook p {
-  display: inline !important; }
-
-/*  Media Queries */
+color: #007aff;
+}
 @media only screen and (max-width: 600px) {
   table[class="body"] img {
-    width: auto !important;
-    height: auto !important; }
-
+    width: auto !important; height: auto !important;
+  }
   table[class="body"] center {
-    min-width: 0 !important; }
-
+    min-width: 0 !important;
+  }
   table[class="body"] .container {
-    width: 95% !important; }
-
-  table[class="body"] .container.spotlight,
-  table[class="body"] .container.email-hero-image,
+    width: 95% !important;
+  }
+  table[class="body"] .container.spotlight {
+    width: 100% !important;
+  }
+  table[class="body"] .container.email-hero-image {
+    width: 100% !important;
+  }
   table[class="body"] .container.email-footer {
-    width: 100% !important; }
-
+    width: 100% !important;
+  }
   table[class="body"] .container.spotlight .row {
-    padding: 0 2.5% !important;
-    width: 95% !important; }
-
+    padding: 0 2.5% !important; width: 95% !important;
+  }
   table[class="body"] .row {
-    width: 100% !important;
-    display: block !important; }
-
+    width: 100% !important; display: block !important;
+  }
   table[class="body"] .wrapper {
-    display: block !important;
-    padding-right: 0 !important; }
-
-  table[class="body"] .columns,
+    display: block !important; padding-right: 0 !important;
+  }
+  table[class="body"] .columns {
+    table-layout: fixed !important; float: none !important; width: 100% !important; padding-right: 0px !important; padding-left: 0px !important; display: block !important;
+  }
   table[class="body"] .column {
-    table-layout: fixed !important;
-    float: none !important;
-    width: 100% !important;
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-    display: block !important; }
-
-  table[class="body"] .wrapper.first .columns,
+    table-layout: fixed !important; float: none !important; width: 100% !important; padding-right: 0px !important; padding-left: 0px !important; display: block !important;
+  }
+  table[class="body"] .wrapper.first .columns {
+    display: table !important;
+  }
   table[class="body"] .wrapper.first .column {
-    display: table !important; }
-
-  table[class="body"] table.columns td,
+    display: table !important;
+  }
+  table[class="body"] table.columns td {
+    width: 100% !important;
+  }
   table[class="body"] table.column td {
-    width: 100% !important; }
-
-  table[class="body"] .columns td.one,
+    width: 100% !important;
+  }
+  table[class="body"] .columns td.one {
+    width: 8.333333% !important;
+  }
   table[class="body"] .column td.one {
-    width: 8.333333% !important; }
-
-  table[class="body"] .columns td.two,
+    width: 8.333333% !important;
+  }
+  table[class="body"] .columns td.two {
+    width: 16.666666% !important;
+  }
   table[class="body"] .column td.two {
-    width: 16.666666% !important; }
-
-  table[class="body"] .columns td.three,
+    width: 16.666666% !important;
+  }
+  table[class="body"] .columns td.three {
+    width: 25% !important;
+  }
   table[class="body"] .column td.three {
-    width: 25% !important; }
-
-  table[class="body"] .columns td.four,
+    width: 25% !important;
+  }
+  table[class="body"] .columns td.four {
+    width: 33.333333% !important;
+  }
   table[class="body"] .column td.four {
-    width: 33.333333% !important; }
-
-  table[class="body"] .columns td.five,
+    width: 33.333333% !important;
+  }
+  table[class="body"] .columns td.five {
+    width: 41.666666% !important;
+  }
   table[class="body"] .column td.five {
-    width: 41.666666% !important; }
-
-  table[class="body"] .columns td.six,
+    width: 41.666666% !important;
+  }
+  table[class="body"] .columns td.six {
+    width: 50% !important;
+  }
   table[class="body"] .column td.six {
-    width: 50% !important; }
-
-  table[class="body"] .columns td.seven,
+    width: 50% !important;
+  }
+  table[class="body"] .columns td.seven {
+    width: 58.333333% !important;
+  }
   table[class="body"] .column td.seven {
-    width: 58.333333% !important; }
-
-  table[class="body"] .columns td.eight,
+    width: 58.333333% !important;
+  }
+  table[class="body"] .columns td.eight {
+    width: 66.666666% !important;
+  }
   table[class="body"] .column td.eight {
-    width: 66.666666% !important; }
-
-  table[class="body"] .columns td.nine,
+    width: 66.666666% !important;
+  }
+  table[class="body"] .columns td.nine {
+    width: 75% !important;
+  }
   table[class="body"] .column td.nine {
-    width: 75% !important; }
-
-  table[class="body"] .columns td.ten,
+    width: 75% !important;
+  }
+  table[class="body"] .columns td.ten {
+    width: 83.333333% !important;
+  }
   table[class="body"] .column td.ten {
-    width: 83.333333% !important; }
-
-  table[class="body"] .columns td.eleven,
+    width: 83.333333% !important;
+  }
+  table[class="body"] .columns td.eleven {
+    width: 91.666666% !important;
+  }
   table[class="body"] .column td.eleven {
-    width: 91.666666% !important; }
-
-  table[class="body"] .columns td.twelve,
+    width: 91.666666% !important;
+  }
+  table[class="body"] .columns td.twelve {
+    width: 100% !important;
+  }
   table[class="body"] .column td.twelve {
-    width: 100% !important; }
-
-  table[class="body"] td.offset-by-one,
-  table[class="body"] td.offset-by-two,
-  table[class="body"] td.offset-by-three,
-  table[class="body"] td.offset-by-four,
-  table[class="body"] td.offset-by-five,
-  table[class="body"] td.offset-by-six,
-  table[class="body"] td.offset-by-seven,
-  table[class="body"] td.offset-by-eight,
-  table[class="body"] td.offset-by-nine,
-  table[class="body"] td.offset-by-ten,
+    width: 100% !important;
+  }
+  table[class="body"] td.offset-by-one {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-two {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-three {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-four {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-five {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-six {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-seven {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-eight {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-nine {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-ten {
+    padding-left: 0 !important;
+  }
   table[class="body"] td.offset-by-eleven {
-    padding-left: 0 !important; }
-
+    padding-left: 0 !important;
+  }
   table[class="body"] table.columns td.expander {
-    width: 1px !important; }
-
-  table[class="body"] .right-text-pad,
+    width: 1px !important;
+  }
+  table[class="body"] .right-text-pad {
+    padding-left: 10px !important;
+  }
   table[class="body"] .text-pad-right {
-    padding-left: 10px !important; }
-
-  table[class="body"] .left-text-pad,
+    padding-left: 10px !important;
+  }
+  table[class="body"] .left-text-pad {
+    padding-right: 10px !important;
+  }
   table[class="body"] .text-pad-left {
-    padding-right: 10px !important; }
-
-  table[class="body"] .hide-for-small,
+    padding-right: 10px !important;
+  }
+  table[class="body"] .hide-for-small {
+    display: none !important;
+  }
   table[class="body"] .show-for-desktop {
-    display: none !important; }
-
-  table[class="body"] .show-for-small,
+    display: none !important;
+  }
+  table[class="body"] .show-for-small {
+    display: inherit !important;
+  }
   table[class="body"] .hide-for-desktop {
-    display: inherit !important; }
-
+    display: inherit !important;
+  }
   table[class="body"] .email-header .wrapper.last {
-    padding-top: 0 !important; }
-
-  table[class="body"] .email-header .wrapper img {
-    float: none !important; }
-
-  table[class="body"] .email-header .text-align-right {
-    text-align: center !important; } }
-* {
-  font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; }
-
-body, p, li {
-  font-size: 12px;
-  line-height: 24px; }
-
-b {
-  font-weight: 700; }
-
-/*////// LAYOUT //////*/
-body, .body {
-  background: #f5f7f7; }
-
-/*////// WRAPPER //////*/
-table.email-wrapper {
-  background-color: #ffffff;
-  margin-bottom: 40px; }
-
-/*////// HEADER //////*/
-.email-header .row {
-  padding: 10px 0; }
-
-.email-header .online-link {
-  padding-top: 3px; }
-
-/*////// FOOTER //////*/
-table.email-footer {
-  background-color: #007aff; }
-
-.email-footer .row {
-  padding: 15px 0; }
-
-.email-footer td {
-  color: #ffffff; }
-
-.email-footer span {
-  text-transform: uppercase;
-  margin: 0 5px; }
-
-.email-footer a {
-  color: #ffffff !important;
-  border-bottom: 1px solid white; }
-
-.email-footer a:hover {
-  color: #ffffff !important; }
-
-.email-footer .footer-logo {
-  margin-top: 13px; }
-
-/*////// TYPE STYLES //////*/
-h1 {
-  font-size: 25px; }
-
-h2.subheading {
-  font-size: 14px;
-  color: #53606d;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-bottom: 3px; }
-
-.text-align-right {
-  text-align: right; }
-
-.text-align-center {
-  text-align: center; }
-
-.text-xsmall {
-  font-size: 8px;
-  letter-spacing: 1px; }
-
-.text-small {
-  font-size: 11px; }
-
-.text-uppercase {
-  text-transform: uppercase; }
-
-/*////// THEME COLORS //////*/
-.text-theme a,
-.text-theme a:visited,
-.text-theme a:active,
-.text-theme a:focus,
-.text-theme {
-  color: #071d49 !important;
-  /* Heading text color */ }
-
-.text-white {
-  color: #ffffff; }
-
-a.grey-anchor {
-  color: #333333; }
-
-.border-bottom-theme {
-  border-bottom: 6px solid #071d49; }
-
-/*////// BACKGROUND COLORS //////*/
-.background-tuneblue {
-  background-color: #071d49;
-  color: #ffffff; }
-
-/*////// BUTTONS //////*/
-a.button,
-a.button:hover,
-a.button:active,
-a.button:visited {
-  background-color: #071d49;
-  color: #ffffff !important;
-  padding: 11px 15px 9px;
-  border-radius: 4px;
-  text-transform: uppercase;
-  text-align: center;
-  display: inline-block;
-  border: 0;
-  text-decoration: none !important; }
-
-a.no-underline {
-  text-decoration: none;
-  border-bottom: none; }
-
-a.always-blue,
-a.always-blue:hover,
-a.always-blue:active,
-a.always-blue:visited {
-  color: #007aff !important; }
-
-/*////// ICONS //////*/
-.social-icon {
-  margin-top: 15px !important; }
-
-/*////// NO PADDING //////*/
-td.no-padding-top {
-  padding-top: 0; }
-
-td.no-padding-bottom {
-  padding-bottom: 0; }
-
-td.double-padding-bottom {
-  padding-bottom: 40px; }
-
-a.no-border {
-  border: 0 !important; }
-
-/*////// SPOTLIGHT //////*/
-table.spotlight {
-  background-color: #dce5e4;
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
-table.spotlight:not(.bg-white) a.button {
-  background-color: #071d49;
-  color: #ffffff !important; }
-
-table.spotlight.last {
-  margin-bottom: 0; }
-
-table.spotlight p {
-  color: #2f2c27; }
-
-table.spotlight h2 {
-  color: #071d49;
-  font-size: 20px;
-  margin-top: 10px; }
-
-table.spotlight h4 {
-  color: #071d49;
-  font-size: 18px;
-  margin-bottom: 5px; }
-
-table.spotlight h5 {
-  color: #071d49;
-  font-size: 16px;
-  text-transform: uppercase; }
-
-table.spotlight.bg-white {
-  background-color: #ffffff;
-  margin-top: 0 !important; }
-
-table.spotlight.bg-white h2,
-table.spotlight.bg-white h4 {
-  color: #3d5265; }
-
-table.spotlight.bg-white p {
-  color: #2f2c27; }
-
-table.spotlight td.spotlight-heading,
-table.spotlight a.spotlight-heading {
-  color: #071d49 !important; }
-
-table.email-general-content p {
-  margin-bottom: 1em; }
-
-/*  Media Queries */
-@media only screen and (max-width: 600px) {
-  .footer-logo {
     padding-top: 0 !important;
-    margin-top: 5px !important; }
-
-  .footer-colophon,
+  }
+  table[class="body"] .email-header .wrapper img {
+    float: none !important;
+  }
+  table[class="body"] .email-header .text-align-right {
+    text-align: center !important;
+  }
+  .footer-logo {
+    padding-top: 0 !important; margin-top: 5px !important;
+  }
+  .footer-colophon {
+    padding: 0 !important;
+  }
   .footer-social {
-    padding: 0 !important; } }
-
+    padding: 0 !important;
+  }
+}
 </style>
-      
-  </head>
-  <body>
-    <table class="body">
-      <tr>
-        <td class="center" align="center" valign="top">
-          <center>
+    <table class="body" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; height: 100%; width: 100%; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; background: #f5f7f7; margin: 0; padding: 0;" bgcolor="#f5f7f7"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="center" align="center" valign="top" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;">
+          <center style="width: 100%; min-width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
 
                     <!-- EMAIL HEADER WITH LOGO AND VIEW ONLINE LINK // -->
-          <table class="email-header container">
-            <tr>
-              <td>
+          <table class="email-header container" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
 
                 <!-- ROW 1 // -->
-                <table class="row">
-                  <tr>
-                    
-                    <!-- LOGO // -->
-                    <td class="wrapper">
+                <table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 10px 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><!-- LOGO // --><td class="wrapper" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 20px 10px 0px;" align="left" valign="top">
 
-                      <table class="six columns">
-                        <tr>
-                          <td>
+                      <table class="six columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 280px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="left" valign="top">
 
-                            <center>
-                              <a href="http://www.tune.com"><img src="http://storage.pardot.com/23402/59960/2015_email_tune_logo.png" width="97" height="24" alt="TUNE" style="max-width: 150px !important;"></a>
+                            <center style="width: 100%; min-width: 280px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+                              <a href="http://www.tune.com" style="color: #007aff; text-decoration: none; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><img src="http://storage.pardot.com/23402/59960/2015_email_tune_logo.png" width="97" height="24" alt="TUNE" style="max-width: 150px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; float: left; clear: both; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; border: none;" align="left" /></a>
                             </center>
 
                           </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-
-                    </td>
+                          <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+                        </tr></table></td>
                     <!-- // LOGO -->
 
                     <!-- // VIEW ONLINE LINK -->
-                    <td class="wrapper last">
+                    <td class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px;" align="left" valign="top">
 
-                      <table class="six columns">
-                        <tr>
-                          <td class="online-link text-small text-align-right">
+                      <table class="six columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 280px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="online-link text-small text-align-right" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: right; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 11px; margin: 0; padding: 3px 0px 0px;" align="right" valign="top">
 
-                            <a class="no-border grey-anchor" href="%%view_online%%">View Online</a>
+                            <a class="no-border grey-anchor" href="%%view_online%%" style="color: #333333; text-decoration: none; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; border: 0;">View Online</a>
 
                           </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-
-                    </td>
+                          <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+                        </tr></table></td>
                     <!-- // VIEW ONLINE LINK -->
 
-                  </tr>
-                </table>
-                <!-- // ROW 1 -->
-
-              </td>
-            </tr>
-          </table> 
-          <!-- // EMAIL HEADER WITH LOGO AND VIEW ONLINE LINK -->
-          <!-- CONTENT WRAPPER // -->
-          <table class="container email-wrapper">
-            <!-- NON MOVABLE CONTENT HEADER // -->
-            <tr>
-              <td>
+                  </tr></table><!-- // ROW 1 --></td>
+            </tr></table><!-- // EMAIL HEADER WITH LOGO AND VIEW ONLINE LINK --><!-- CONTENT WRAPPER // --><table class="container email-wrapper" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; background: #ffffff; margin: 0 auto 40px; padding: 0;" bgcolor="#ffffff"><!-- NON MOVABLE CONTENT HEADER // --><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
 
                                       <!-- HERO IMAGE // -->
-                      <table class="container email-hero-image">
-                        <tr>
-                          <td>
+                      <table class="container email-hero-image" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
 
                             <!-- ROW 1 // -->
-                            <table class="row">
-                              <tr>
-                                
-                                <!-- HERO IMAGE // -->
-                                <td class="wrapper last no-padding-top">
+                            <table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0px;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><!-- HERO IMAGE // --><td class="wrapper last no-padding-top" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 0px 20px;" align="left" valign="top">
 
-                                  <table class="twelve columns">
-                                    <tr>
-                                      <td>
+                                  <table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="left" valign="top">
 
-                                        <img class="border-bottom-theme" src="http://storage.pardot.com/23402/58004/2015_email_bg_notepad.jpg" width="580" height="136" pardot-region>
-
-                                      </td>
-                                      <td class="expander"></td>
-                                    </tr>
-                                  </table>
-
-                                </td>
+                                        <img class="border-bottom-theme" src="http://storage.pardot.com/23402/58004/2015_email_bg_notepad.jpg" width="580" height="136" pardot-region="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; border-bottom-width: 6px; border-bottom-color: #071d49; border-bottom-style: solid;" align="left" /></td>
+                                      <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+                                    </tr></table></td>
                                 <!-- // HERO IMAGE -->
 
-                              </tr>
-                            </table>
-                            <!-- // ROW 1 -->
-
-                          </td>
-                        </tr>
-                      </table>
-                      <!-- // HERO IMAGE -->
-                      <!-- NON MOVABLE FEATURED CONTENT // -->
-                      <table class="container">
-                        <tr>
-                          <td>
+                              </tr></table><!-- // ROW 1 --></td>
+                        </tr></table><!-- // HERO IMAGE --><!-- NON MOVABLE FEATURED CONTENT // --><table class="container" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
 
                             <!-- ROW 1 // -->
-                            <table class="row">
-                              <tr>
-                                
-                                <!-- HEADING // -->
-                                <td class="wrapper offset-by-one last no-padding-bottom">
+                            <table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0px;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><!-- HEADING // --><td class="wrapper offset-by-one last no-padding-bottom" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 20px 0px 0 50px;" align="left" valign="top">
 
-                                  <table class="ten columns">
-                                    <tr>
-                                      <td>
+                                  <table class="ten columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 480px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="left" valign="top">
 
-                                        <h2 class="subheading" pardot-region>
+                                        <h2 class="subheading" pardot-region="" style="color: #53606d; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: bold; text-align: left; line-height: 1.3; word-break: normal; font-size: 14px; text-transform: uppercase; margin: 0 0 3px; padding: 0;" align="left">
                                           Product Updates                                        </h2>
-                                                                                      <h1 class="text-theme" pardot-region>Title Content Module; not removable, movable or repeatable. 2 line limit plz.</h1>
-                                                                                          <p pardot-region pardot-removable><img src="http://placehold.it/480x225" style="margin: 25px 0;"></p>
-                                                                                          <p style="margin-top: 1em; clear: both;" pardot-repeatable><span pardot-region>Remove the image and the paragraph to use as a title only. If you keep the paragraph and the link, be sure to use ellipses...</span> <span pardot-removable><a href="" pardot-region>Read the Full Article</a><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="display: inline; float: none; padding-left: 3px;"></span></p>
+                                                                                      <h1 class="text-theme" pardot-region="" style="color: #071d49 !important; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; text-align: left; line-height: 1.3; word-break: normal; font-size: 25px; margin: 0; padding: 0;" align="left">Title Content Module; not removable, movable or repeatable. 2 line limit plz.</h1>
+                                                                                          <p pardot-region="" pardot-removable="" style="color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; text-align: left; line-height: 24px; font-size: 12px; margin: 0; padding: 0;" align="left"><img src="http://placehold.it/480x225" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 25px 0;" align="left" /></p>
+                                                                                          <p style="clear: both; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; text-align: left; line-height: 24px; font-size: 12px; margin: 1em 0 0; padding: 0;" pardot-repeatable="" align="left"><span pardot-region="" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">Remove the image and the paragraph to use as a title only. If you keep the paragraph and the link, be sure to use ellipses...</span> <span pardot-removable="" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><a href="" pardot-region="" style="color: #007aff; text-decoration: none; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">Read the Full Article</a><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="display: inline; float: none; padding-left: 3px; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; clear: both; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;" align="none" /></span></p>
                                                                                   </td>
-                                      <td class="expander"></td>
-                                    </tr>
-                                  </table>
-
-                                </td>
+                                      <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+                                    </tr></table></td>
                                 <!-- // HEADING -->
 
-                              </tr>
-                            </table>
-                            <!-- // ROW 1 -->
-
-                          </td>
-                        </tr>
-                      </table>
-                      <!-- // NON MOVABLE FEATURED CONTENT -->
-              </td>
-            </tr>
-            <tr>
-            <!-- // NON MOVABLE CONTENT HEADER -->
-
-
-            <!-- MOVABLE CONTENT // -->
-            <tr>
-              <td>
+                              </tr></table><!-- // ROW 1 --></td>
+                        </tr></table><!-- // NON MOVABLE FEATURED CONTENT --></td>
+            </tr><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><!-- // NON MOVABLE CONTENT HEADER --><!-- MOVABLE CONTENT // --></tr><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
 
                                 <!-- FULL CONTENT MODULE // -->
-                <table class="container" pardot-repeatable>
-                  <tr>
-                    <td>
+                <table class="container" pardot-repeatable="" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
 
                       <!-- CONTENT // -->
-                      <table class="row">
-                        <tr>
-                          
-                          <!-- HEADING // -->
-                          <td class="wrapper offset-by-one last">
+                      <table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0px;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><!-- HEADING // --><td class="wrapper offset-by-one last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 20px 0px 20px 50px;" align="left" valign="top">
 
-                            <table class="ten columns">
-                              <tr>
-                                <td>
+                            <table class="ten columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 480px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="left" valign="top">
 
-                                  <h1 class="text-theme" pardot-region>Full content module; movable and repeatable. 2 line limit plz.</h1>
+                                  <h1 class="text-theme" pardot-region="" style="color: #071d49 !important; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; text-align: left; line-height: 1.3; word-break: normal; font-size: 25px; margin: 0; padding: 0;" align="left">Full content module; movable and repeatable. 2 line limit plz.</h1>
 
-                                  <p pardot-removable pardot-region><img src="http://placehold.it/480x225" style="margin: 25px 0;"></p>
+                                  <p pardot-removable="" pardot-region="" style="color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; text-align: left; line-height: 24px; font-size: 12px; margin: 0; padding: 0;" align="left"><img src="http://placehold.it/480x225" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 25px 0;" align="left" /></p>
 
-                                  <p style="margin-top: 1em; clear: both;" pardot-repeatable><span pardot-region>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression...</span> <span pardot-removable><a href="" pardot-region>Read the Full Article</a><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="display: inline; float: none; padding-left: 3px;"></span></p>
+                                  <p style="clear: both; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; text-align: left; line-height: 24px; font-size: 12px; margin: 1em 0 0; padding: 0;" pardot-repeatable="" align="left"><span pardot-region="" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression...</span> <span pardot-removable="" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><a href="" pardot-region="" style="color: #007aff; text-decoration: none; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">Read the Full Article</a><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="display: inline; float: none; padding-left: 3px; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; clear: both; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;" align="none" /></span></p>
                                 </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
-
-                          </td>
+                                <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+                              </tr></table></td>
                           <!-- // HEADING -->
 
-                        </tr>
-                      </table>
-                      <!-- // CONTENT -->
+                        </tr></table><!-- // CONTENT --><!-- TWO BUTTONS // --><table class="row" pardot-repeatable="" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0px;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><!-- BUTTON 1 // --><td class="wrapper offset-by-one no-padding-top" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 20px 20px 50px;" align="left" valign="top">
 
-                      <!-- TWO BUTTONS // -->
-                      <table class="row" pardot-repeatable>
-                        <tr>
+                            <table class="five columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 230px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="center" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="center" valign="top">
 
-                          <!-- BUTTON 1 // -->
-                          <td class="wrapper offset-by-one no-padding-top">
-
-                            <table class="five columns">
-                              <tr>
-                                <td class="center">
-
-                                  <center>
-                                    <a href="" class="button" style="display: block;" pardot-region>11/17 7:00am - Register</a>
+                                  <center style="width: 100%; min-width: 230px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+                                    <a href="" class="button" style="display: block; color: #ffffff !important; text-decoration: none !important; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; border-radius: 4px; text-transform: uppercase; text-align: center; background: #071d49; padding: 11px 15px 9px; border: 0;" pardot-region="">11/17 7:00am - Register</a>
                                 </center>
 
                                 </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
-
-                          </td>
+                                <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+                              </tr></table></td>
                           <!-- // BUTTON 1 -->
 
                           <!-- BUTTON 2 // -->
-                          <td class="wrapper no-padding-top">
+                          <td class="wrapper no-padding-top" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 20px 20px 0px;" align="left" valign="top">
 
-                            <table class="five columns last">
-                              <tr>
-                                <td class="center">
+                            <table class="five columns last" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 230px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="center" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="center" valign="top">
 
-                                  <center>
-                                    <a href="" class="button" style="display: block;" pardot-region>11/17 7:00am - Register</a>
+                                  <center style="width: 100%; min-width: 230px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+                                    <a href="" class="button" style="display: block; color: #ffffff !important; text-decoration: none !important; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; border-radius: 4px; text-transform: uppercase; text-align: center; background: #071d49; padding: 11px 15px 9px; border: 0;" pardot-region="">11/17 7:00am - Register</a>
                                 </center>
 
                                 </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
-
-                          </td>
+                                <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+                              </tr></table></td>
                           <!-- // BUTTON 2 -->
 
-                        </tr>
-                      </table>
-                      <!-- // TWO BUTTONS -->
+                        </tr></table><!-- // TWO BUTTONS --><!-- SINGLE BUTTON // --><table class="row" pardot-repeatable="" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0px;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><!-- BUTTON 1 // --><td class="wrapper offset-by-three last no-padding-top" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 0px 20px 150px;" align="left" valign="top">
 
-                      <!-- SINGLE BUTTON // -->
-                      <table class="row" pardot-repeatable>
-                        <tr>
+                            <table class="six columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 280px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="center" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="center" valign="top">
 
-                          <!-- BUTTON 1 // -->
-                          <td class="wrapper offset-by-three last no-padding-top">
-
-                            <table class="six columns">
-                              <tr>
-                                <td class="center">
-
-                                  <center>
-                                    <a href="" class="button" style="display: block;" pardot-region>11/17 7:00am - Register</a>
+                                  <center style="width: 100%; min-width: 280px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+                                    <a href="" class="button" style="display: block; color: #ffffff !important; text-decoration: none !important; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; border-radius: 4px; text-transform: uppercase; text-align: center; background: #071d49; padding: 11px 15px 9px; border: 0;" pardot-region="">11/17 7:00am - Register</a>
                                 </center>
 
                                 </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
-
-                          </td>
+                                <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+                              </tr></table></td>
                           <!-- // BUTTON 1 -->
 
-                        </tr>
-                      </table>
-                      <!-- // SINGLE BUTTON -->
-
-                    </td>
-                  </tr>
-                </table>
-                <!-- // FULL CONTENT MODULE -->                <!-- REPEATABLE LINKS // -->
-                <table class="container" pardot-repeatable>
-                  <tr>
-                    <td>
+                        </tr></table><!-- // SINGLE BUTTON --></td>
+                  </tr></table><!-- // FULL CONTENT MODULE --><!-- REPEATABLE LINKS // --><table class="container" pardot-repeatable="" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
 
                       <!-- HEADING // -->
-                      <table class="row">
-                        <tr>
-                          <td class="wrapper offset-by-one last">
+                      <table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0px;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="wrapper offset-by-one last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 20px 0px 20px 50px;" align="left" valign="top">
 
-                            <table class="ten columns">
-                              <tr>
-                                <td>
-                                  <h2 class="subheading" pardot-region>
+                            <table class="ten columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 480px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="left" valign="top">
+                                  <h2 class="subheading" pardot-region="" style="color: #53606d; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: bold; text-align: left; line-height: 1.3; word-break: normal; font-size: 14px; text-transform: uppercase; margin: 0 0 3px; padding: 0;" align="left">
                                     More New Features                                  </h2>
                                 </td>
-                                <td class="expander"></td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a href="#" pardot-region>Duplicate links or the whole list!</a></p>
+                                <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+                              </tr><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="left" valign="top">
+                                  <p style="font-size: 14px; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; text-align: left; line-height: 24px; margin: 0; padding: 0;" pardot-repeatable="" align="left"><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;" align="left" /><a href="#" pardot-region="" style="color: #007aff; text-decoration: none; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">Duplicate links or the whole list!</a></p>
 
-                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></p>
+                                  <p style="font-size: 14px; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; text-align: left; line-height: 24px; margin: 0; padding: 0;" pardot-repeatable="" align="left"><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;" align="left" /><a href="#" pardot-region="" style="color: #007aff; text-decoration: none; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">Qu'est-ce que le Lorem Ipsum?</a></p>
 
-                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></p>
+                                  <p style="font-size: 14px; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; text-align: left; line-height: 24px; margin: 0; padding: 0;" pardot-repeatable="" align="left"><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;" align="left" /><a href="#" pardot-region="" style="color: #007aff; text-decoration: none; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">Qu'est-ce que le Lorem Ipsum?</a></p>
 
-                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></p>
+                                  <p style="font-size: 14px; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; text-align: left; line-height: 24px; margin: 0; padding: 0;" pardot-repeatable="" align="left"><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;" align="left" /><a href="#" pardot-region="" style="color: #007aff; text-decoration: none; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">Qu'est-ce que le Lorem Ipsum?</a></p>
                                 </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
-
-                          </td>
-                        </tr>
-                      </table>
-                      <!-- // HEADING -->
-
-                    </td>
-                  </tr>
-                </table>
-                <!-- // REPEATABLE LINKS -->                <!-- CALL TO ACTION ON WHITE BACKGROUND WITH TEXT // -->
-                <table class="spotlight bg-white container" pardot-repeatable>
-                  <tr>
-                    <td>
+                                <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+                              </tr></table></td>
+                        </tr></table><!-- // HEADING --></td>
+                  </tr></table><!-- // REPEATABLE LINKS --><!-- CALL TO ACTION ON WHITE BACKGROUND WITH TEXT // --><table class="spotlight bg-white container" pardot-repeatable="" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; background: #ffffff; margin: 0 auto 20px; padding: 0;" bgcolor="#ffffff"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
 
                       <!-- HEADER // -->
-                      <table class="row">
-                        <tr>
-                          <td class="wrapper offset-by-one last no-padding-top  no-padding-top">
+                      <table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0px;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="wrapper offset-by-one last no-padding-top  no-padding-top" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 0px 20px 50px;" align="left" valign="top">
 
-                            <table class="ten columns">
-                              <tr>
-                                <td>
+                            <table class="ten columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 480px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="left" valign="top">
 
-                                  <h2 class="center" pardot-region>Additional Support Documentation</h2>
+                                  <h2 class="center" pardot-region="" style="text-align: center; color: #3d5265; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 1.3; word-break: normal; font-size: 20px; margin: 10px 0 0; padding: 0;" align="center">Additional Support Documentation</h2>
 
                                 </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
+                                <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+                              </tr></table></td>
+                        </tr></table><!-- // HEADER --><!-- TEXT // --><table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0px;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="wrapper offset-by-one no-padding-top" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 20px 20px 50px;" align="left" valign="top">
 
-                          </td>
-                        </tr>
-                      </table>
-                      <!-- // HEADER -->
+                            <table class="ten columns last" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 480px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="left" valign="top">
 
-                      <!-- TEXT // -->
-                      <table class="row">
-                        <tr>
-                          <td class="wrapper offset-by-one no-padding-top">
-
-                            <table class="ten columns last">
-                              <tr>
-                                <td>
-
-                                  <p style="text-align: center;" class="center" pardot-region>
+                                  <p style="text-align: center; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 24px; font-size: 12px; margin: 0; padding: 0;" class="center" pardot-region="" align="center">
 
                                     Visit our support site to access all of our MAT documentation, see updated status of our services, and link to our free training sessions!
                                   </p>
 
                                 </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
+                                <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+                              </tr></table></td>
+                        </tr></table><!-- // TEXT --><!-- SINGLE BUTTON // --><table class="row" pardot-removable="" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0px;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="wrapper offset-by-three last no-padding-top" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 0px 20px 150px;" align="left" valign="top">
 
-                          </td>
-                        </tr>
-                      </table>
-                      <!-- // TEXT -->
+                            <table class="six columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 280px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="center" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="center" valign="top">
 
-                      
-                      <!-- SINGLE BUTTON // -->
-                      <table class="row" pardot-removable>
-                        <tr>
-                          <td class="wrapper offset-by-three last no-padding-top">
-
-                            <table class="six columns">
-                              <tr>
-                                <td class="center">
-
-                                  <center>
-                                  <a href="http://support.mobileapptracking.com/" class="button" style="display: block;" pardot-region>Visit Support Site</a>                                </center>
+                                  <center style="width: 100%; min-width: 280px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+                                  <a href="http://support.mobileapptracking.com/" class="button" style="display: block; color: #ffffff !important; text-decoration: none !important; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; border-radius: 4px; text-transform: uppercase; text-align: center; background: #071d49; padding: 11px 15px 9px; border: 0;" pardot-region="">Visit Support Site</a>                                </center>
 
                                 </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
-
-                          </td>
-                        </tr>
-                      </table>
-                      <!-- // SINGLE BUTTON -->
-
-                    </td>
-                  </tr>
-                </table>
-                <!-- // CALL TO ACTION ON WHITE BACKGROUND WITH TEXT -->
-              </td>
-            </tr>
-            <!-- // MOVABLE CONTENT -->
-
-                        <!-- NON-MOVABLE CONTENT: FOOTER // -->
-            <tr>
-              <td>
+                                <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+                              </tr></table></td>
+                        </tr></table><!-- // SINGLE BUTTON --></td>
+                  </tr></table><!-- // CALL TO ACTION ON WHITE BACKGROUND WITH TEXT --></td>
+            </tr><!-- // MOVABLE CONTENT --><!-- NON-MOVABLE CONTENT: FOOTER // --><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #2f2c27; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
 
                 <!-- EMAIL FOOTER // -->
-                <table class="container email-footer">
-                  <tr>
-                    <td>
+                <table class="container email-footer" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; background: #007aff; margin: 0 auto; padding: 0;" bgcolor="#007aff"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #ffffff; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
 
-                      <table class="row">
-                        <tr>
+                      <table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 15px 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><!-- FOOTER LOGO // --><td class="wrapper offset-by-one footer-logo" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #ffffff; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 13px 0 0; padding: 10px 20px 10px 50px;" align="left" valign="top">
 
-                          <!-- FOOTER LOGO // -->
-                          <td class="wrapper offset-by-one footer-logo">
+                            <table class="two columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 80px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #ffffff; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="left" valign="top">
 
-                            <table class="two columns">
-                              <tr>
-                                <td>
-
-                                  <a href="http://www.tune.com"><img class="center footer-logo" src="http://storage.pardot.com/23402/59956/2015_email_tune_logo_knockout.png" width="80" height="20"style="max-width: 100px !important;"></a>
+                                  <a href="http://www.tune.com" style="color: #ffffff !important; text-decoration: none; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; border-bottom-color: white; border-bottom-width: 1px; border-bottom-style: solid;"><img class="center footer-logo" src="http://storage.pardot.com/23402/59956/2015_email_tune_logo_knockout.png" width="80" height="20" style="max-width: 100px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; float: none; clear: both; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 13px auto 0; border: none;" align="none" /></a>
 
                                 </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
-
-                          </td>
+                                <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #ffffff; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+                              </tr></table></td>
                           <!-- // FOOTER LOGO -->
 
                           <!-- FOOTER LINKS // -->
-                          <td class="wrapper footer-colophon">
+                          <td class="wrapper footer-colophon" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #ffffff; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 20px 10px 0px;" align="left" valign="top">
 
-                            <table class="six columns">
-                              <tr>
-                                <td class="text-xsmall center">
+                            <table class="six columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 280px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="text-xsmall center" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #ffffff; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 8px; letter-spacing: 1px; margin: 0; padding: 0px;" align="center" valign="top">
 
-                                  <span>2220 Western Ave, Seattle</span><br>
-                                  <span><a href="http://www.tune.com/privacy-policy/">Privacy Policy</a></span>
-                                  <span><a href="%%email_preference_center%%">Email Preferences</a></span>
+                                  <span style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; text-transform: uppercase; margin: 0 5px;">2220 Western Ave, Seattle</span><br style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;" /><span style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; text-transform: uppercase; margin: 0 5px;"><a href="http://www.tune.com/privacy-policy/" style="color: #ffffff !important; text-decoration: none; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; border-bottom-color: white; border-bottom-width: 1px; border-bottom-style: solid;">Privacy Policy</a></span>
+                                  <span style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; text-transform: uppercase; margin: 0 5px;"><a href="%%email_preference_center%%" style="color: #ffffff !important; text-decoration: none; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; border-bottom-color: white; border-bottom-width: 1px; border-bottom-style: solid;">Email Preferences</a></span>
 
                                 </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
-
-                          </td>
+                                <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #ffffff; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+                              </tr></table></td>
                           <!-- // FOOTER LINKS -->
 
                           <!-- FOOTER SOCIAL // -->
-                          <td class="wrapper footer-social last">
+                          <td class="wrapper footer-social last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #ffffff; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px;" align="left" valign="top">
 
-                            <table class="two columns">
-                              <tr>
-                                <td class="three subcolumns text-align-right">
-                                  <a href="http://www.twitter.com/tune"><img class="center social-icon" width="20" height="12" src="http://storage.pardot.com/23402/56808/2015_email_icon_twitter.png"></a>
+                            <table class="two columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 80px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="three subcolumns text-align-right" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: right; width: 25%; color: #ffffff; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="right" valign="top">
+                                  <a href="http://www.twitter.com/tune" style="color: #ffffff !important; text-decoration: none; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; border-bottom-color: white; border-bottom-width: 1px; border-bottom-style: solid;"><img class="center social-icon" width="20" height="12" src="http://storage.pardot.com/23402/56808/2015_email_icon_twitter.png" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 15px auto 0; border: none;" align="none" /></a>
                                 </td>
-                                <td class="three subcolumns text-align-right">
-                                  <a href="http://www.facebook.com/tune"><img class="center social-icon" width="20" height="12" src="http://in.tune.com/l/23402/2015-01-08/ptn6r/23402/56606/facebook.png"></a>
+                                <td class="three subcolumns text-align-right" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: right; width: 25%; color: #ffffff; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="right" valign="top">
+                                  <a href="http://www.facebook.com/tune" style="color: #ffffff !important; text-decoration: none; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; border-bottom-color: white; border-bottom-width: 1px; border-bottom-style: solid;"><img class="center social-icon" width="20" height="12" src="http://in.tune.com/l/23402/2015-01-08/ptn6r/23402/56606/facebook.png" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 15px auto 0; border: none;" align="none" /></a>
                                 </td>
-                                <td class="three subcolumns text-align-right">
-                                  <a href="https://plus.google.com/110653481875028879836/videos"><img class="center social-icon" width="20" height="12" src="http://storage.pardot.com/23402/56814/2015_emial_icon_googleplus.png"></a>
+                                <td class="three subcolumns text-align-right" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: right; width: 25%; color: #ffffff; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="right" valign="top">
+                                  <a href="https://plus.google.com/110653481875028879836/videos" style="color: #ffffff !important; text-decoration: none; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; border-bottom-color: white; border-bottom-width: 1px; border-bottom-style: solid;"><img class="center social-icon" width="20" height="12" src="http://storage.pardot.com/23402/56814/2015_emial_icon_googleplus.png" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 15px auto 0; border: none;" align="none" /></a>
                                 </td>
-                                <td class="three subcolumns text-align-right">
-                                  <a href="https://www.linkedin.com/company/635323"><img class="center social-icon" width="20" height="12" src="http://storage.pardot.com/23402/56804/2015_email_icon_linkedin.png"></a>
+                                <td class="three subcolumns text-align-right" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: right; width: 25%; color: #ffffff; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="right" valign="top">
+                                  <a href="https://www.linkedin.com/company/635323" style="color: #ffffff !important; text-decoration: none; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; border-bottom-color: white; border-bottom-width: 1px; border-bottom-style: solid;"><img class="center social-icon" width="20" height="12" src="http://storage.pardot.com/23402/56804/2015_email_icon_linkedin.png" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 15px auto 0; border: none;" align="none" /></a>
                                 </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
-
-                          </td>
+                                <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #ffffff; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+                              </tr></table></td>
                           <!-- // FOOTER SOCIAL -->
 
-                        </tr>
-                      </table>
-
-                    </td>
-                  </tr>
-                </table>
-                <!-- // EMAIL FOOTER -->
-              </td>
-            </tr>
-            <!-- // NON-MOVABLE CONTENT: FOOTER -->
-          </table>
-          <!-- // CONTENT WRAPPER -->
-          </center>
+                        </tr></table></td>
+                  </tr></table><!-- // EMAIL FOOTER --></td>
+            </tr><!-- // NON-MOVABLE CONTENT: FOOTER --></table><!-- // CONTENT WRAPPER --></center>
         </td>
-      </tr>
-    </table>
-  </body>
+      </tr></table></body>
 </html>
