@@ -13,17 +13,17 @@
   // $template = 'tune-academy';        // SCSS theme should be set to $c-green
   // $template = 'tune-newsletter';     // SCSS theme should be set to $c-blue
 
-  $template = 'recap';               // SCSS theme should be set to $c-orange
+  // $template = 'recap';               // SCSS theme should be set to $c-orange
   // $template = 'updates';             // SCSS theme should be set to $c-dkblue
-  // $template = 'privacy';             // SCSS theme should be set to $c-orange
+  $template = 'privacy';             // SCSS theme should be set to $c-orange
 
 
   // ARE YOU TESTING THE PARDOT REGIONS?
   // -------------------------------------------------------------------------------------
   $testing = false;
- // $testing = true;
+  // $testing = true;
 
-  // $production = true;
+  $production = true;
 
   include('variables.php');
 
@@ -38,7 +38,7 @@
     <?php if($production) {
       ob_start();
       ?>
-        <link rel="stylesheet" type="text/css" href="css/<?php echo $color; if($testing) { echo '-testing'; } ?>.css">
+        <link rel="stylesheet" type="text/css" href="css/<?php echo $color; ?>.css">
 
       <?php
       ob_end_flush();
@@ -46,6 +46,24 @@
       ?>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
       <?php
+    }
+
+    if($testing) {
+      ob_start();
+      ?>
+        <style>
+          /* Testing */
+          *[pardot-region] {
+            outline: 1px solid orange; }
+
+          *[pardot-removable] {
+            outline: 2px solid red; }
+
+          *[pardot-repeatable] {
+            outline: 2px solid lime; }
+        </style>
+      <?php
+      ob_end_flush();
     }
     ?>
 

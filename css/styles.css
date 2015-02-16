@@ -331,6 +331,36 @@ table.column .right-text-pad,
 table.column .text-pad-right {
   padding-right: 10px; }
 
+/* Block Grid */
+.block-grid {
+  width: 100%;
+  max-width: 580px; }
+
+.block-grid td {
+  display: inline-block;
+  padding: 10px; }
+
+.two-up td {
+  width: 270px; }
+
+.three-up td {
+  width: 173px; }
+
+.four-up td {
+  width: 125px; }
+
+.five-up td {
+  width: 96px; }
+
+.six-up td {
+  width: 76px; }
+
+.seven-up td {
+  width: 62px; }
+
+.eight-up td {
+  width: 52px; }
+
 /* Alignment & Visibility Classes */
 table.center, td.center {
   text-align: center; }
@@ -472,7 +502,7 @@ body.outlook p {
     width: 100% !important; }
 
   table[class="body"] .container.spotlight .row {
-    padding: 0 2.5%;
+    padding: 0 2.5% !important;
     width: 95% !important; }
 
   table[class="body"] .row {
@@ -581,13 +611,13 @@ body.outlook p {
     display: inherit !important; }
 
   table[class="body"] .email-header .wrapper.last {
-    padding-top: 0; }
+    padding-top: 0 !important; }
 
   table[class="body"] .email-header .wrapper img {
-    float: none; }
+    float: none !important; }
 
   table[class="body"] .email-header .text-align-right {
-    text-align: center; } }
+    text-align: center !important; } }
 * {
   font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; }
 
@@ -671,7 +701,7 @@ h2.subheading {
 .text-theme a:active,
 .text-theme a:focus,
 .text-theme {
-  color: #a9abac !important;
+  color: #4c4184 !important;
   /* Heading text color */ }
 
 .text-white {
@@ -681,11 +711,11 @@ a.grey-anchor {
   color: #333333; }
 
 .border-bottom-theme {
-  border-bottom: 6px solid #ffa300; }
+  border-bottom: 6px solid #4c4184; }
 
 /*////// BACKGROUND COLORS //////*/
 .background-tuneblue {
-  background-color: #ffa300;
+  background-color: #4c4184;
   color: #ffffff; }
 
 /*////// BUTTONS //////*/
@@ -693,7 +723,7 @@ a.button,
 a.button:hover,
 a.button:active,
 a.button:visited {
-  background-color: #ffa300;
+  background-color: #4c4184;
   color: #ffffff !important;
   padding: 11px 15px 9px;
   border-radius: 4px;
@@ -732,32 +762,32 @@ a.no-border {
 
 /*////// SPOTLIGHT //////*/
 table.spotlight {
-  background-color: #3d5265;
+  background-color: #dce5e4;
   margin-top: 20px;
   margin-bottom: 20px; }
 
 table.spotlight:not(.bg-white) a.button {
-  background-color: #ffa300;
+  background-color: #4c4184;
   color: #ffffff !important; }
 
 table.spotlight.last {
   margin-bottom: 0; }
 
 table.spotlight p {
-  color: #ffffff; }
+  color: #2f2c27; }
 
 table.spotlight h2 {
-  color: #ffa300;
+  color: #4c4184;
   font-size: 20px;
   margin-top: 10px; }
 
 table.spotlight h4 {
-  color: #ffa300;
+  color: #4c4184;
   font-size: 18px;
   margin-bottom: 5px; }
 
 table.spotlight h5 {
-  color: #ffa300;
+  color: #4c4184;
   font-size: 16px;
   text-transform: uppercase; }
 
@@ -774,7 +804,7 @@ table.spotlight.bg-white p {
 
 table.spotlight td.spotlight-heading,
 table.spotlight a.spotlight-heading {
-  color: #ffa300 !important; }
+  color: #4c4184 !important; }
 
 table.email-general-content p {
   margin-bottom: 1em; }

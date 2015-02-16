@@ -2,3 +2,7 @@
 *.codekit
 
 *.scssc
+
+scss/.sass-cache/b1d1a8ac40c9ed44765e60f086aff300f0ce5223/styles.scssc
+
+*.scssc

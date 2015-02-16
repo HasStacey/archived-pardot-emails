@@ -331,6 +331,36 @@ table.column .right-text-pad,
 table.column .text-pad-right {
   padding-right: 10px; }
 
+/* Block Grid */
+.block-grid {
+  width: 100%;
+  max-width: 580px; }
+
+.block-grid td {
+  display: inline-block;
+  padding: 10px; }
+
+.two-up td {
+  width: 270px; }
+
+.three-up td {
+  width: 173px; }
+
+.four-up td {
+  width: 125px; }
+
+.five-up td {
+  width: 96px; }
+
+.six-up td {
+  width: 76px; }
+
+.seven-up td {
+  width: 62px; }
+
+.eight-up td {
+  width: 52px; }
+
 /* Alignment & Visibility Classes */
 table.center, td.center {
   text-align: center; }
@@ -472,7 +502,7 @@ body.outlook p {
     width: 100% !important; }
 
   table[class="body"] .container.spotlight .row {
-    padding: 0 2.5%;
+    padding: 0 2.5% !important;
     width: 95% !important; }
 
   table[class="body"] .row {
@@ -581,13 +611,13 @@ body.outlook p {
     display: inherit !important; }
 
   table[class="body"] .email-header .wrapper.last {
-    padding-top: 0; }
+    padding-top: 0 !important; }
 
   table[class="body"] .email-header .wrapper img {
-    float: none; }
+    float: none !important; }
 
   table[class="body"] .email-header .text-align-right {
-    text-align: center; } }
+    text-align: center !important; } }
 * {
   font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; }
 
@@ -778,3 +808,13 @@ table.spotlight a.spotlight-heading {
 
 table.email-general-content p {
   margin-bottom: 1em; }
+
+/*  Media Queries */
+@media only screen and (max-width: 600px) {
+  .footer-logo {
+    padding-top: 0 !important;
+    margin-top: 5px !important; }
+
+  .footer-colophon,
+  .footer-social {
+    padding: 0 !important; } }

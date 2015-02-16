@@ -34,8 +34,7 @@ $c-black-half: #878b8f;
 
 // EMAIL SETTINGS
 //--------------------------------------------------------------------------
-$testing: false; // are you testing pardot regions? if yes, set to true.
-$theme: $c-orange; // Main Theme Color
+$theme: $c-purple; // Main Theme Color
 
 
 
@@ -107,20 +106,6 @@ $theme: $c-orange; // Main Theme Color
   $spotlight-bg: $c-slate;
   $spotlight-button-bg: $theme;
   $spotlight-text-color: $c-white;
-}
-
-
-@if($testing) {
-    /* Testing */
-    *[pardot-region] {
-      outline: 1px solid orange;
-    }
-    *[pardot-removable] {
-      outline: 2px solid red;
-    }
-    *[pardot-repeatable] {
-      outline: 2px solid lime;
-    }  
 }
       
     /**********************************************
@@ -374,6 +359,46 @@ $theme: $c-orange; // Main Theme Color
       padding-right: 10px;
     }
 
+    /* Block Grid */
+
+    .block-grid {
+      width: 100%;
+      max-width: 580px;
+    }
+
+    .block-grid td {
+      display: inline-block;
+      padding:10px;
+    }
+
+    .two-up td {
+      width:270px;
+    }
+
+    .three-up td {
+      width:173px;
+    }
+
+    .four-up td {
+      width:125px;
+    }
+
+    .five-up td {
+      width:96px;
+    }
+
+    .six-up td {
+      width:76px;
+    }
+
+    .seven-up td {
+      width:62px;
+    }
+
+    .eight-up td {
+      width:52px;
+    }
+
     /* Alignment & Visibility Classes */
 
     table.center, td.center {
@@ -532,7 +557,7 @@ $theme: $c-orange; // Main Theme Color
       }
 
       table[class="body"] .container.spotlight .row{
-        padding: 0 2.5%;
+        padding: 0 2.5% !important;
         width: 95% !important;
       }
 
@@ -630,15 +655,15 @@ $theme: $c-orange; // Main Theme Color
       }
 
       table[class="body"] .email-header .wrapper.last {
-        padding-top: 0;
+        padding-top: 0 !important;
       }
 
       table[class="body"] .email-header .wrapper img {
-        float: none;
+        float: none !important;
       }
 
       table[class="body"] .email-header .text-align-right {
-        text-align: center;
+        text-align: center !important;
       }
     }
 

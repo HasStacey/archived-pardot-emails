@@ -1,10 +1,10 @@
 Image URL List:
 
 Logos:
-	HO Logo:					http://storage.pardot.com/23402/57998/2015_email_ho_by_tune_logo.png
-	HO Knockout:				http://storage.pardot.com/23402/57250/2015_email_ho_logo_knockout.png
-	Tune Logo:					http://storage.pardot.com/23402/56812/2015_email_tune_logo.png
-	Tune Knockout:				http://storage.pardot.com/23402/56810/2015_email_tune_logo_knockout.png
+	HO Logo:					http://storage.pardot.com/23402/59958/2015_email_ho_by_tune_logo.png
+	HO Knockout:				http://storage.pardot.com/23402/59954/2015_email_ho_logo_knockout.png
+	Tune Logo:					http://storage.pardot.com/23402/59960/2015_email_tune_logo.png
+	Tune Knockout:				http://storage.pardot.com/23402/59956/2015_email_tune_logo_knockout.png
 
 Backgrounds:
 

@@ -17,7 +17,7 @@
                               <tr>
                                 <td>
 
-                                  <a href="http://www.tune.com"><img class="center footer-logo" src="http://storage.pardot.com/23402/56810/2015_email_tune_logo_knockout.png" width="80" height="20"></a>
+                                  <a href="http://www.tune.com"><img class="center footer-logo" src="http://storage.pardot.com/23402/59956/2015_email_tune_logo_knockout.png" width="80" height="20"style="max-width: 100px !important;"></a>
 
                                 </td>
                                 <td class="expander"></td>

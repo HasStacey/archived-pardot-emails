@@ -15,7 +15,7 @@
                           <td>
 
                             <center>
-                              <a href="http://www.tune.com"><img src="http://storage.pardot.com/23402/56812/2015_email_tune_logo.png" width="97" height="24" alt="TUNE"></a>
+                              <a href="http://www.tune.com"><img src="http://storage.pardot.com/23402/59960/2015_email_tune_logo.png" width="97" height="24" alt="TUNE" style="max-width: 150px !important;"></a>
                             </center>
 
                           </td>

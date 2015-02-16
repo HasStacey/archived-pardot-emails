@@ -123,7 +123,7 @@
                                     if($isUpdate) {
                                       echo '<a href="http://support.mobileapptracking.com/" class="button" style="display: block;" pardot-region>Visit Support Site</a>';
                                     } else {
-                                      echo '<a href="" class="button" style="display: block;" pardot-region>This is a button wtf</a>';
+                                      echo '<a href="" class="button" style="display: block;" pardot-region>This is a button</a>';
                                     }
                                     ?>
                                 </center>

@@ -15,7 +15,7 @@
                           <td>
 
                             <center>
-                              <a href="http://www.tune.com"><img src="http://storage.pardot.com/23402/57998/2015_email_ho_by_tune_logo.png" width="97" height="38" alt="TUNE"></a>
+                              <a href="http://www.hasoffers.com"><img src="http://storage.pardot.com/23402/59958/2015_email_ho_by_tune_logo.png" width="97" height="38" alt="TUNE" style="max-width: 150px !important;"></a>
                             </center>
 
                           </td>
