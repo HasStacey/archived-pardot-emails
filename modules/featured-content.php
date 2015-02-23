@@ -80,7 +80,7 @@
                                           if(!$isPrivacy && !$isRecap) {
                                             ob_start();
                                             ?>
-                                              <p pardot-region pardot-removable><img src="http://placehold.it/480x225" style="margin: 25px 0;"></p>
+                                              <p pardot-region pardot-removable style="margin: 25px 0; min-height: 225px;"><img src="http://placehold.it/480x225"></p>
                                             <?php
                                             ob_end_flush();
                                           }
