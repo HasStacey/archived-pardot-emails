@@ -9,7 +9,7 @@ $(document).ready(function(){
 	// SCROLL ON CLICK
 	// --------------------------------------------------------------------------
 	$('.menu li a').click(function(){
-		var headerHeight = 40;
+		var headerHeight = 7;
 
 		$('html, body').animate({
 			scrollTop: $( $.attr(this, 'href') ).offset().top - headerHeight
