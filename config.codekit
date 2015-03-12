@@ -74,6 +74,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/debugging\/march-11-updates-list-bug.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/debugging\/march-11-updates-list-bug.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/documentation\/404.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -336,6 +345,17 @@
 		"initialSize": 321535,
 		"inputAbbreviatedPath": "\/documentation\/img\/newsletter.png",
 		"outputAbbreviatedPath": "\/documentation\/img\/newsletter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/documentation\/img\/no-header-links.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57357,
+		"inputAbbreviatedPath": "\/documentation\/img\/no-header-links.jpg",
+		"outputAbbreviatedPath": "\/documentation\/img\/no-header-links.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1293,6 +1313,86 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/one-off-emails\/ebook\/a-development.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/one-off-emails\/ebook\/a-development.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/one-off-emails\/ebook\/a-production.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/one-off-emails\/ebook\/a-production.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/one-off-emails\/ebook\/b-development.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/one-off-emails\/ebook\/b-development.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/one-off-emails\/ebook\/ink.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/one-off-emails\/ebook\/ink.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/one-off-emails\/ebook\/left-quote.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 507,
+		"inputAbbreviatedPath": "\/one-off-emails\/ebook\/left-quote.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/ebook\/left-quote.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/ebook\/phone.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33047,
+		"inputAbbreviatedPath": "\/one-off-emails\/ebook\/phone.jpg",
+		"outputAbbreviatedPath": "\/one-off-emails\/ebook\/phone.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/ebook\/tune-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1161,
+		"inputAbbreviatedPath": "\/one-off-emails\/ebook\/tune-logo.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/ebook\/tune-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/ebook\/two-dots-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1849,
+		"inputAbbreviatedPath": "\/one-off-emails\/ebook\/two-dots-logo.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/ebook\/two-dots-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/scss\/styles.scss": {
 		"createSourceMap": 0,

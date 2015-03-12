@@ -2,6 +2,7 @@
 * Ink v1.0.5 - Copyright 2013 ZURB Inc        *
 **********************************************/
 /* Client-specific Styles & Reset */
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
 #outlook a {
   padding: 0; }
 
