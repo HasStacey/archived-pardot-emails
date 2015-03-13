@@ -6,81 +6,390 @@
     <meta name="viewport" content="width=device-width" />
 <!-- For testing only -->
   </head>
-  <body style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; background: #3d5265;" bgcolor="#3d5265">
+  <body style="width: 100% !important; min-width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; background: #3d5265; margin: 0; padding: 0;" bgcolor="#3d5265"><style type="text/css">
+a:hover {
+color: #2795b6 !important;
+}
+a:active {
+color: #2795b6 !important;
+}
+a:visited {
+color: #2ba6cb !important;
+}
+h1 a:active {
+color: #2ba6cb !important;
+}
+h2 a:active {
+color: #2ba6cb !important;
+}
+h3 a:active {
+color: #2ba6cb !important;
+}
+h4 a:active {
+color: #2ba6cb !important;
+}
+h5 a:active {
+color: #2ba6cb !important;
+}
+h6 a:active {
+color: #2ba6cb !important;
+}
+h1 a:visited {
+color: #2ba6cb !important;
+}
+h2 a:visited {
+color: #2ba6cb !important;
+}
+h3 a:visited {
+color: #2ba6cb !important;
+}
+h4 a:visited {
+color: #2ba6cb !important;
+}
+h5 a:visited {
+color: #2ba6cb !important;
+}
+h6 a:visited {
+color: #2ba6cb !important;
+}
+table.button:hover td {
+background: #007aff !important;
+}
+table.button:visited td {
+background: #007aff !important;
+}
+table.button:active td {
+background: #007aff !important;
+}
+table.button:hover td a {
+color: #fff !important;
+}
+table.button:visited td a {
+color: #fff !important;
+}
+table.button:active td a {
+color: #fff !important;
+}
+table.button:hover td {
+background: #007aff !important;
+}
+table.tiny-button:hover td {
+background: #007aff !important;
+}
+table.small-button:hover td {
+background: #007aff !important;
+}
+table.medium-button:hover td {
+background: #007aff !important;
+}
+table.large-button:hover td {
+background: #007aff !important;
+}
+table.button:hover td a {
+color: #ffffff !important;
+}
+table.button:active td a {
+color: #ffffff !important;
+}
+table.button td a:visited {
+color: #ffffff !important;
+}
+table.tiny-button:hover td a {
+color: #ffffff !important;
+}
+table.tiny-button:active td a {
+color: #ffffff !important;
+}
+table.tiny-button td a:visited {
+color: #ffffff !important;
+}
+table.small-button:hover td a {
+color: #ffffff !important;
+}
+table.small-button:active td a {
+color: #ffffff !important;
+}
+table.small-button td a:visited {
+color: #ffffff !important;
+}
+table.medium-button:hover td a {
+color: #ffffff !important;
+}
+table.medium-button:active td a {
+color: #ffffff !important;
+}
+table.medium-button td a:visited {
+color: #ffffff !important;
+}
+table.large-button:hover td a {
+color: #ffffff !important;
+}
+table.large-button:active td a {
+color: #ffffff !important;
+}
+table.large-button td a:visited {
+color: #ffffff !important;
+}
+table.secondary:hover td {
+background: #d0d0d0 !important; color: #555;
+}
+table.secondary:hover td a {
+color: #555 !important;
+}
+table.secondary td a:visited {
+color: #555 !important;
+}
+table.secondary:active td a {
+color: #555 !important;
+}
+table.success:hover td {
+background: #457a1a !important;
+}
+table.alert:hover td {
+background: #970b0e !important;
+}
+@media only screen and (max-width: 600px) {
+  table[class="body"] img {
+    width: auto !important; height: auto !important;
+  }
+  table[class="body"] center {
+    min-width: 0 !important;
+  }
+  table[class="body"] .container {
+    width: 95% !important;
+  }
+  table[class="body"] .row {
+    width: 100% !important; display: block !important;
+  }
+  table[class="body"] .wrapper {
+    display: block !important; padding-right: 0 !important;
+  }
+  table[class="body"] .columns {
+    table-layout: fixed !important; float: none !important; width: 100% !important; padding-right: 0px !important; padding-left: 0px !important; display: block !important;
+  }
+  table[class="body"] .column {
+    table-layout: fixed !important; float: none !important; width: 100% !important; padding-right: 0px !important; padding-left: 0px !important; display: block !important;
+  }
+  table[class="body"] .wrapper.first .columns {
+    display: table !important;
+  }
+  table[class="body"] .wrapper.first .column {
+    display: table !important;
+  }
+  table[class="body"] table.columns td {
+    width: 100% !important;
+  }
+  table[class="body"] table.column td {
+    width: 100% !important;
+  }
+  table[class="body"] .columns td.one {
+    width: 8.333333% !important;
+  }
+  table[class="body"] .column td.one {
+    width: 8.333333% !important;
+  }
+  table[class="body"] .columns td.two {
+    width: 16.666666% !important;
+  }
+  table[class="body"] .column td.two {
+    width: 16.666666% !important;
+  }
+  table[class="body"] .columns td.three {
+    width: 25% !important;
+  }
+  table[class="body"] .column td.three {
+    width: 25% !important;
+  }
+  table[class="body"] .columns td.four {
+    width: 33.333333% !important;
+  }
+  table[class="body"] .column td.four {
+    width: 33.333333% !important;
+  }
+  table[class="body"] .columns td.five {
+    width: 41.666666% !important;
+  }
+  table[class="body"] .column td.five {
+    width: 41.666666% !important;
+  }
+  table[class="body"] .columns td.six {
+    width: 50% !important;
+  }
+  table[class="body"] .column td.six {
+    width: 50% !important;
+  }
+  table[class="body"] .columns td.seven {
+    width: 58.333333% !important;
+  }
+  table[class="body"] .column td.seven {
+    width: 58.333333% !important;
+  }
+  table[class="body"] .columns td.eight {
+    width: 66.666666% !important;
+  }
+  table[class="body"] .column td.eight {
+    width: 66.666666% !important;
+  }
+  table[class="body"] .columns td.nine {
+    width: 75% !important;
+  }
+  table[class="body"] .column td.nine {
+    width: 75% !important;
+  }
+  table[class="body"] .columns td.ten {
+    width: 83.333333% !important;
+  }
+  table[class="body"] .column td.ten {
+    width: 83.333333% !important;
+  }
+  table[class="body"] .columns td.eleven {
+    width: 91.666666% !important;
+  }
+  table[class="body"] .column td.eleven {
+    width: 91.666666% !important;
+  }
+  table[class="body"] .columns td.twelve {
+    width: 100% !important;
+  }
+  table[class="body"] .column td.twelve {
+    width: 100% !important;
+  }
+  table[class="body"] td.offset-by-one {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-two {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-three {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-four {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-five {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-six {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-seven {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-eight {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-nine {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-ten {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-eleven {
+    padding-left: 0 !important;
+  }
+  table[class="body"] table.columns td.expander {
+    width: 1px !important;
+  }
+  table[class="body"] .right-text-pad {
+    padding-left: 10px !important;
+  }
+  table[class="body"] .text-pad-right {
+    padding-left: 10px !important;
+  }
+  table[class="body"] .left-text-pad {
+    padding-right: 10px !important;
+  }
+  table[class="body"] .text-pad-left {
+    padding-right: 10px !important;
+  }
+  table[class="body"] .hide-for-small {
+    display: none !important;
+  }
+  table[class="body"] .show-for-desktop {
+    display: none !important;
+  }
+  table[class="body"] .show-for-small {
+    display: inherit !important;
+  }
+  table[class="body"] .hide-for-desktop {
+    display: inherit !important;
+  }
+}
+</style>
 
 		<!-- .BG-SLATE // -->
-		<table class="body bg-slate" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; background: #3d5265;" bgcolor="#3d5265"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td class="center" align="center" valign="top" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
-					<center style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+		<table class="body bg-slate" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; height: 100%; width: 100%; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; background: #3d5265; margin: 0; padding: 0;" bgcolor="#3d5265"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="center" align="center" valign="top" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;">
+					<center style="width: 100%; min-width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
 
-					<table class="container" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+					<table class="container" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
 
-								<table class="row" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td class="wrapper last" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+								<table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0px;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="left" valign="top">
 
-											<table class="twelve columns" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td class="center" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
-														<img src="http://ho-websites.s3.amazonaws.com/blog/wp-content/uploads/tune-logo.png?ca4a26" alt="TUNE logo" class="center" style="margin-top: 10px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;" /></td>
-													<td class="expander" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"></td>
+											<table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="center" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="center" valign="top">
+														<img src="http://ho-websites.s3.amazonaws.com/blog/wp-content/uploads/tune-logo.png?ca4a26" alt="TUNE logo" class="center" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 10px auto 0;" align="none" /></td>
+													<td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
 												</tr></table></td>
 									</tr></table></td>
-						</tr></table><table class="container" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+						</tr></table><table class="container" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
 
-								<table class="row" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td class="wrapper last" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+								<table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0px;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="left" valign="top">
 
-											<table class="twelve columns" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
-														<h1 class="center text-white fs-xlarge" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; color: #fff; font-size: 35px; line-height: 1.35 !important; margin-bottom: 15px;">The Complete Guide to Enterprise App Marketing</h1>
-														<h2 class="center text-white fs-medium" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; color: #fff; font-size: 18px; text-transform: uppercase; margin-bottom: 20px;">Strategies, Tips and Best Practicies</h2>
+											<table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top">
+														<h1 class="center text-white fs-xlarge" style="text-align: center; color: #fff; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 1.35 !important; word-break: normal; font-size: 35px; margin: 0 0 15px; padding: 0;" align="center">The Complete Guide to Enterprise App Marketing</h1>
+														<h2 class="center text-white fs-medium" style="text-align: center; color: #fff; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 1.3; word-break: normal; font-size: 18px; text-transform: uppercase; margin: 0 0 20px; padding: 0;" align="center">Strategies, Tips and Best Practicies</h2>
 													</td>
-													<td class="expander" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"></td>
+													<td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
 												</tr></table></td>
 									</tr></table></td>
 						</tr></table></center>
 				</td>
-			</tr></table><!-- // .BG-SLATE --><!-- .BG-WHITE // --><table class="body bg-white" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; background: #fff;" bgcolor="#fff"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td class="center" align="center" valign="top" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
-					<center style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+			</tr></table><!-- // .BG-SLATE --><!-- .BG-WHITE // --><table class="body bg-white" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; height: 100%; width: 100%; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; background: #fff; margin: 0; padding: 0;" bgcolor="#fff"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="center" align="center" valign="top" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;">
+					<center style="width: 100%; min-width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
 
-						<table class="container" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+						<table class="container" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
 
-						      <table class="row" style="margin-top: 40px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td class="wrapper" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+						      <table class="row" style="margin-top: 40px; border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0px;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="wrapper" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 20px 0px 0px;" align="left" valign="top">
 
-						            <table class="five columns" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td class="no-padding" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;">
+						            <table class="five columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 230px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="no-padding" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
 
-						                  <img src="http://ho-websites.s3.amazonaws.com/blog/wp-content/uploads/phone.jpg?ca4a26" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;" /></td>
-						                <td class="expander" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"></td>
+						                  <img src="http://ho-websites.s3.amazonaws.com/blog/wp-content/uploads/phone.jpg?ca4a26" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;" align="left" /></td>
+						                <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
 						              </tr></table></td>
-						          <td class="wrapper last" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+						          <td class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="left" valign="top">
 
-						            <table class="seven columns" style="margin-left: 20px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+						            <table class="seven columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 330px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto 0 20px; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top">
 
-						                  <p class="fs-small text-slate" style="padding-bottom: 10px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; color: #3d5265; font-size: 16px; line-height: 1.65 !important;">An in depth explanation on acquisition strategies (paid and organic), onboarding best practices, retention techniques, &amp; referral strategies. Download this 100+ page book on app marketing best practices.</p>
+						                  <p class="fs-small text-slate" style="color: #3d5265; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; text-align: left; line-height: 1.65 !important; font-size: 16px; margin: 0 0 10px; padding: 0 0 10px;" align="left">An in depth explanation on acquisition strategies (paid and organic), onboarding best practices, retention techniques, &amp; referral strategies. Download this 100+ page book on app marketing best practices.</p>
 
-						                  <table class="button" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
-															      <a href="http://in.tune.com/l/23402/2015-03-12/22n79r?utm_campaign=MD%20email&amp;utm_source=online%20marketing&amp;utm_medium=email&amp;utm_content=no-quote" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">Download the book today</a>
+						                  <table class="button" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; overflow: hidden; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #ffffff; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; display: block; width: auto !important; border-radius: 4px; background: #007aff; margin: 0; padding: 8px 0; border: 1px solid #007aff;" align="center" bgcolor="#007aff" valign="top">
+															      <a href="http://in.tune.com/l/23402/2015-03-12/22n79r?utm_campaign=MD%20email&amp;utm_source=online%20marketing&amp;utm_medium=email&amp;utm_content=no-quote" style="color: #ffffff; text-decoration: none; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-size: 16px;">Download the book today</a>
 															    </td>
 															  </tr></table></td>
-						                <td class="expander" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"></td>
+						                <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
 						              </tr></table></td>
 						        </tr></table></td>
 						  </tr></table></center>
 				</td>
-			</tr></table><!-- // .BG-WHITE --><hr class="bg-orange" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; height: 10px; background: #ffa300; margin: 0; border: 0;" /><!-- .BG-SLATE // --><table class="body bg-slate" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; background: #3d5265;" bgcolor="#3d5265"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td class="center" align="center" valign="top" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
-					<center style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+			</tr></table><!-- // .BG-WHITE --><hr class="bg-orange" style="color: #d9d9d9; height: 10px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; background: #ffa300; margin: 0; border: 0 none;" /><!-- .BG-SLATE // --><table class="body bg-slate" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; height: 100%; width: 100%; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; background: #3d5265; margin: 0; padding: 0;" bgcolor="#3d5265"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="center" align="center" valign="top" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;">
+					<center style="width: 100%; min-width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
 
-					<table class="container" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+					<table class="container" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
 
-					      <table class="row" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td class="wrapper" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+					      <table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0px;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td class="wrapper" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 20px 0px 0px;" align="left" valign="top">
 
-					            <table class="three columns" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+					            <table class="three columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 130px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top">
 
-					                  <img src="http://ho-websites.s3.amazonaws.com/blog/wp-content/uploads/tune-logo.png?ca4a26" height="25" style="margin-top: 4px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;" /></td>
-					                <td class="expander" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"></td>
+					                  <img src="http://ho-websites.s3.amazonaws.com/blog/wp-content/uploads/tune-logo.png?ca4a26" height="25" style="margin-top: 4px; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;" align="left" /></td>
+					                <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
 					              </tr></table></td>
-					          <td class="wrapper last" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+					          <td class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="left" valign="top">
 
-					            <table class="nine columns" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><tr style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"><td style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;">
+					            <table class="nine columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 430px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top">
 
-					                  <p class="fs-medium text-white align-right" style="padding-top: 7px; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; color: #fff; font-size: 18px; text-align: right;" align="right">Making mobile marketing better, for everyone.
+					                  <p class="fs-medium text-white align-right" style="color: #fff; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; text-align: right; line-height: 19px; font-size: 18px; margin: 0 0 10px; padding: 7px 0 0;" align="right">Making mobile marketing better, for everyone.
 
 					                </p></td>
-					                <td class="expander" style="font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important;"></td>
+					                <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
 					              </tr></table></td>
 					        </tr></table></td>
 					  </tr></table></center>
