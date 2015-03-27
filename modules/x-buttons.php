@@ -1,49 +1,7 @@
-                <!-- CALL TO ACTION ON GREY BACKGROUND WITH TEXT // -->
-                <table class="spotlight container" pardot-repeatable>
+                <!-- CALL TO ACTION ON WHITE BACKGROUND WITH TEXT // -->
+                <table class="spotlight bg-white container" pardot-repeatable>
                   <tr>
-                    <td class="spotlight-content">
-
-                      <!-- HEADER // -->
-                      <table class="row">
-                        <tr>
-                          <td class="wrapper offset-by-one last no-padding-top">
-
-                            <table class="ten columns">
-                              <tr>
-                                <td>
-
-                                  <h2 class="center" pardot-region pardot-removable>Single Call to Action Module on Slate BG</h2>
-
-                                </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
-
-                          </td>
-                        </tr>
-                      </table>
-                      <!-- // HEADER -->
-
-                      <!-- TEXT // -->
-                      <table class="row">
-                        <tr>
-                          <td class="wrapper offset-by-one no-padding-top">
-
-                            <table class="ten columns last">
-                              <tr>
-                                <td>
-
-                                  <p style="text-align: center;" class="center" pardot-region pardot-removable>Looking to find answers to or further discuss privacy and policy issues? Send us an email with your topic suggestions and we can feature them in an upcoming newsletter.</p>
-
-                                </td>
-                                <td class="expander"></td>
-                              </tr>
-                            </table>
-
-                          </td>
-                        </tr>
-                      </table>
-                      <!-- // TEXT -->
+                    <td>
 
                       <!-- TWO BUTTONS // -->
                       <table class="row" pardot-removable>
@@ -101,7 +59,13 @@
                                 <td class="center">
 
                                   <center>
-                                    <a href="" class="button" style="display: block;" pardot-region>This is a button</a>
+                                  <?php
+                                    if($isUpdate) {
+                                      echo '<a href="http://support.mobileapptracking.com/" class="button" style="display: block;" pardot-region>Visit Support Site</a>';
+                                    } else {
+                                      echo '<a href="" class="button" style="display: block;" pardot-region>This is a button</a>';
+                                    }
+                                    ?>
                                 </center>
 
                                 </td>
@@ -117,4 +81,4 @@
                     </td>
                   </tr>
                 </table>
-                <!-- // CALL TO ACTION ON GREY BACKGROUND WITH TEXT -->
+                <!-- // CALL TO ACTION ON WHITE BACKGROUND WITH TEXT -->

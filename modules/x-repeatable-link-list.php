@@ -6,7 +6,7 @@
                       <!-- HEADING // -->
                       <table class="row">
                         <tr>
-                          <td class="wrapper offset-by-one last">
+                          <td class="wrapper offset-by-one last no-padding-top no-padding-bottom">
 
                             <table class="ten columns">
                               <tr>

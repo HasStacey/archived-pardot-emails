@@ -2,6 +2,7 @@
 * Ink v1.0.5 - Copyright 2013 ZURB Inc        *
 **********************************************/
 /* Client-specific Styles & Reset */
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
 #outlook a {
   padding: 0; }
 
@@ -766,6 +767,10 @@ table.spotlight {
   margin-top: 20px;
   margin-bottom: 20px; }
 
+table.spotlight td.spotlight-content {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
 table.spotlight:not(.bg-white) a.button {
   background-color: #7ccbea;
   color: #ffffff !important; }
@@ -779,7 +784,7 @@ table.spotlight p {
 table.spotlight h2 {
   color: #7ccbea;
   font-size: 20px;
-  margin-top: 10px; }
+  margin-top: 20px; }
 
 table.spotlight h4 {
   color: #7ccbea;
@@ -808,6 +813,15 @@ table.spotlight a.spotlight-heading {
 
 table.email-general-content p {
   margin-bottom: 1em; }
+
+/*////// SPOTLIGHT //////*/
+.featured-image {
+  margin: 20px 0; }
+  .featured-image img {
+    width: 100%;
+    display: block; }
+  .featured-image.no-margin-top {
+    margin-top: 0; }
 
 /*  Media Queries */
 @media only screen and (max-width: 600px) {

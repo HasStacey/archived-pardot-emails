@@ -5,12 +5,12 @@
                 <!-- SPOTLIGHT:LAST EVENTS CTA // -->
                 <table class="spotlight last container" pardot-removable>
                   <tr>
-                    <td>
+                    <td class="spotlight-content">
 
                       <!-- HEADER // -->
                       <table class="row">
                         <tr>
-                          <td class="wrapper offset-by-one last">
+                          <td class="wrapper offset-by-one last no-padding-top">
 
                             <table class="ten columns">
                               <tr>
@@ -26,10 +26,10 @@
                           </td>
                         </tr>
                       </table>
-                      <!-- // HEADER -->
+                      <!-- // HEADER -->                   
 
                       <!-- 2 COLUMN MODULE LAYOUT // -->
-                      <table style="margin-bottom: 25px;" pardot-removable>
+                      <table class="featured-image no-margin-top" pardot-removable>
                         <tr>
 
                           <!-- GAP COLUMN // -->
@@ -71,7 +71,7 @@
                       <!-- // 2 COLUMN MODULE LAYOUT -->
 
                       <!-- 3 COLUMN MODULE LAYOUT // -->
-                      <table style="margin-bottom: 25px;" pardot-removable>
+                      <table class="featured-image" pardot-removable>
                         <tr>
 
                           <!-- GAP COLUMN // -->
@@ -129,9 +129,9 @@
                               <tr>
                                 <td>
 
-                                  <h4 class="center" pardot-region>Want to meet with us?</h4>
+                                  <h4 class="center" pardot-region pardot-removable>Want to meet with us?</h4>
 
-                                  <p style="text-align: center;" class="center" pardot-region>Attending a conference and want to meet up with us to talk about the latest in mobile marketing? Give us your info and we'll set up a time to chat.</p>
+                                  <p style="text-align: center;" class="center" pardot-region pardot-removable>Attending a conference and want to meet up with us to talk about the latest in mobile marketing? Give us your info and we'll set up a time to chat.</p>
 
                                 </td>
                                 <td class="expander"></td>
@@ -167,7 +167,7 @@
                           <!-- // BUTTON 1 -->
 
                           <!-- BUTTON 2 // -->
-                          <td class="wrapper last no-padding-top double-padding-bottom">
+                          <td class="wrapper last no-padding-top">
 
                             <table class="five columns">
                               <tr>
@@ -192,7 +192,7 @@
                       <!-- SINGLE BUTTON // -->
                       <table class="row" pardot-removable>
                         <tr>
-                          <td class="wrapper offset-by-three last no-padding-top double-padding-bottom">
+                          <td class="wrapper offset-by-three last no-padding-top">
 
                             <table class="six columns">
                               <tr>

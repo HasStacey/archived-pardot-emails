@@ -3,19 +3,22 @@
 // UNCOMMENT THE TEMPLATE YOU WOULD LIKE TO EXPORT
 // -------------------------------------------------------------------------------------
 
-  $template = 'ho-drip';                // SCSS theme should be set to $c-purple
+  // $template = 'ho-drip';                // SCSS theme should be set to $c-purple
   // $template = 'ho-notification';     // SCSS theme should be set to $c-ltblue
   // $template = 'ho-academy';          // SCSS theme should be set to $c-green
   // $template = 'ho-newsletter';       // SCSS theme should be set to $c-blue
+  // $template = 'ho-updates';             // SCSS theme should be set to $c-dkblue
+  // $template = 'ho-lost-accounts';       // SCSS theme should be set to $c-orange
 
   // $template = 'tune-drip';           // SCSS theme should be set to $c-purple
   // $template = 'tune-notification';   // SCSS theme should be set to $c-ltblue
   // $template = 'tune-academy';        // SCSS theme should be set to $c-green
   // $template = 'tune-newsletter';     // SCSS theme should be set to $c-blue
+  // $template = 'tune-updates';             // SCSS theme should be set to $c-dkblue
+  // $template = 'tune-lost-accounts';       // SCSS theme should be set to $c-orange
 
   // $template = 'recap';               // SCSS theme should be set to $c-orange
-  // $template = 'updates';             // SCSS theme should be set to $c-dkblue
-  // $template = 'privacy';             // SCSS theme should be set to $c-orange
+  $template = 'privacy';             // SCSS theme should be set to $c-orange
 
 
   // ARE YOU TESTING THE PARDOT REGIONS?
@@ -24,6 +27,7 @@
   // $testing = true;
 
   $production = true;
+  // $production = false;
 
   include('variables.php');
 
@@ -62,16 +66,6 @@
           *[pardot-repeatable] {
             outline: 2px solid lime; }
         </style>
-      <?php
-      ob_end_flush();
-    }
-    ?>
-
-    <?php if($development) {
-      ob_start();
-      ?>
-
-
       <?php
       ob_end_flush();
     }
@@ -115,7 +109,17 @@
                     if($isAcademy) {
                       // Include the HO Academy Image
                       include('modules/hero-images/branded/hero-ho-academy.php'); 
-                    // If this isn't the academy template
+
+                    // And if it is the updates
+                    } elseif($isUpdate) {
+                      // Include the TUNE Academy hero image
+                      include('modules/hero-images/generic/hero-notepad-with-pen.php'); 
+
+                    // if it's the lost accounts template
+                    } elseif($isLostAccount) {
+                      // Include the generic reports header
+                      include('modules/hero-images/generic/hero-reports.php');
+                      
                     } else {
                       // Include the We Heart Performance image
                       include('modules/hero-images/branded/hero-heart-performance.php'); 
@@ -145,6 +149,11 @@
                       // Include the TUNE Academy hero image
                       include('modules/hero-images/generic/hero-notepad-with-pen.php'); 
 
+                    // if it's the lost accounts template
+                    } elseif($isLostAccount) {
+                      // Include the generic reports header
+                      include('modules/hero-images/generic/hero-reports.php');
+
                     // If this isn't the academy template
                     } else {
                       // Include the We Heart Mobile image
@@ -161,9 +170,7 @@
 
                 // FEATURED CONTENT MODULE?
                 // ------------------------------------------------------------------------------ /
-                  if($isNewsletter) {
                     include('modules/featured-content.php');
-                  }
 
                 ?>
 
@@ -193,13 +200,11 @@
 
                     // Updates
                     } elseif($isUpdate) {
-                      include('modules/x-full-content.php');
                       include('modules/x-repeatable-link-list.php');
                       include('modules/x-cta-white-bg.php');
 
                     // Base Newsletter
                     } else {
-                      include('modules/x-full-content.php');
                       include('modules/x-lesser-content.php');
                       include('modules/x-spotlight-training.php');
                       include('modules/x-micro-post-single.php');
@@ -207,22 +212,15 @@
                       include('modules/x-cta-grey-bg.php');
                       include('modules/x-cta-white-bg.php');
                       include('modules/x-repeatable-link-list.php');
-                      include('modules/x-repeatable-content-list.php');
+                      // include('modules/x-repeatable-content-list.php');
                       include('modules/x-two-images.php');
                     }
 
                   // Single CTA/Notification
                   } else {
-                    
-                      include('modules/drip-centered-heading.php');
-
-                      // Drip Campaign
-                      if($isDrip) {
-                        include('modules/x-cta-grey-bg.php');
-                        include('modules/drip-general-content.php');
-                      } else {
-                        include('modules/notification-general-content.php');
-                      }
+                    // include('modules/x-buttons.php');
+                    include('modules/x-cta-grey-bg.php');
+                    include('modules/drip-general-content.php');
                     include('modules/x-two-images.php');
                   }
                 ?>

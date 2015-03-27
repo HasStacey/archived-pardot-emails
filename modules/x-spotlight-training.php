@@ -1,12 +1,12 @@
 <!-- SPOTLIGHT -->
 <table class="spotlight container" pardot-repeatable>
   <tr>
-    <td>
+    <td class="spotlight-content">
 
       <!-- HEADER // -->
       <table class="row">
         <tr>
-          <td class="wrapper offset-by-one last">
+          <td class="wrapper offset-by-one last no-padding-top">
 
             <table class="ten columns">
               <tr>

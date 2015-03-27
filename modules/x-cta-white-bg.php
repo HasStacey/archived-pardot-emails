@@ -12,7 +12,7 @@
                               <tr>
                                 <td>
 
-                                  <h2 class="center" pardot-region><?php if($isUpdate) { echo 'Additional Support Documentation'; } else { echo 'Have a Topic to Share?'; } ?></h2>
+                                  <h2 class="center" pardot-region pardot-removable><?php if($isUpdate) { echo 'Additional Support Documentation'; } else { echo 'Have a Topic to Share?'; } ?></h2>
 
                                 </td>
                                 <td class="expander"></td>
@@ -33,7 +33,7 @@
                               <tr>
                                 <td>
 
-                                  <p style="text-align: center;" class="center" pardot-region>
+                                  <p style="text-align: center;" class="center" pardot-region pardot-removable>
 
                                     <?php
                                       if($isUpdate) {

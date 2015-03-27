@@ -29,7 +29,7 @@ $c-mdgrey-half: #d4d7db;
 $c-dkgrey-half: #a9abac;
 $c-black-half: #878b8f;
 
-
+$gutter: 20px;
 
 
 // EMAIL SETTINGS
@@ -107,7 +107,7 @@ $theme: $c-purple; // Main Theme Color
   $spotlight-button-bg: $theme;
   $spotlight-text-color: $c-white;
 }
-      
+
     /**********************************************
     * Ink v1.0.5 - Copyright 2013 ZURB Inc        *
     **********************************************/
@@ -221,7 +221,7 @@ $theme: $c-purple; // Main Theme Color
     }
 
     td.wrapper {
-      padding: 20px 20px 20px 0px;
+      padding: $gutter 20px $gutter 0px;
       position: relative;
     }
 
@@ -840,7 +840,7 @@ $theme: $c-purple; // Main Theme Color
       }
 
       td.double-padding-bottom {
-        padding-bottom: 40px;
+        padding-bottom: $gutter * 2;
       }
 
       a.no-border {
@@ -850,8 +850,12 @@ $theme: $c-purple; // Main Theme Color
       /*////// SPOTLIGHT //////*/
       table.spotlight {
         background-color: $spotlight-bg;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: $gutter;
+        margin-bottom: $gutter;
+      }
+      table.spotlight td.spotlight-content {
+        padding-top: $gutter;
+        padding-bottom: $gutter;
       }
       table.spotlight:not(.bg-white) a.button {
         background-color: $spotlight-button-bg;
@@ -867,7 +871,7 @@ $theme: $c-purple; // Main Theme Color
       table.spotlight h2 {
         color: $spotlight-heading-color;
         font-size: 20px;
-        margin-top: 10px;
+        margin-top: $gutter;
       }
 
       table.spotlight h4 {
@@ -905,6 +909,21 @@ $theme: $c-purple; // Main Theme Color
       table.email-general-content p {
         margin-bottom: 1em;
       }
+
+      /*////// SPOTLIGHT //////*/
+      .featured-image {
+        margin: $gutter 0;
+        
+        img {
+          width: 100%;
+          display: block;        
+        }
+
+        &.no-margin-top {
+          margin-top: 0;
+        }
+      }
+
 
       /*  Media Queries */
 

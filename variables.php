@@ -62,6 +62,22 @@ if($template == 'ho-newsletter') {
   $color = 'blue';
 }
 
+// IF THIS IS THE PRODUCT UPDATES
+if($template == 'ho-updates') {
+  $isHasOffers = true;
+  $isNewsletter = true;
+    $isUpdate = true;
+  $color = 'dkblue';
+}
+
+// IF THIS IS THE LOST ACCOUNTS TEMPLATE
+if($template == 'ho-lost-accounts') {
+  $isHasOffers = true;
+  $isNewsletter = true;
+  $isLostAccount = true;
+  $color = 'orange';
+}
+
 // TUNE THEMES ---------------------------- //
 // IF THIS IS THE TUNE DRIP CAMPAIGN
 if($template == 'tune-drip') {
@@ -95,7 +111,7 @@ if($template == 'recap') {
 }
 
 // IF THIS IS THE PRODUCT UPDATES
-if($template == 'updates') {
+if($template == 'tune-updates') {
   $isNewsletter = true;
     $isUpdate = true;
   $color = 'dkblue';
@@ -108,6 +124,12 @@ if($template == 'privacy') {
   $color = 'orange';
 }
 
+// IF THIS IS THE LOST ACCOUNTS TEMPLATE
+if($template == 'tune-lost-accounts') {
+  $isNewsletter = true;
+  $isLostAccount = true;
+  $color = 'orange';
+}
 
 
 
