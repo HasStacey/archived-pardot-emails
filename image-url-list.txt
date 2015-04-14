@@ -11,6 +11,7 @@ Backgrounds:
   Branded:
 	Tune Academy:				http://storage.pardot.com/23402/57248/2015_email_bg_academy_tune.jpg
 	HO Academy:					http://storage.pardot.com/23402/57246/2015_email_bg_academy_ho.jpg
+	HO Training: 				http://storage.pardot.com/23402/65620/2015_email_bg_hasoffers_training.png
 	We <3 Performance:			http://storage.pardot.com/23402/56794/2015_email_bg_we_heart_performance.jpg
 	This Week in Marketing:		http://storage.pardot.com/23402/56792/2015_email_bg_this_week_in_marketing.jpg
 	We <3 Mobile:				http://storage.pardot.com/23402/56790/2015_email_bg_we_heart_mobile.jpg
