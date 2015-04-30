@@ -34,7 +34,7 @@
                               <tr>
                                 <td class="text-xsmall center">
 
-                                  <span>2220 Western Ave, Seattle</span><br>
+                                  <span>2200 Western Ave, Suite 200 Seattle</span><br>
                                   <span><a href="http://www.tune.com/privacy-policy/">Privacy Policy</a></span>
                                   <span><a href="%%email_preference_center%%">Email Preferences</a></span>
 

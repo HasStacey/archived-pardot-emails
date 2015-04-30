@@ -702,7 +702,7 @@ h2.subheading {
 .text-theme a:active,
 .text-theme a:focus,
 .text-theme {
-  color: #4c4184 !important;
+  color: #a9abac !important;
   /* Heading text color */ }
 
 .text-white {
@@ -712,11 +712,11 @@ a.grey-anchor {
   color: #333333; }
 
 .border-bottom-theme {
-  border-bottom: 6px solid #4c4184; }
+  border-bottom: 6px solid #7cb82f; }
 
 /*////// BACKGROUND COLORS //////*/
 .background-tuneblue {
-  background-color: #4c4184;
+  background-color: #7cb82f;
   color: #ffffff; }
 
 /*////// BUTTONS //////*/
@@ -724,7 +724,7 @@ a.button,
 a.button:hover,
 a.button:active,
 a.button:visited {
-  background-color: #4c4184;
+  background-color: #7cb82f;
   color: #ffffff !important;
   padding: 11px 15px 9px;
   border-radius: 4px;
@@ -763,7 +763,7 @@ a.no-border {
 
 /*////// SPOTLIGHT //////*/
 table.spotlight {
-  background-color: #dce5e4;
+  background-color: #3d5265;
   margin-top: 20px;
   margin-bottom: 20px; }
 
@@ -772,27 +772,27 @@ table.spotlight td.spotlight-content {
   padding-bottom: 20px; }
 
 table.spotlight:not(.bg-white) a.button {
-  background-color: #4c4184;
-  color: #ffffff !important; }
+  background-color: #dce5e4;
+  color: #3d5265 !important; }
 
 table.spotlight.last {
   margin-bottom: 0; }
 
 table.spotlight p {
-  color: #2f2c27; }
+  color: #ffffff; }
 
 table.spotlight h2 {
-  color: #4c4184;
+  color: #7cb82f;
   font-size: 20px;
   margin-top: 20px; }
 
 table.spotlight h4 {
-  color: #4c4184;
+  color: #7cb82f;
   font-size: 18px;
   margin-bottom: 5px; }
 
 table.spotlight h5 {
-  color: #4c4184;
+  color: #7cb82f;
   font-size: 16px;
   text-transform: uppercase; }
 
@@ -809,7 +809,7 @@ table.spotlight.bg-white p {
 
 table.spotlight td.spotlight-heading,
 table.spotlight a.spotlight-heading {
-  color: #4c4184 !important; }
+  color: #7cb82f !important; }
 
 table.email-general-content p {
   margin-bottom: 1em; }

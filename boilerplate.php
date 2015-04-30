@@ -5,7 +5,7 @@
 
   // $template = 'ho-drip';                // SCSS theme should be set to $c-purple
   // $template = 'ho-notification';     // SCSS theme should be set to $c-ltblue
-  $template = 'ho-academy';          // SCSS theme should be set to $c-green
+  // $template = 'ho-academy';          // SCSS theme should be set to $c-green
   // $template = 'ho-newsletter';       // SCSS theme should be set to $c-blue
   // $template = 'ho-updates';             // SCSS theme should be set to $c-dkblue
   // $template = 'ho-lost-accounts';       // SCSS theme should be set to $c-orange
@@ -13,7 +13,7 @@
   // $template = 'tune-drip';           // SCSS theme should be set to $c-purple
   // $template = 'tune-notification';   // SCSS theme should be set to $c-ltblue
   // $template = 'tune-academy';        // SCSS theme should be set to $c-green
-  // $template = 'tune-newsletter';     // SCSS theme should be set to $c-blue
+  $template = 'tune-newsletter';     // SCSS theme should be set to $c-blue
   // $template = 'tune-updates';             // SCSS theme should be set to $c-dkblue
   // $template = 'tune-lost-accounts';       // SCSS theme should be set to $c-orange
 
