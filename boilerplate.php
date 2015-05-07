@@ -13,9 +13,10 @@
   // $template = 'tune-drip';           // SCSS theme should be set to $c-purple
   // $template = 'tune-notification';   // SCSS theme should be set to $c-ltblue
   // $template = 'tune-academy';        // SCSS theme should be set to $c-green
-  $template = 'tune-newsletter';     // SCSS theme should be set to $c-blue
+  // $template = 'tune-newsletter';     // SCSS theme should be set to $c-blue
   // $template = 'tune-updates';             // SCSS theme should be set to $c-dkblue
   // $template = 'tune-lost-accounts';       // SCSS theme should be set to $c-orange
+  $template = 'tune-events';         // SCSS theme should be set to $c-orange
 
   // $template = 'recap';               // SCSS theme should be set to $c-orange
   // $template = 'privacy';             // SCSS theme should be set to $c-orange
@@ -95,82 +96,11 @@
 
                 <?php 
 
-                // BRANDED HERO IMAGES
-                // ------------------------------------------------------------------------------ /
-
-                // If this is the newsletter template
-                if($isNewsletter) {
-
-                  // HASOFFERS ------------ /
-
-                  // And if this requires the HasOffers header
-                  if($isHasOffers) {
-                    // And if this is the Academy template
-                    if($isAcademy) {
-                      // Include the HO Academy Image
-                      include('modules/hero-images/branded/hero-ho-academy.php'); 
-
-                    // And if it is the updates
-                    } elseif($isUpdate) {
-                      // Include the TUNE Academy hero image
-                      include('modules/hero-images/generic/hero-notepad-with-pen.php'); 
-
-                    // if it's the lost accounts template
-                    } elseif($isLostAccount) {
-                      // Include the generic reports header
-                      include('modules/hero-images/generic/hero-reports.php');
-                      
-                    } else {
-                      // Include the We Heart Performance image
-                      include('modules/hero-images/branded/hero-heart-performance.php'); 
-                    }
-
-                  // NOT HASOFFERS -------- /
-
-                  // If this does not require the HasOffers header
-                  } else {
-                    // If this is the marketing recap template
-                    if($isRecap) {
-                      // Include the marketing recap header
-                      include('modules/hero-images/branded/hero-marketing.php'); 
-
-                    // If this is the privacy newsletter
-                    } elseif($isPrivacy) {
-                      // Include the privacy image
-                      include('modules/hero-images/branded/hero-privacy.php'); 
-
-                    // And if it is the academy template
-                    } elseif($isAcademy) {
-                      // Include the TUNE Academy hero image
-                      include('modules/hero-images/branded/hero-tune-academy.php'); 
-
-                    // And if it is the updates
-                    } elseif($isUpdate) {
-                      // Include the TUNE Academy hero image
-                      include('modules/hero-images/generic/hero-notepad-with-pen.php'); 
-
-                    // if it's the lost accounts template
-                    } elseif($isLostAccount) {
-                      // Include the generic reports header
-                      include('modules/hero-images/generic/hero-reports.php');
-
-                    // If this isn't the academy template
-                    } else {
-                      // Include the We Heart Mobile image
-                      include('modules/hero-images/branded/hero-heart-mobile.php');  
-                    }                   
-                  }
-
-                // If this is NOT the newsletter template
-                } else {
-                  // Include the generic hero image
-                  include('modules/hero-images/generic/hero-iphone-on-laptop.php');
-                }
-
-
-                // FEATURED CONTENT MODULE?
-                // ------------------------------------------------------------------------------ /
-                    include('modules/featured-content.php');
+                  include ('modules/hero-image.php');
+                  
+                  // FEATURED CONTENT MODULE?
+                  // ------------------------------------------------------------------------------ /
+                  include('modules/featured-content.php');
 
                 ?>
 

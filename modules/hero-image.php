@@ -14,7 +14,7 @@
                                     <tr>
                                       <td>
 
-                                        <img class="border-bottom-theme" src="http://storage.pardot.com/23402/58008/2015_email_bg_hasteam.jpg" width="580" height="136" pardot-region>
+                                        <img class="border-bottom-theme" src="<?php echo $heroImage; ?>" width="580" height="136" pardot-region>
 
                                       </td>
                                       <td class="expander"></td>

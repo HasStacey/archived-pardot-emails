@@ -18,6 +18,8 @@ Backgrounds:
 	Privacy Header:				http://storage.pardot.com/23402/56786/2015_email_bg_privacy_newsletter.png
 	HasTeam:					http://storage.pardot.com/23402/58008/2015_email_bg_hasteam.jpg
 	Postback Lanyard:			http://storage.pardot.com/23402/58022/2015_email_bg_postback_lanyard.jpg
+	Postback 2015:				http://storage.pardot.com/23402/67034/PB_EmailHeaderFinal.jpg
+	Postback Sunglasses:		http://storage.pardot.com/23402/67784/2015_email_bg_sunglasses.jpg
   
   Generic:
 	Business Meeting:			http://storage.pardot.com/23402/58012/2015_email_bg_business_meeting_tablet.jpg
