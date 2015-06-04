@@ -1,0 +1,1998 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width"/>
+
+<style>
+/**********************************************
+* Ink v1.0.5 - Copyright 2013 ZURB Inc        *
+**********************************************/
+/* Client-specific Styles & Reset */
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+#outlook a {
+  padding: 0; }
+
+body {
+  width: 100% !important;
+  min-width: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0; }
+
+.ExternalClass {
+  width: 100%; }
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%; }
+
+#backgroundTable {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+  line-height: 100% !important; }
+
+img {
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+  width: auto;
+  max-width: 100%;
+  float: left;
+  clear: both;
+  display: block; }
+
+center {
+  width: 100%;
+  min-width: 580px; }
+
+a img {
+  border: none; }
+
+p {
+  margin: 0 0 0 10px; }
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse; }
+
+td {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  border-collapse: collapse !important; }
+
+table, tr, td {
+  padding: 0;
+  vertical-align: top;
+  text-align: left; }
+
+hr {
+  color: #d9d9d9;
+  background-color: #d9d9d9;
+  height: 1px;
+  border: none; }
+
+/* Responsive Grid */
+table.body {
+  height: 100%;
+  width: 100%; }
+
+table.container {
+  width: 580px;
+  margin: 0 auto;
+  text-align: inherit; }
+
+table.row {
+  padding: 0px;
+  width: 100%;
+  position: relative; }
+
+table.container table.row {
+  display: block; }
+
+td.wrapper {
+  padding: 20px 20px 20px 0px;
+  position: relative; }
+
+.email-header td.wrapper,
+.email-footer td.wrapper {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+table.columns,
+table.column {
+  margin: 0 auto; }
+
+table.columns td,
+table.column td {
+  padding: 0px; }
+
+table.columns td.sub-columns,
+table.column td.sub-columns,
+table.columns td.sub-column,
+table.column td.sub-column {
+  padding-right: 10px; }
+
+td.sub-column, td.sub-columns {
+  min-width: 0px; }
+
+table.row td.last,
+table.container td.last {
+  padding-right: 0px; }
+
+table.one {
+  width: 30px; }
+
+table.two {
+  width: 80px; }
+
+table.three {
+  width: 130px; }
+
+table.four {
+  width: 180px; }
+
+table.five {
+  width: 230px; }
+
+table.six {
+  width: 280px; }
+
+table.seven {
+  width: 330px; }
+
+table.eight {
+  width: 380px; }
+
+table.nine {
+  width: 430px; }
+
+table.ten {
+  width: 480px; }
+
+table.eleven {
+  width: 530px; }
+
+table.twelve {
+  width: 580px; }
+
+table.one center {
+  min-width: 30px; }
+
+table.two center {
+  min-width: 80px; }
+
+table.three center {
+  min-width: 130px; }
+
+table.four center {
+  min-width: 180px; }
+
+table.five center {
+  min-width: 230px; }
+
+table.six center {
+  min-width: 280px; }
+
+table.seven center {
+  min-width: 330px; }
+
+table.eight center {
+  min-width: 380px; }
+
+table.nine center {
+  min-width: 430px; }
+
+table.ten center {
+  min-width: 480px; }
+
+table.eleven center {
+  min-width: 530px; }
+
+table.twelve center {
+  min-width: 580px; }
+
+table.one .panel center {
+  min-width: 10px; }
+
+table.two .panel center {
+  min-width: 60px; }
+
+table.three .panel center {
+  min-width: 110px; }
+
+table.four .panel center {
+  min-width: 160px; }
+
+table.five .panel center {
+  min-width: 210px; }
+
+table.six .panel center {
+  min-width: 260px; }
+
+table.seven .panel center {
+  min-width: 310px; }
+
+table.eight .panel center {
+  min-width: 360px; }
+
+table.nine .panel center {
+  min-width: 410px; }
+
+table.ten .panel center {
+  min-width: 460px; }
+
+table.eleven .panel center {
+  min-width: 510px; }
+
+table.twelve .panel center {
+  min-width: 560px; }
+
+.body .columns td.one,
+.body .column td.one {
+  width: 8.333333%; }
+
+.body .columns td.two,
+.body .column td.two {
+  width: 16.666666%; }
+
+.body .columns td.three,
+.body .column td.three {
+  width: 25%; }
+
+.body .columns td.four,
+.body .column td.four {
+  width: 33.333333%; }
+
+.body .columns td.five,
+.body .column td.five {
+  width: 41.666666%; }
+
+.body .columns td.six,
+.body .column td.six {
+  width: 50%; }
+
+.body .columns td.seven,
+.body .column td.seven {
+  width: 58.333333%; }
+
+.body .columns td.eight,
+.body .column td.eight {
+  width: 66.666666%; }
+
+.body .columns td.nine,
+.body .column td.nine {
+  width: 75%; }
+
+.body .columns td.ten,
+.body .column td.ten {
+  width: 83.333333%; }
+
+.body .columns td.eleven,
+.body .column td.eleven {
+  width: 91.666666%; }
+
+.body .columns td.twelve,
+.body .column td.twelve {
+  width: 100%; }
+
+td.offset-by-one {
+  padding-left: 50px; }
+
+td.offset-by-two {
+  padding-left: 100px; }
+
+td.offset-by-three {
+  padding-left: 150px; }
+
+td.offset-by-four {
+  padding-left: 200px; }
+
+td.offset-by-five {
+  padding-left: 250px; }
+
+td.offset-by-six {
+  padding-left: 300px; }
+
+td.offset-by-seven {
+  padding-left: 350px; }
+
+td.offset-by-eight {
+  padding-left: 400px; }
+
+td.offset-by-nine {
+  padding-left: 450px; }
+
+td.offset-by-ten {
+  padding-left: 500px; }
+
+td.offset-by-eleven {
+  padding-left: 550px; }
+
+td.expander {
+  visibility: hidden;
+  width: 0px;
+  padding: 0 !important; }
+
+table.columns .text-pad,
+table.column .text-pad {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+table.columns .left-text-pad,
+table.columns .text-pad-left,
+table.column .left-text-pad,
+table.column .text-pad-left {
+  padding-left: 10px; }
+
+table.columns .right-text-pad,
+table.columns .text-pad-right,
+table.column .right-text-pad,
+table.column .text-pad-right {
+  padding-right: 10px; }
+
+/* Block Grid */
+.block-grid {
+  width: 100%;
+  max-width: 580px; }
+
+.block-grid td {
+  display: inline-block;
+  padding: 10px; }
+
+.two-up td {
+  width: 270px; }
+
+.three-up td {
+  width: 173px; }
+
+.four-up td {
+  width: 125px; }
+
+.five-up td {
+  width: 96px; }
+
+.six-up td {
+  width: 76px; }
+
+.seven-up td {
+  width: 62px; }
+
+.eight-up td {
+  width: 52px; }
+
+/* Alignment & Visibility Classes */
+table.center, td.center {
+  text-align: center; }
+
+h1.center,
+h2.center,
+h3.center,
+h4.center,
+h5.center,
+h6.center {
+  text-align: center; }
+
+span.center {
+  display: block;
+  width: 100%;
+  text-align: center; }
+
+img.center {
+  margin: 0 auto;
+  float: none; }
+
+.show-for-small,
+.hide-for-desktop {
+  display: none; }
+
+/* Typography */
+body, table.body, h1, h2, h3, h4, h5, h6, p, td {
+  color: #2f2c27;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  line-height: 1.3; }
+
+h1, h2, h3, h4, h5, h6 {
+  word-break: normal; }
+
+h1 {
+  font-size: 40px; }
+
+h2 {
+  font-size: 36px; }
+
+h3 {
+  font-size: 32px; }
+
+h4 {
+  font-size: 28px; }
+
+h5 {
+  font-size: 24px; }
+
+h6 {
+  font-size: 20px; }
+
+body, table.body, p, td {
+  font-size: 14px;
+  line-height: 19px; }
+
+p.lead, p.lede, p.leed {
+  font-size: 18px;
+  line-height: 21px; }
+
+/*    p { 
+      margin-bottom: 10px;
+    }*/
+small {
+  font-size: 10px; }
+
+a {
+  color: #007aff;
+  text-decoration: none; }
+
+a:hover {
+  color: #007aff; }
+
+a:active {
+  color: #007aff; }
+
+a:visited {
+  color: #007aff; }
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #007aff; }
+
+h1 a:active,
+h2 a:active,
+h3 a:active,
+h4 a:active,
+h5 a:active,
+h6 a:active {
+  color: #007aff; }
+
+h1 a:visited,
+h2 a:visited,
+h3 a:visited,
+h4 a:visited,
+h5 a:visited,
+h6 a:visited {
+  color: #007aff; }
+
+/* Panels */
+.panel {
+  background: #f2f2f2;
+  border: 1px solid #d9d9d9;
+  padding: 10px !important; }
+
+.sub-grid table {
+  width: 100%; }
+
+.sub-grid td.sub-columns {
+  padding-bottom: 0; }
+
+/* Outlook First */
+body.outlook p {
+  display: inline !important; }
+
+/*  Media Queries */
+@media only screen and (max-width: 600px) {
+  table[class="body"] img {
+    width: auto !important;
+    height: auto !important; }
+
+  table[class="body"] center {
+    min-width: 0 !important; }
+
+  table[class="body"] .container {
+    width: 95% !important; }
+
+  table[class="body"] .container.spotlight,
+  table[class="body"] .container.email-hero-image,
+  table[class="body"] .container.email-footer {
+    width: 100% !important; }
+
+  table[class="body"] .container.spotlight .row {
+    padding: 0 2.5% !important;
+    width: 95% !important; }
+
+  table[class="body"] .row {
+    width: 100% !important;
+    display: block !important; }
+
+  table[class="body"] .wrapper {
+    display: block !important;
+    padding-right: 0 !important; }
+
+  table[class="body"] .columns,
+  table[class="body"] .column {
+    table-layout: fixed !important;
+    float: none !important;
+    width: 100% !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    display: block !important; }
+
+  table[class="body"] .wrapper.first .columns,
+  table[class="body"] .wrapper.first .column {
+    display: table !important; }
+
+  table[class="body"] table.columns td,
+  table[class="body"] table.column td {
+    width: 100% !important; }
+
+  table[class="body"] .columns td.one,
+  table[class="body"] .column td.one {
+    width: 8.333333% !important; }
+
+  table[class="body"] .columns td.two,
+  table[class="body"] .column td.two {
+    width: 16.666666% !important; }
+
+  table[class="body"] .columns td.three,
+  table[class="body"] .column td.three {
+    width: 25% !important; }
+
+  table[class="body"] .columns td.four,
+  table[class="body"] .column td.four {
+    width: 33.333333% !important; }
+
+  table[class="body"] .columns td.five,
+  table[class="body"] .column td.five {
+    width: 41.666666% !important; }
+
+  table[class="body"] .columns td.six,
+  table[class="body"] .column td.six {
+    width: 50% !important; }
+
+  table[class="body"] .columns td.seven,
+  table[class="body"] .column td.seven {
+    width: 58.333333% !important; }
+
+  table[class="body"] .columns td.eight,
+  table[class="body"] .column td.eight {
+    width: 66.666666% !important; }
+
+  table[class="body"] .columns td.nine,
+  table[class="body"] .column td.nine {
+    width: 75% !important; }
+
+  table[class="body"] .columns td.ten,
+  table[class="body"] .column td.ten {
+    width: 83.333333% !important; }
+
+  table[class="body"] .columns td.eleven,
+  table[class="body"] .column td.eleven {
+    width: 91.666666% !important; }
+
+  table[class="body"] .columns td.twelve,
+  table[class="body"] .column td.twelve {
+    width: 100% !important; }
+
+  table[class="body"] td.offset-by-one,
+  table[class="body"] td.offset-by-two,
+  table[class="body"] td.offset-by-three,
+  table[class="body"] td.offset-by-four,
+  table[class="body"] td.offset-by-five,
+  table[class="body"] td.offset-by-six,
+  table[class="body"] td.offset-by-seven,
+  table[class="body"] td.offset-by-eight,
+  table[class="body"] td.offset-by-nine,
+  table[class="body"] td.offset-by-ten,
+  table[class="body"] td.offset-by-eleven {
+    padding-left: 0 !important; }
+
+  table[class="body"] table.columns td.expander {
+    width: 1px !important; }
+
+  table[class="body"] .right-text-pad,
+  table[class="body"] .text-pad-right {
+    padding-left: 10px !important; }
+
+  table[class="body"] .left-text-pad,
+  table[class="body"] .text-pad-left {
+    padding-right: 10px !important; }
+
+  table[class="body"] .hide-for-small,
+  table[class="body"] .show-for-desktop {
+    display: none !important; }
+
+  table[class="body"] .show-for-small,
+  table[class="body"] .hide-for-desktop {
+    display: inherit !important; }
+
+  table[class="body"] .email-header .wrapper.last {
+    padding-top: 0 !important; }
+
+  table[class="body"] .email-header .wrapper img {
+    float: none !important; }
+
+  table[class="body"] .email-header .text-align-right {
+    text-align: center !important; } }
+* {
+  font-family: Gotham, Raleway, Helvetica, Arial, sans-serif !important; }
+
+body, p, li {
+  font-size: 12px;
+  line-height: 24px; }
+
+b {
+  font-weight: 700; }
+
+/*////// LAYOUT //////*/
+body, .body {
+  background: #f5f7f7; }
+
+/*////// WRAPPER //////*/
+table.email-wrapper {
+  background-color: #ffffff;
+  margin-bottom: 40px; }
+
+/*////// HEADER //////*/
+.email-header .row {
+  padding: 10px 0; }
+
+.email-header .online-link {
+  padding-top: 3px; }
+
+/*////// FOOTER //////*/
+table.email-footer {
+  background-color: #007aff; }
+
+.email-footer .row {
+  padding: 15px 0; }
+
+.email-footer td {
+  color: #ffffff; }
+
+.email-footer span {
+  text-transform: uppercase;
+  margin: 0 5px; }
+
+.email-footer a {
+  color: #ffffff !important;
+  border-bottom: 1px solid white; }
+
+.email-footer a:hover {
+  color: #ffffff !important; }
+
+.email-footer .footer-logo {
+  margin-top: 13px; }
+
+/*////// TYPE STYLES //////*/
+h1 {
+  font-size: 25px; }
+
+h2.subheading {
+  font-size: 14px;
+  color: #53606d;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 3px; }
+
+.text-align-right {
+  text-align: right; }
+
+.text-align-center {
+  text-align: center; }
+
+.text-xsmall {
+  font-size: 8px;
+  letter-spacing: 1px; }
+
+.text-small {
+  font-size: 11px; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+/*////// THEME COLORS //////*/
+.text-theme a,
+.text-theme a:visited,
+.text-theme a:active,
+.text-theme a:focus,
+.text-theme {
+  color: #a9abac !important;
+  /* Heading text color */ }
+
+.text-white {
+  color: #ffffff; }
+
+a.grey-anchor {
+  color: #333333; }
+
+.border-bottom-theme {
+  border-bottom: 6px solid #ffa300; }
+
+/*////// BACKGROUND COLORS //////*/
+.background-tuneblue {
+  background-color: #ffa300;
+  color: #ffffff; }
+
+/*////// BUTTONS //////*/
+table.button {
+  background-color: #ffa300;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  border: 0;
+  text-decoration: none !important; }
+  table.button a,
+  table.button a:hover,
+  table.button a:active,
+  table.button a:visited {
+    color: #ffffff !important;
+    padding: 11px 0 9px;
+    display: block; }
+
+a.no-underline {
+  text-decoration: none;
+  border-bottom: none; }
+
+a.always-blue,
+a.always-blue:hover,
+a.always-blue:active,
+a.always-blue:visited {
+  color: #007aff !important; }
+
+/*////// ICONS //////*/
+.social-icon {
+  margin-top: 15px !important; }
+
+/*////// NO PADDING //////*/
+td.no-padding-top {
+  padding-top: 0; }
+
+td.no-padding-bottom {
+  padding-bottom: 0; }
+
+td.double-padding-bottom {
+  padding-bottom: 40px; }
+
+a.no-border {
+  border: 0 !important; }
+
+/*////// SPOTLIGHT //////*/
+table.spotlight {
+  background-color: #3d5265;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+table.spotlight td.spotlight-content {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+table.spotlight:not(.bg-white) table.button {
+  background-color: #ffa300;
+  color: #ffffff !important; }
+
+table.spotlight.last {
+  margin-bottom: 0; }
+
+table.spotlight p {
+  color: #ffffff; }
+
+table.spotlight h2 {
+  color: #ffa300;
+  font-size: 20px;
+  margin-top: 20px; }
+
+table.spotlight h4 {
+  color: #ffa300;
+  font-size: 18px;
+  margin-bottom: 5px; }
+
+table.spotlight h5 {
+  color: #ffa300;
+  font-size: 16px;
+  text-transform: uppercase; }
+
+table.spotlight.bg-white {
+  background-color: #ffffff;
+  margin-top: 0 !important; }
+
+table.spotlight.bg-white h2,
+table.spotlight.bg-white h4 {
+  color: #3d5265; }
+
+table.spotlight.bg-white p {
+  color: #2f2c27; }
+
+table.spotlight td.spotlight-heading,
+table.spotlight a.spotlight-heading {
+  color: #ffa300 !important; }
+
+table.email-general-content p {
+  margin-bottom: 1em; }
+
+/*////// SPOTLIGHT //////*/
+.featured-image {
+  margin: 20px 0; }
+  .featured-image img {
+    width: 100%;
+    display: block; }
+  .featured-image.no-margin-top {
+    margin-top: 0; }
+
+/*  Media Queries */
+@media only screen and (max-width: 600px) {
+  .footer-logo {
+    padding-top: 0 !important;
+    margin-top: 5px !important; }
+
+  .footer-colophon,
+  .footer-social {
+    padding: 0 !important; } }
+</style>
+
+        
+  </head>
+  <body>
+    <table class="body">
+      <tr>
+        <td class="center" align="center" valign="top">
+          <center>
+
+                    <!-- EMAIL HEADER WITH LOGO AND VIEW ONLINE LINK // -->
+          <table class="email-header container">
+            <tr>
+              <td>
+
+                <!-- ROW 1 // -->
+                <table class="row">
+                  <tr>
+                    
+                    <!-- LOGO // -->
+                    <td class="wrapper">
+
+                      <table class="six columns">
+                        <tr>
+                          <td>
+
+                            <center>
+                              <a href="http://www.tune.com"><img src="http://storage.pardot.com/23402/59960/2015_email_tune_logo.png" width="97" height="24" alt="TUNE" style="max-width: 150px !important;"></a>
+                            </center>
+
+                          </td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+
+                    </td>
+                    <!-- // LOGO -->
+
+                    <!-- // VIEW ONLINE LINK -->
+                    <td class="wrapper last">
+
+                      <table class="six columns">
+                        <tr>
+                          <td class="online-link text-small text-align-right">
+
+                            <a class="no-border grey-anchor" href="%%view_online%%">View Online</a>
+
+                          </td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+
+                    </td>
+                    <!-- // VIEW ONLINE LINK -->
+
+                  </tr>
+                </table>
+                <!-- // ROW 1 -->
+
+              </td>
+            </tr>
+          </table> 
+          <!-- // EMAIL HEADER WITH LOGO AND VIEW ONLINE LINK -->
+          <!-- CONTENT WRAPPER // -->
+          <table class="container email-wrapper">
+            <!-- NON MOVABLE CONTENT HEADER // -->
+            <tr>
+              <td>
+
+                                      <!-- HERO IMAGE // -->
+                      <table class="container email-hero-image">
+                        <tr>
+                          <td>
+
+                            <!-- ROW 1 // -->
+                            <table class="row">
+                              <tr>
+                                
+                                <!-- HERO IMAGE // -->
+                                <td class="wrapper last no-padding-top">
+
+                                  <table class="twelve columns">
+                                    <tr>
+                                      <td>
+
+                                        <img class="border-bottom-theme" src="http://storage.pardot.com/23402/58010/2015_email_bg_reports_tablet_mobile.jpg" width="580" height="136" pardot-region>
+
+                                      </td>
+                                      <td class="expander"></td>
+                                    </tr>
+                                  </table>
+
+                                </td>
+                                <!-- // HERO IMAGE -->
+
+                              </tr>
+                            </table>
+                            <!-- // ROW 1 -->
+
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // HERO IMAGE -->
+                      <!-- NON MOVABLE FEATURED CONTENT // -->
+                      <table class="container" pardot-repeatable>
+                        <tr>
+                          <td>
+
+                            <!-- ROW 1 // -->
+                            <table class="row">
+                              <tr>
+                                
+                                <!-- HEADING // -->
+                                <td class="wrapper offset-by-one last ">
+
+                                  <table class="ten columns">
+                                    <tr>
+                                      <td>
+
+                                        <h2 class="subheading" pardot-region pardot-removable>
+                                          Subheading                                        </h2>
+                                                                                      <h1 class="text-theme" pardot-region pardot-removable>Title Content Module; not removable, movable or repeatable. 2 line limit plz.</h1>
+                                                                                        <table pardot-removable>
+                                              <tr>
+                                                <td>
+                                                  <p pardot-region class="featured-image"><img src="http://placehold.it/480x225" style="display: inline;"></p>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                                                                          <p style="margin-top: 1em; clear: both;" pardot-repeatable><span pardot-region>Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri un testo segnaposto utilizzato...</span> <span pardot-removable><a href="" pardot-region>Read the Full Article</a><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="display: inline; float: none; padding-left: 3px;"></span></p>
+                                                                                  </td>
+                                      <td class="expander"></td>
+                                    </tr>
+                                  </table>
+
+                                </td>
+                                <!-- // HEADING -->
+
+                              </tr>
+                            </table>
+                            <!-- // ROW 1 -->
+
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // NON MOVABLE FEATURED CONTENT -->
+              </td>
+            </tr>
+            <tr>
+            <!-- // NON MOVABLE CONTENT HEADER -->
+
+
+            <!-- MOVABLE CONTENT // -->
+            <tr>
+              <td>
+
+                
+                <!-- LESSER CONTENT MODULE // -->
+                <table class="container" pardot-repeatable>
+                  <tr>
+                    <td>
+
+                      <!-- CONTENT // -->
+                      <table class="row">
+                        <tr>
+                          
+                          <!-- HEADING // -->
+                          <td class="wrapper offset-by-one last">
+
+                            <table class="ten columns">
+                              <tr>
+                                <td>
+
+                                  <h2 class="subheading" pardot-region>Lesser Content Module; repeatable &amp; movable. Please limit headline to two lines.</h2>
+
+                                  <p style="clear: both;"><span pardot-region>Good for small or even larger blocks of text. First paragraph is static but the link can be removed if needed.</span> <span pardot-removable><a href="" pardot-region>Read the Full Article</a><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="display: inline; float: none; padding-left: 3px;"></span></p>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                          <!-- // HEADING -->
+
+                        </tr>
+                      </table>
+                      <!-- // CONTENT -->
+
+                      <!-- TWO BUTTONS // -->
+                      <table class="row" pardot-repeatable>
+                        <tr>
+
+                          <!-- BUTTON 1 // -->
+                          <td class="wrapper offset-by-one no-padding-top">
+
+                            <table class="five columns">
+                              <tr>
+                                <td class="center">
+
+                  <table class="button">
+                    <tr>
+                      <td>
+                        <center><a href="#" pardot-region>11/17 7:00am - Register</a></center>
+                      </td>
+                    </tr>
+                  </table>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                          <!-- // BUTTON 1 -->
+
+                          <!-- BUTTON 2 // -->
+                          <td class="wrapper no-padding-top">
+
+                            <table class="five columns last">
+                              <tr>
+                                <td class="center">
+
+                  <table class="button">
+                    <tr>
+                      <td>
+                        <center><a href="#" pardot-region>11/17 7:00am - Register</a></center>
+                      </td>
+                    </tr>
+                  </table>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                          <!-- // BUTTON 2 -->
+
+                        </tr>
+                      </table>
+                      <!-- // TWO BUTTONS -->
+
+                      <!-- SINGLE BUTTON // -->
+                      <table class="row" pardot-repeatable>
+                        <tr>
+
+                          <!-- BUTTON 1 // -->
+                          <td class="wrapper offset-by-three last no-padding-top">
+
+                            <table class="six columns">
+                              <tr>
+                                <td class="center">
+
+                  <table class="button">
+                    <tr>
+                      <td>
+                        <center><a href="#" pardot-region>11/17 7:00am - Register</a></center>
+                      </td>
+                    </tr>
+                  </table>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                          <!-- // BUTTON 1 -->
+
+                        </tr>
+                      </table>
+                      <!-- // SINGLE BUTTON -->
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- // LESSER CONTENT MODULE --><!-- SPOTLIGHT -->
+<table class="spotlight container" pardot-repeatable>
+  <tr>
+    <td class="spotlight-content">
+
+      <!-- HEADER // -->
+      <table class="row">
+        <tr>
+          <td class="wrapper offset-by-one last no-padding-top">
+
+            <table class="ten columns">
+              <tr>
+                <td>
+
+                  <h2 class="center" pardot-region>Product Spotlight Trainings</h2>
+
+                </td>
+                <td class="expander"></td>
+              </tr>
+            </table>
+
+          </td>
+        </tr>
+      </table>
+      <!-- // HEADER -->
+
+      <!-- MODULE LAYOUT // -->
+      <table style="margin-bottom: 25px;" pardot-repeatable>
+        <tr>
+
+          <!-- GAP COLUMN // -->
+          <td style="width: 50px;"></td>
+          <!-- // GAP COLUMN -->
+
+          <!-- MODULE CONTENT COLUMNS // -->
+          <td style="width: 480px;">
+            <table>
+
+              <!-- ICONS // -->
+              <tr>
+                <td style="width: 230px; text-align: center; color: #ffffff; padding: 10px;">
+                  <img src="http://storage.pardot.com/23402/56798/2015_email_icon_gift.png" style="display: inline; float: none;" pardot-region>
+                </td>
+                <td style="width: 20px;"></td>
+                <td style="width: 230px; text-align: center; color: #ffffff; padding: 10px;">
+                  <img src="http://storage.pardot.com/23402/56806/2015_email_icon_list.png" style="display: inline; float: none;" pardot-region>
+                </td>
+              </tr>
+              <!-- // ICONS -->
+
+              <!-- HEADINGS // -->
+              <tr>
+                <td style="width: 230px; text-align: center; padding: 0 10px; text-transform: uppercase; font-size: 16px;" class="spotlight-heading" pardot-region>
+                  Headline goes here
+                </td>
+                <td style="width: 20px;"></td>
+                <td style="width: 230px; text-align: center; padding: 0 10px; text-transform: uppercase; font-size: 16px;" class="spotlight-heading" pardot-region>
+                  Headline goes here
+                </td>
+              </tr>
+              <!-- // HEADINGS -->
+
+              <!-- CONTENT // -->
+              <tr>
+                <td style="width: 230px; text-align: center; padding: 10px;">
+                  <p style="text-align: center;" pardot-region>This is the content.</p>
+                </td>
+                <td style="width: 20px;"></td>
+                <td style="width: 230px; text-align: center; padding: 10px;">
+                  <p style="text-align: center;" pardot-region>This is the content.</p>
+                </td>
+              </tr>
+              <!-- // CONTENT -->
+
+              <!-- FOOTER // -->
+              <tr>
+                <td valign="middle" style="width: 230px; text-align: center; padding: 5px 10px 10px; text-transform: uppercase; font-size: 16px;" class="spotlight-heading">
+                  <a class="no-underline spotlight-heading" href="" pardot-region>11/14 10:30am<br>Register Now</a>
+                </td>
+                <td style="width: 20px;"></td>
+                <td valign="middle" style="width: 230px; text-align: center; padding: 5px 10px 10px; text-transform: uppercase; font-size: 16px;" class="spotlight-heading">
+                  <a class="no-underline spotlight-heading" href="" pardot-region>11/14 10:30am<br>Register Now</a>
+                </td>
+              </tr>
+              <!-- // FOOTER -->
+
+            </table>
+          </td>
+          <!-- // MODULE CONTENT COLUMNS -->
+
+          <!-- GAP COLUMN -->
+          <td style="width: 50px;"></td>
+          <!-- // GAP COLUMN -->
+        </tr>
+      </table>
+      <!-- // MODULE LAYOUT -->
+
+    </td>
+  </tr>
+</table>
+<!-- SPOTLIGHT -->                <!-- SINGLE MICRO POST // -->
+                <table class="container" pardot-repeatable>
+                  <tr>
+                    <td>
+
+                      <table class="row">
+                        <tr>
+                          <!-- CONTENT COLUMN 1 // -->
+                          <td class="wrapper offset-by-one last">
+
+                            <table class="ten columns">
+                              <tr>
+                                <td>
+
+                                  <h3 style="font-size: 18px; margin-bottom: 10px;"><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a href="#" pardot-region>Single Column Micro-post. Limit 1 line plz.</a></h3>
+                                  <p pardot-region>Just a little text to describe the micro-post or link. Body text should wrap to two lines or more. Limit 3 lines.</p>
+
+                                </td>
+                                <td class="expander"></td>
+
+                              </tr>
+                            </table>
+
+                          </td>
+                          <!-- // CONTENT COLUMN 1 -->
+
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- // SINGLE MICRO POST -->                <!-- TWO UP MICRO POSTS // -->
+                <table class="container" pardot-repeatable>
+                  <tr>
+                    <td>
+
+                      <table class="row">
+                        <tr>
+                          <!-- CONTENT COLUMN 1 // -->
+                          <td class="wrapper offset-by-one">
+
+                            <table class="five columns">
+                              <tr>
+                                <td>
+
+                                  <h3 style="font-size: 18px; margin-bottom: 10px;"><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a href="#" pardot-region>Two-Column Micro-Post; Heading is link. Limit 3 lines, plz.</a></h3>
+                                  <p pardot-region>Limit to 4 lines max. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+
+                                </td>
+                                <td class="expander"></td>
+
+                              </tr>
+                            </table>
+
+                          </td>
+                          <!-- // CONTENT COLUMN 1 -->
+
+                          <!-- CONTENT COLUMN 2 // -->
+                          <td class="wrapper last">
+
+                            <table class="five columns">
+                              <tr>
+                                <td>
+
+                                  <h3 style="font-size: 18px; margin-bottom: 10px;"><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a href="#" pardot-region>Two-Column Micro-Post; Heading is link. Limit 3 lines, plz.</a></h3>
+                                  <p pardot-region>Limit to 4 lines max. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+
+                                </td>
+                                <td class="expander"></td>
+
+                              </tr>
+                            </table>
+
+                          </td>
+                          <!-- // CONTENT COLUMN 2 -->
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- // TWO UP MICRO POSTS -->                <!-- CALL TO ACTION ON GREY BACKGROUND WITH TEXT // -->
+                <table class="spotlight container" pardot-repeatable>
+                  <tr>
+                    <td class="spotlight-content">
+
+                      <!-- HEADER // -->
+                      <table class="row">
+                        <tr>
+                          <td class="wrapper offset-by-one last no-padding-top">
+
+                            <table class="ten columns">
+                              <tr>
+                                <td>
+
+                                  <h2 class="center" pardot-region pardot-removable>Single Call to Action Module on Slate BG</h2>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // HEADER -->
+
+                      <!-- TEXT // -->
+                      <table class="row">
+                        <tr>
+                          <td class="wrapper offset-by-one no-padding-top">
+
+                            <table class="ten columns last">
+                              <tr>
+                                <td>
+
+                                  <p style="text-align: center;" class="center" pardot-region pardot-removable>Looking to find answers to or further discuss privacy and policy issues? Send us an email with your topic suggestions and we can feature them in an upcoming newsletter.</p>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // TEXT -->
+
+                      <!-- TWO BUTTONS // -->
+                      <table class="row" pardot-removable>
+                        <tr>
+
+                          <!-- BUTTON 1 // -->
+                          <td class="wrapper offset-by-one no-padding-top">
+
+                            <table class="five columns">
+                              <tr>
+                                <td class="center">
+
+                  <table class="button">
+                    <tr>
+                      <td>
+                        <center><a href="#" pardot-region>11/17 7:00am - Register</a></center>
+                      </td>
+                    </tr>
+                  </table>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                          <!-- // BUTTON 1 -->
+
+                          <!-- BUTTON 2 // -->
+                          <td class="wrapper last no-padding-top">
+
+                            <table class="five columns">
+                              <tr>
+                                <td class="center">
+
+                  <table class="button">
+                    <tr>
+                      <td>
+                        <center><a href="#" pardot-region>11/17 7:00am - Register</a></center>
+                      </td>
+                    </tr>
+                  </table>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                          <!-- // BUTTON 2 -->
+
+                        </tr>
+                      </table>
+                      <!-- // TWO BUTTONS -->
+
+                      <!-- SINGLE BUTTON // -->
+                      <table class="row" pardot-removable>
+                        <tr>
+                          <td class="wrapper offset-by-three last no-padding-top">
+
+                            <table class="six columns">
+                              <tr>
+                                <td class="center">
+
+                  <table class="button">
+                    <tr>
+                      <td>
+                        <center><a href="#" pardot-region>11/17 7:00am - Register</a></center>
+                      </td>
+                    </tr>
+                  </table>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // SINGLE BUTTON -->
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CALL TO ACTION ON GREY BACKGROUND WITH TEXT -->                <!-- CALL TO ACTION ON WHITE BACKGROUND WITH TEXT // -->
+                <table class="spotlight bg-white container" pardot-repeatable>
+                  <tr>
+                    <td>
+
+                      <!-- HEADER // -->
+                      <table class="row">
+                        <tr>
+                          <td class="wrapper offset-by-one last no-padding-top ">
+
+                            <table class="ten columns">
+                              <tr>
+                                <td>
+
+                                  <h2 class="center" pardot-region pardot-removable>Have a Topic to Share?</h2>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // HEADER -->
+
+                      <!-- TEXT // -->
+                      <table class="row">
+                        <tr>
+                          <td class="wrapper offset-by-one no-padding-top">
+
+                            <table class="ten columns last">
+                              <tr>
+                                <td>
+
+                                  <p style="text-align: center;" class="center" pardot-region pardot-removable>
+
+                                    Looking to find answers to or further discuss privacy and policy issues? Send us an email with your topic suggestions and we can feature them in an upcoming newsletter.
+                                  </p>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // TEXT -->
+
+                                                  <!-- TWO BUTTONS // -->
+                            <table class="row" pardot-removable>
+                              <tr>
+
+                                <!-- BUTTON 1 // -->
+                                <td class="wrapper offset-by-one no-padding-top">
+
+                                  <table class="five columns">
+                                    <tr>
+                                      <td class="center">
+
+                  <table class="button">
+                    <tr>
+                      <td>
+                        <center><a href="#" pardot-region>11/17 7:00am - Register</a></center>
+                      </td>
+                    </tr>
+                  </table>
+
+                                      </td>
+                                      <td class="expander"></td>
+                                    </tr>
+                                  </table>
+
+                                </td>
+                                <!-- // BUTTON 1 -->
+
+                                <!-- BUTTON 2 // -->
+                                <td class="wrapper last no-padding-top">
+
+                                  <table class="five columns">
+                                    <tr>
+                                      <td class="center">
+
+                  <table class="button">
+                    <tr>
+                      <td>
+                        <center><a href="#" pardot-region>11/17 7:00am - Register</a></center>
+                      </td>
+                    </tr>
+                  </table>
+
+                                      </td>
+                                      <td class="expander"></td>
+                                    </tr>
+                                  </table>
+
+                                </td>
+                                <!-- // BUTTON 2 -->
+
+                              </tr>
+                            </table>
+                            <!-- // TWO BUTTONS -->
+                          
+                      <!-- SINGLE BUTTON // -->
+                      <table class="row" pardot-removable>
+                        <tr>
+                          <td class="wrapper offset-by-three last no-padding-top">
+
+                            <table class="six columns">
+                              <tr>
+                                <td class="center">
+
+                                  <center>
+                                  
+                                        <table class="button">
+                                          <tr>
+                                            <td>
+                                              <center><a href="#" pardot-region>This is a button.</a></center>
+                                            </td>
+                                          </tr>
+                                        </table>
+
+                                                                      </center>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // SINGLE BUTTON -->
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- // CALL TO ACTION ON WHITE BACKGROUND WITH TEXT -->                <!-- REPEATABLE LINKS // -->
+                <table class="container" pardot-repeatable>
+                  <tr>
+                    <td>
+
+                      <!-- HEADING // -->
+                      <table class="row">
+                        <tr>
+                          <td class="wrapper offset-by-one last no-padding-top no-padding-bottom">
+
+                            <table class="ten columns">
+                              <tr>
+                                <td>
+                                  <h2 class="subheading" pardot-region>
+                                    Repeatable Links List                                  </h2>
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a href="#" pardot-region>Duplicate links or the whole list!</a></p>
+
+                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></p>
+
+                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></p>
+
+                                  <p style="font-size: 14px; margin-bottom: 0; margin-top: 0;" pardot-repeatable><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="margin-top: 6px; margin-right: 5px;"><a href="#" pardot-region>Qu'est-ce que le Lorem Ipsum?</a></p>
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // HEADING -->
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- // REPEATABLE LINKS --><table class="container" pardot-removable>
+  <tr>
+    <td>
+
+      <table class="row" pardot-removable>
+        <tr>
+          <td class="wrapper offset-by-one last no-padding-bottom">
+
+            <table class="ten columns">
+              <tr>
+                <td>
+
+                  <p pardot-region>Best regards,</p>
+
+                </td>
+                <td class="expander"></td>
+              </tr>
+            </table>
+
+          </td>
+        </tr>
+      </table>
+
+      <table class="row" pardot-repeatable>
+        <tr>
+          <td class="wrapper offset-by-one double-padding-bottom">
+
+            <table class="five columns">
+              <tr>
+                <td pardot-region>
+
+                  <img class="center" src="http://placehold.it/230x131">
+
+                </td>
+                <td class="expander"></td>
+              </tr>
+            </table>
+
+          </td>
+          <td class="wrapper last">
+
+            <table class="five columns">
+              <tr>
+                <td pardot-region>
+
+                  <img class="center" src="http://placehold.it/230x131">
+
+                </td>
+                <td class="expander"></td>
+              </tr>
+            </table>
+
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+              </td>
+            </tr>
+            <!-- // MOVABLE CONTENT -->
+
+                        <!-- NON-MOVABLE CONTENT: PRE-FOOTER SPOTLIGHT // -->
+            <tr>
+              <td>
+
+                <!-- SPOTLIGHT:LAST EVENTS CTA // -->
+                <table class="spotlight last container" pardot-removable>
+                  <tr>
+                    <td class="spotlight-content">
+
+                      <!-- HEADER // -->
+                      <table class="row">
+                        <tr>
+                          <td class="wrapper offset-by-one last no-padding-top">
+
+                            <table class="ten columns">
+                              <tr>
+                                <td>
+
+                                  <h2 class="center" pardot-region>Upcoming Events</h2>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // HEADER -->                   
+
+                      <!-- 2 COLUMN MODULE LAYOUT // -->
+                      <table class="featured-image no-margin-top" pardot-removable>
+                        <tr>
+
+                          <!-- GAP COLUMN // -->
+                          <td style="width: 50px;"></td>
+                          <!-- // GAP COLUMN -->
+
+                          <!-- MODULE CONTENT COLUMNS // -->
+                          <td style="width: 480px;">
+                            <table>
+
+                              <!-- IMAGES // -->
+                              <tr>
+                                <!-- IMAGE 1 // -->
+                                <td valign="middle" style="width: 230px; text-align: center;" pardot-region>
+                                  <img src="http://www.placehold.it/230x125">
+                                </td>
+                                <!-- // IMAGE 1 -->
+
+                                <td style="width: 20px;"></td>
+
+                                <!-- IMAGE 2 // -->
+                                <td valign="middle" style="width: 230px; text-align: center;" pardot-region>
+                                  <img src="http://www.placehold.it/230x125">
+                                </td>
+                                <!-- // IMAGE 2 -->
+
+                              </tr>
+                              <!-- // IMAGES -->
+
+                            </table>
+                          </td>
+                          <!-- // MODULE CONTENT COLUMNS -->
+
+                          <!-- GAP COLUMN -->
+                          <td style="width: 50px;"></td>
+                          <!-- // GAP COLUMN -->
+                        </tr>
+                      </table>
+                      <!-- // 2 COLUMN MODULE LAYOUT -->
+
+                      <!-- 3 COLUMN MODULE LAYOUT // -->
+                      <table class="featured-image" pardot-removable>
+                        <tr>
+
+                          <!-- GAP COLUMN // -->
+                          <td style="width: 50px;"></td>
+                          <!-- // GAP COLUMN -->
+
+                          <!-- MODULE CONTENT COLUMNS // -->
+                          <td style="width: 480px;">
+                            <table>
+
+                              <!-- IMAGES // -->
+                              <tr>
+                                <!-- IMAGE 1 // -->
+                                <td valign="middle" style="width: 146px; text-align: center;" pardot-region>
+                                  <img src="http://www.placehold.it/146x80">
+                                </td>
+                                <!-- // IMAGE 1 -->
+
+                                <td style="width: 21px;"></td>
+
+                                <!-- IMAGE 2 // -->
+                                <td valign="middle" style="width: 146px; text-align: center;" pardot-region>
+                                  <img src="http://www.placehold.it/146x80">
+                                </td>
+                                <!-- // IMAGE 2 -->
+
+                                <td style="width: 21px;"></td>
+
+                                <!-- IMAGE 3 // -->
+                                <td valign="middle" style="width: 146px; text-align: center;" pardot-region>
+                                  <img src="http://www.placehold.it/146x80">
+                                </td>
+                                <!-- // IMAGE 3 -->
+
+                              </tr>
+                              <!-- // IMAGES -->
+
+                            </table>
+                          </td>
+                          <!-- // MODULE CONTENT COLUMNS -->
+
+                          <!-- GAP COLUMN -->
+                          <td style="width: 50px;"></td>
+                          <!-- // GAP COLUMN -->
+                        </tr>
+                      </table>
+                      <!-- // 3 COLUMN MODULE LAYOUT -->
+
+                      <!-- CALL TO ACTION // -->
+                      <table class="row">
+                        <tr>
+                          <td class="wrapper offset-by-one">
+
+                            <table class="ten columns last">
+                              <tr>
+                                <td>
+
+                                  <h4 class="center" pardot-region pardot-removable>Want to meet with us?</h4>
+
+                                  <p style="text-align: center;" class="center" pardot-region pardot-removable>Attending a conference and want to meet up with us to talk about the latest in mobile marketing? Give us your info and we'll set up a time to chat.</p>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // CALL TO ACTION -->
+
+                      <!-- TWO BUTTONS // -->
+                      <table class="row" pardot-removable>
+                        <tr>
+
+                          <!-- BUTTON 1 // -->
+                          <td class="wrapper offset-by-one no-padding-top">
+
+                            <table class="five columns">
+                              <tr>
+                                <td class="center">
+
+                  <table class="button">
+                    <tr>
+                      <td>
+                        <center><a href="#" pardot-region>11/17 7:00am - Register</a></center>
+                      </td>
+                    </tr>
+                  </table>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                          <!-- // BUTTON 1 -->
+
+                          <!-- BUTTON 2 // -->
+                          <td class="wrapper last no-padding-top">
+
+                            <table class="five columns">
+                              <tr>
+                                <td class="center">
+
+                                  <table class="button">
+                                    <tr>
+                                      <td>
+                                        <center><a href="#" pardot-region>11/17 7:00am - Register</a></center>
+                                      </td>
+                                    </tr>
+                                  </table>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                          <!-- // BUTTON 2 -->
+
+                        </tr>
+                      </table>
+                      <!-- // TWO BUTTONS -->
+
+                      <!-- SINGLE BUTTON // -->
+                      <table class="row" pardot-removable>
+                        <tr>
+                          <td class="wrapper offset-by-three last no-padding-top">
+
+                            <table class="six columns">
+                              <tr>
+                                <td class="center">
+
+                  <table class="button">
+                    <tr>
+                      <td>
+                        <center><a href="#" pardot-region>11/17 7:00am - Register</a></center>
+                      </td>
+                    </tr>
+                  </table>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- // SINGLE BUTTON -->                     
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- // SPOTLIGHT:LAST EVENTS CTA -->
+              </td>
+            </tr>
+            <!-- // NON-MOVABLE CONTENT: PRE-FOOTER SPOTLIGHT -->            <!-- NON-MOVABLE CONTENT: FOOTER // -->
+            <tr>
+              <td>
+
+                <!-- EMAIL FOOTER // -->
+                <table class="container email-footer">
+                  <tr>
+                    <td>
+
+                      <table class="row">
+                        <tr>
+
+                          <!-- FOOTER LOGO // -->
+                          <td class="wrapper offset-by-one footer-logo">
+
+                            <table class="two columns">
+                              <tr>
+                                <td>
+
+                                  <a href="http://www.tune.com"><img class="center footer-logo" src="http://storage.pardot.com/23402/59956/2015_email_tune_logo_knockout.png" width="80" height="20"style="max-width: 100px !important;"></a>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                          <!-- // FOOTER LOGO -->
+
+                          <!-- FOOTER LINKS // -->
+                          <td class="wrapper footer-colophon">
+
+                            <table class="six columns">
+                              <tr>
+                                <td class="text-xsmall center">
+
+                                  <span>2200 Western Ave, Suite 200 Seattle</span><br>
+                                  <span><a href="http://www.tune.com/privacy-policy/">Privacy Policy</a></span>
+                                  <span><a href="%%email_preference_center%%">Email Preferences</a></span>
+
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                          <!-- // FOOTER LINKS -->
+
+                          <!-- FOOTER SOCIAL // -->
+                          <td class="wrapper footer-social last">
+
+                            <table class="two columns">
+                              <tr>
+                                <td class="three subcolumns text-align-right">
+                                  <a href="http://www.twitter.com/tune"><img class="center social-icon" width="20" height="12" src="http://storage.pardot.com/23402/56808/2015_email_icon_twitter.png"></a>
+                                </td>
+                                <td class="three subcolumns text-align-right">
+                                  <a href="http://www.facebook.com/tune"><img class="center social-icon" width="20" height="12" src="http://in.tune.com/l/23402/2015-01-08/ptn6r/23402/56606/facebook.png"></a>
+                                </td>
+                                <td class="three subcolumns text-align-right">
+                                  <a href="https://plus.google.com/110653481875028879836/videos"><img class="center social-icon" width="20" height="12" src="http://storage.pardot.com/23402/56814/2015_emial_icon_googleplus.png"></a>
+                                </td>
+                                <td class="three subcolumns text-align-right">
+                                  <a href="https://www.linkedin.com/company/635323"><img class="center social-icon" width="20" height="12" src="http://storage.pardot.com/23402/56804/2015_email_icon_linkedin.png"></a>
+                                </td>
+                                <td class="expander"></td>
+                              </tr>
+                            </table>
+
+                          </td>
+                          <!-- // FOOTER SOCIAL -->
+
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- // EMAIL FOOTER -->
+              </td>
+            </tr>
+            <!-- // NON-MOVABLE CONTENT: FOOTER -->
+          </table>
+          <!-- // CONTENT WRAPPER -->
+          </center>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

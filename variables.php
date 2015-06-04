@@ -59,7 +59,7 @@ if($template == 'ho-academy') {
   $isNewsletter = true;
   $isAcademy = true;
   $color = 'green';
-  $heroImage = 'http://storage.pardot.com/23402/65620/2015_email_bg_hasoffers_training.pngd';
+  $heroImage = 'http://storage.pardot.com/23402/65620/2015_email_bg_hasoffers_training.png';
 }
 
 // IF THIS IS THE HO NEWSLETTER

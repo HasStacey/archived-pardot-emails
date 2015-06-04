@@ -94,9 +94,13 @@
                                           <tr>
                                             <td class="center">
 
-                                              <center>
-                                                <a href="" class="button" style="display: block;" pardot-region>This is a button</a>
-                                            </center>
+                  <table class="button">
+                    <tr>
+                      <td>
+                        <center><a href="#" pardot-region>11/17 7:00am - Register</a></center>
+                      </td>
+                    </tr>
+                  </table>
 
                                             </td>
                                             <td class="expander"></td>
@@ -113,9 +117,13 @@
                                           <tr>
                                             <td class="center">
 
-                                              <center>
-                                                <a href="" class="button" style="display: block;" pardot-region>This is a button</a>
-                                            </center>
+                  <table class="button">
+                    <tr>
+                      <td>
+                        <center><a href="#" pardot-region>11/17 7:00am - Register</a></center>
+                      </td>
+                    </tr>
+                  </table>
 
                                             </td>
                                             <td class="expander"></td>
@@ -138,9 +146,13 @@
                                           <tr>
                                             <td class="center">
 
-                                              <center>
-                                                <a href="" class="button" style="display: block;" pardot-region>This is a button</a>
-                                            </center>
+                  <table class="button">
+                    <tr>
+                      <td>
+                        <center><a href="#" pardot-region>11/17 7:00am - Register</a></center>
+                      </td>
+                    </tr>
+                  </table>
 
                                             </td>
                                             <td class="expander"></td>

@@ -720,19 +720,21 @@ a.grey-anchor {
   color: #ffffff; }
 
 /*////// BUTTONS //////*/
-a.button,
-a.button:hover,
-a.button:active,
-a.button:visited {
+table.button {
   background-color: #4c4184;
-  color: #ffffff !important;
-  padding: 11px 15px 9px;
   border-radius: 4px;
   text-transform: uppercase;
   text-align: center;
   display: inline-block;
   border: 0;
   text-decoration: none !important; }
+  table.button a,
+  table.button a:hover,
+  table.button a:active,
+  table.button a:visited {
+    color: #ffffff !important;
+    padding: 11px 0 9px;
+    display: block; }
 
 a.no-underline {
   text-decoration: none;
@@ -771,7 +773,7 @@ table.spotlight td.spotlight-content {
   padding-top: 20px;
   padding-bottom: 20px; }
 
-table.spotlight:not(.bg-white) a.button {
+table.spotlight:not(.bg-white) table.button {
   background-color: #4c4184;
   color: #ffffff !important; }
 

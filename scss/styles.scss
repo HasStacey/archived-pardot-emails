@@ -34,7 +34,7 @@ $gutter: 20px;
 
 // EMAIL SETTINGS
 //--------------------------------------------------------------------------
-$theme: $c-green; // Main Theme Color
+$theme: $c-purple; // Main Theme Color
 
 
 
@@ -46,7 +46,7 @@ $theme: $c-green; // Main Theme Color
   $link-color: $c-blue; // ALWAYS $c-blue
 
   // Buttons over white BG
-  $primary-button-bg: $c-dkgrey-half; 
+  $primary-button-bg: $c-dkgrey-half;
   $primary-button-text: $c-white;
 
   // Spotlight
@@ -797,19 +797,27 @@ $theme: $c-green; // Main Theme Color
 
 
       /*////// BUTTONS //////*/
-      a.button,
-      a.button:hover,
-      a.button:active,
-      a.button:visited {
+      table.button {
         background-color: $primary-button-bg;
-        color: $primary-button-text !important;
-        padding: 11px 15px 9px;
         border-radius: 4px;
         text-transform: uppercase;
         text-align: center;
         display: inline-block;
         border: 0;
         text-decoration:none !important;
+
+        a,
+        a:hover,
+        a:active,
+        a:visited {
+          color: $primary-button-text !important;
+          padding: 11px 0 9px;
+          display: block;
+        }
+
+        // .spotlight & {
+        //   background-color: $c-blue;
+        // }
       }
 
       a.no-underline {
@@ -857,7 +865,7 @@ $theme: $c-green; // Main Theme Color
         padding-top: $gutter;
         padding-bottom: $gutter;
       }
-      table.spotlight:not(.bg-white) a.button {
+      table.spotlight:not(.bg-white) table.button {
         background-color: $spotlight-button-bg;
         color: $spotlight-button-text !important;
       }
