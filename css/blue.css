@@ -719,23 +719,6 @@ a.grey-anchor {
   background-color: #007aff;
   color: #ffffff; }
 
-/*////// BUTTONS //////*/
-table.button {
-  background-color: #a9abac;
-  border-radius: 4px;
-  text-transform: uppercase;
-  text-align: center;
-  display: inline-block;
-  border: 0;
-  text-decoration: none !important; }
-  table.button a,
-  table.button a:hover,
-  table.button a:active,
-  table.button a:visited {
-    color: #ffffff !important;
-    padding: 11px 0 9px;
-    display: block; }
-
 a.no-underline {
   text-decoration: none;
   border-bottom: none; }
@@ -774,8 +757,12 @@ table.spotlight td.spotlight-content {
   padding-bottom: 20px; }
 
 table.spotlight:not(.bg-white) table.button {
-  background-color: #007aff;
-  color: #ffffff !important; }
+  background-color: #007aff; }
+  table.spotlight:not(.bg-white) table.button a,
+  table.spotlight:not(.bg-white) table.button a:hover,
+  table.spotlight:not(.bg-white) table.button a:active,
+  table.spotlight:not(.bg-white) table.button a:visited {
+    color: #ffffff !important; }
 
 table.spotlight.last {
   margin-bottom: 0; }
@@ -815,6 +802,33 @@ table.spotlight a.spotlight-heading {
 
 table.email-general-content p {
   margin-bottom: 1em; }
+
+table.button {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px; }
+
+table.button td {
+  display: block;
+  text-align: center;
+  min-height: 40px;
+  background-color: #a9abac;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px; }
+  table.button td a {
+    line-height: 40px;
+    width: 100%;
+    display: inline-block;
+    color: #ffffff; }
+    table.button td a span {
+      color: #ffffff; }
 
 /*////// SPOTLIGHT //////*/
 .featured-image {

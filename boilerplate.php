@@ -3,23 +3,23 @@
 // UNCOMMENT THE TEMPLATE YOU WOULD LIKE TO EXPORT
 // -------------------------------------------------------------------------------------
 
+  // $template = 'ho-academy';          // SCSS theme should be set to $c-green
   // $template = 'ho-drip';             // SCSS theme should be set to $c-purple
-  // $template = 'ho-notification';     // SCSS theme should be set to $c-ltblue
-  $template = 'ho-academy';          // SCSS theme should be set to $c-green
-  // $template = 'ho-newsletter';       // SCSS theme should be set to $c-blue
-  // $template = 'ho-updates';          // SCSS theme should be set to $c-dkblue
   // $template = 'ho-lost-accounts';    // SCSS theme should be set to $c-orange
+  // $template = 'ho-newsletter';       // SCSS theme should be set to $c-blue
+  // $template = 'ho-notification';     // SCSS theme should be set to $c-ltblue
+  // $template = 'ho-updates';          // SCSS theme should be set to $c-dkblue
 
-  // $template = 'tune-drip';           // SCSS theme should be set to $c-purple
-  // $template = 'tune-notification';   // SCSS theme should be set to $c-ltblue
-  // $template = 'tune-academy';        // SCSS theme should be set to $c-green
-  // $template = 'tune-newsletter';     // SCSS theme should be set to $c-blue
-  // $template = 'tune-updates';        // SCSS theme should be set to $c-dkblue
-  // $template = 'tune-lost-accounts';  // SCSS theme should be set to $c-orange
-  // $template = 'tune-events';         // SCSS theme should be set to $c-orange
-
-  // $template = 'recap';               // SCSS theme should be set to $c-orange
   // $template = 'privacy';             // SCSS theme should be set to $c-orange
+  // $template = 'recap';               // SCSS theme should be set to $c-orange
+
+  // $template = 'tune-academy';        // SCSS theme should be set to $c-green
+  // $template = 'tune-drip';           // SCSS theme should be set to $c-purple
+  // $template = 'tune-events';         // SCSS theme should be set to $c-orange
+  // $template = 'tune-lost-accounts';  // SCSS theme should be set to $c-orange
+  // $template = 'tune-newsletter';     // SCSS theme should be set to $c-blue
+  // $template = 'tune-notification';   // SCSS theme should be set to $c-ltblue
+  $template = 'tune-updates';        // SCSS theme should be set to $c-dkblue
 
 
   // HIGHLIGHT THE PARDOT REGIONS?
@@ -32,7 +32,7 @@
   // localhost = false
   // -------------------------------------------------------------------------------------
   $production = true;
-  $production = false;
+  // $production = false;
 
   include('variables.php');
 
