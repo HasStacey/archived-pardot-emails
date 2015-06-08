@@ -774,8 +774,12 @@ table.spotlight td.spotlight-content {
   padding-bottom: 20px; }
 
 table.spotlight:not(.bg-white) table.button {
-  background-color: #dce5e4;
-  color: #3d5265 !important; }
+  background-color: #dce5e4; }
+  table.spotlight:not(.bg-white) table.button a,
+  table.spotlight:not(.bg-white) table.button a:hover,
+  table.spotlight:not(.bg-white) table.button a:active,
+  table.spotlight:not(.bg-white) table.button a:visited {
+    color: #3d5265 !important; }
 
 table.spotlight.last {
   margin-bottom: 0; }

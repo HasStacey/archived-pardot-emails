@@ -34,7 +34,7 @@ $gutter: 20px;
 
 // EMAIL SETTINGS
 //--------------------------------------------------------------------------
-$theme: $c-purple; // Main Theme Color
+$theme: $c-green; // Main Theme Color
 
 
 
@@ -76,7 +76,7 @@ $theme: $c-purple; // Main Theme Color
 // IF THE THEME IS GREEN
 @if($theme == $c-green) {
   $primary-button-bg: $theme;
-
+  $primary-button-text: $c-white;
   $spotlight-heading-color: $theme;
   $spotlight-bg: $c-slate;
   $spotlight-text-color: $c-white;
@@ -814,10 +814,6 @@ $theme: $c-purple; // Main Theme Color
           padding: 11px 0 9px;
           display: block;
         }
-
-        // .spotlight & {
-        //   background-color: $c-blue;
-        // }
       }
 
       a.no-underline {
@@ -867,7 +863,13 @@ $theme: $c-purple; // Main Theme Color
       }
       table.spotlight:not(.bg-white) table.button {
         background-color: $spotlight-button-bg;
-        color: $spotlight-button-text !important;
+
+        a,
+        a:hover,
+        a:active,
+        a:visited {
+          color: $spotlight-button-text !important;
+        }
       }
       table.spotlight.last {
         margin-bottom: 0;
@@ -913,6 +915,8 @@ $theme: $c-purple; // Main Theme Color
       table.spotlight a.spotlight-heading{
         color: $spotlight-heading-color !important;
       }
+
+      table.spotlight table.button a {}
 
       table.email-general-content p {
         margin-bottom: 1em;
