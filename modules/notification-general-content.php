@@ -47,13 +47,17 @@
               <tr>
                 <td class="center">
 
-                  <table class="button">
-                    <tr>
-                      <td>
-                        <center><a href="#" pardot-region>11/17 7:00am - Register</a></center>
-                      </td>
-                    </tr>
-                  </table>
+                  <div>
+                    <table cellspacing="0" cellpadding="0" class="button"> 
+                      <tr> 
+                        <td align="center" width="230" height="40">
+                          <a href="#" pardot-region>
+                            11/17 7:00am - Register
+                          </a>
+                        </td> 
+                      </tr> 
+                    </table> 
+                  </div>
 
                 </td>
                 <td class="expander"></td>
@@ -70,13 +74,17 @@
               <tr>
                 <td class="center">
 
-                  <table class="button">
-                    <tr>
-                      <td>
-                        <center><a href="#" pardot-region>11/17 7:00am - Register</a></center>
-                      </td>
-                    </tr>
-                  </table>
+                  <div>
+                    <table cellspacing="0" cellpadding="0" class="button"> 
+                      <tr> 
+                        <td align="center" width="230" height="40">
+                          <a href="#" pardot-region>
+                            11/17 7:00am - Register
+                          </a>
+                        </td> 
+                      </tr> 
+                    </table> 
+                  </div>
 
                 </td>
                 <td class="expander"></td>
@@ -101,13 +109,17 @@
               <tr>
                 <td class="center">
 
-                  <table class="button">
-                    <tr>
-                      <td>
-                        <center><a href="#" pardot-region>11/17 7:00am - Register</a></center>
-                      </td>
-                    </tr>
-                  </table>
+                  <div>
+                    <table cellspacing="0" cellpadding="0" class="button"> 
+                      <tr> 
+                        <td align="center" width="230" height="40">
+                          <a href="#" pardot-region>
+                            11/17 7:00am - Register
+                          </a>
+                        </td> 
+                      </tr> 
+                    </table> 
+                  </div>
 
                 </td>
                 <td class="expander"></td>
