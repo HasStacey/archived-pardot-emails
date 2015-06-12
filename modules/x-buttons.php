@@ -83,7 +83,7 @@
                                       <div>
                                         <table cellspacing="0" cellpadding="0" class="button"> 
                                           <tr> 
-                                            <td align="center" width="230" height="40">
+                                            <td align="center" width="280" height="40">
                                               <a href="http://support.mobileapptracking.com/" pardot-region>
                                                 Visit Support Site
                                               </a>
@@ -101,7 +101,7 @@
                                       <div>
                                         <table cellspacing="0" cellpadding="0" class="button"> 
                                           <tr> 
-                                            <td align="center" width="230" height="40">
+                                            <td align="center" width="280" height="40">
                                               <a href="#" pardot-region>
                                                 This is a button
                                               </a>

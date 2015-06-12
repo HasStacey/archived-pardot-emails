@@ -3,7 +3,7 @@
 // UNCOMMENT THE TEMPLATE YOU WOULD LIKE TO EXPORT
 // -------------------------------------------------------------------------------------
 
-  // $template = 'ho-academy';          // SCSS theme should be set to $c-green
+   $template = 'ho-academy';          // SCSS theme should be set to $c-green
   // $template = 'ho-drip';             // SCSS theme should be set to $c-purple
   // $template = 'ho-lost-accounts';    // SCSS theme should be set to $c-orange
   // $template = 'ho-newsletter';       // SCSS theme should be set to $c-blue
@@ -19,7 +19,7 @@
   // $template = 'tune-lost-accounts';  // SCSS theme should be set to $c-orange
   // $template = 'tune-newsletter';     // SCSS theme should be set to $c-blue
   // $template = 'tune-notification';   // SCSS theme should be set to $c-ltblue
-  $template = 'tune-updates';        // SCSS theme should be set to $c-dkblue
+  // $template = 'tune-updates';        // SCSS theme should be set to $c-dkblue
 
 
   // HIGHLIGHT THE PARDOT REGIONS?
