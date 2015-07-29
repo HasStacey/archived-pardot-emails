@@ -153,7 +153,7 @@ if($template == 'tune-lost-accounts') {
 if($template == 'tune-events') {
   $isNewsletter = true;
   $color = 'orange';
-  $heroImage = 'http://storage.pardot.com/23402/67784/2015_email_bg_sunglasses.jpg';
+  $heroImage = 'http://storage.pardot.com/23402/75032/2015_email_bg_postback_promenade.jpg';
 }
 
 
