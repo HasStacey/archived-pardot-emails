@@ -33,7 +33,7 @@
                         <tr>
                           <td class="online-link text-small text-align-right" style="padding-top: 10px;">
 
-                            <a class="no-border grey-anchor" href="%%view_online%%">View Online</a>
+                            <span class="preheader-text" pardot-region="preheader-text">Preheader text goes here.</span> <a class="no-border grey-anchor view-online-link" href="%%view_online%%">View Online</a>
 
                           </td>
                           <td class="expander"></td>

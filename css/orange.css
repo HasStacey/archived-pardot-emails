@@ -848,3 +848,9 @@ table.button td {
   .footer-colophon,
   .footer-social {
     padding: 0 !important; } }
+span.preheader-text {
+  display: inline-block;
+  padding-right: 20px; }
+
+a.view-online-link {
+  color: #007aff; }

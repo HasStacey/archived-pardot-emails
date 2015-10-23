@@ -34,7 +34,7 @@ $gutter: 20px;
 
 // EMAIL SETTINGS
 //--------------------------------------------------------------------------
-$theme: $c-purple; // Main Theme Color
+$theme: $c-blue; // Main Theme Color
 
 
 
@@ -960,4 +960,12 @@ $theme: $c-purple; // Main Theme Color
         padding: 0 !important;
       }
 
+    }
+
+    span.preheader-text {
+      display: inline-block;
+      padding-right: 20px;
+    }
+    a.view-online-link {
+      color: $c-blue;
     }
