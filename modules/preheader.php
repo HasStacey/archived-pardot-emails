@@ -12,11 +12,9 @@
 
                       <table class="six columns">
                         <tr>
-                          <td>
+                          <td class="text-small">
 
-                            <center>
-                              <a href="http://www.hasoffers.com"><img src="http://storage.pardot.com/23402/59958/2015_email_ho_by_tune_logo.png" width="97" height="38" alt="TUNE" style="max-width: 150px !important;"></a>
-                            </center>
+                            <span class="preheader-text" pardot-region="preheader-text">Preheader text goes here.</span> 
 
                           </td>
                           <td class="expander"></td>
@@ -31,9 +29,9 @@
 
                       <table class="six columns">
                         <tr>
-                          <td class="online-link text-small text-align-right" style="padding-top: 10px;">
+                          <td class="online-link text-small text-align-right">
 
-                            <span class="preheader-text" pardot-region="preheader-text">Preheader text goes here.</span> <a class="no-border grey-anchor view-online-link" href="%%view_online%%">View Online</a>
+                            <a class="no-border grey-anchor view-online-link" href="%%view_online%%">View Online</a>
 
                           </td>
                           <td class="expander"></td>

@@ -118,7 +118,7 @@ if($template == 'tune-newsletter') {
 }
 
 // IF THIS IS THE BLOG/MARKETING RECAP
-if($template == 'recap') {
+if($template == 'tune-recap') {
   $isNewsletter = true;
   $isRecap = true;
   $color = 'orange';
@@ -134,7 +134,7 @@ if($template == 'tune-updates') {
 }
 
 // IF THIS IS THE PRIVACY NEWSLETTER
-if($template == 'privacy') {
+if($template == 'tune-privacy') {
   $isNewsletter = true;
     $isPrivacy = true;
   $color = 'orange';

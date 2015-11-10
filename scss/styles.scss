@@ -34,7 +34,7 @@ $gutter: 20px;
 
 // EMAIL SETTINGS
 //--------------------------------------------------------------------------
-$theme: $c-blue; // Main Theme Color
+$theme: $c-purple; // Main Theme Color
 
 
 
@@ -110,6 +110,7 @@ $theme: $c-blue; // Main Theme Color
 
     /**********************************************
     * Ink v1.0.5 - Copyright 2013 ZURB Inc        *
+    * Theme Color - #{$theme}
     **********************************************/
 
     /* Client-specific Styles & Reset */
@@ -696,11 +697,20 @@ $theme: $c-blue; // Main Theme Color
 
       /*////// HEADER //////*/
       .email-header .row {
-        padding: 10px 0;
+        padding: 10px 0 0 0;
       }
 
-      .email-header .online-link {
-        padding-top: 3px;
+      .email-header .preheader-text {
+        color: #777777;
+      }
+
+      /*////// LOGOS //////*/
+      .logo-container {
+        background: #ffffff !important;
+      }
+
+      .logo-container td.wrapper {
+        padding: 15px 0;
       }
 
       /*////// FOOTER //////*/

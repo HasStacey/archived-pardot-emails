@@ -1,5 +1,6 @@
 /**********************************************
 * Ink v1.0.5 - Copyright 2013 ZURB Inc        *
+* Theme Color - #4c4184
 **********************************************/
 /* Client-specific Styles & Reset */
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
@@ -640,10 +641,17 @@ table.email-wrapper {
 
 /*////// HEADER //////*/
 .email-header .row {
-  padding: 10px 0; }
+  padding: 10px 0 0 0; }
 
-.email-header .online-link {
-  padding-top: 3px; }
+.email-header .preheader-text {
+  color: #777777; }
+
+/*////// LOGOS //////*/
+.logo-container {
+  background: #ffffff !important; }
+
+.logo-container td.wrapper {
+  padding: 15px 0; }
 
 /*////// FOOTER //////*/
 table.email-footer {
@@ -702,7 +710,7 @@ h2.subheading {
 .text-theme a:active,
 .text-theme a:focus,
 .text-theme {
-  color: #a9abac !important;
+  color: #4c4184 !important;
   /* Heading text color */ }
 
 .text-white {
@@ -712,11 +720,11 @@ a.grey-anchor {
   color: #333333; }
 
 .border-bottom-theme {
-  border-bottom: 6px solid #007aff; }
+  border-bottom: 6px solid #4c4184; }
 
 /*////// BACKGROUND COLORS //////*/
 .background-tuneblue {
-  background-color: #007aff;
+  background-color: #4c4184;
   color: #ffffff; }
 
 a.no-underline {
@@ -757,7 +765,7 @@ table.spotlight td.spotlight-content {
   padding-bottom: 20px; }
 
 table.spotlight:not(.bg-white) table.button {
-  background-color: #007aff; }
+  background-color: #4c4184; }
   table.spotlight:not(.bg-white) table.button a,
   table.spotlight:not(.bg-white) table.button a:hover,
   table.spotlight:not(.bg-white) table.button a:active,
@@ -771,17 +779,17 @@ table.spotlight p {
   color: #2f2c27; }
 
 table.spotlight h2 {
-  color: #071d49;
+  color: #4c4184;
   font-size: 20px;
   margin-top: 20px; }
 
 table.spotlight h4 {
-  color: #071d49;
+  color: #4c4184;
   font-size: 18px;
   margin-bottom: 5px; }
 
 table.spotlight h5 {
-  color: #071d49;
+  color: #4c4184;
   font-size: 16px;
   text-transform: uppercase; }
 
@@ -798,7 +806,7 @@ table.spotlight.bg-white p {
 
 table.spotlight td.spotlight-heading,
 table.spotlight a.spotlight-heading {
-  color: #071d49 !important; }
+  color: #4c4184 !important; }
 
 table.email-general-content p {
   margin-bottom: 1em; }
@@ -814,7 +822,7 @@ table.button td {
   display: block;
   text-align: center;
   min-height: 40px;
-  background-color: #a9abac;
+  background-color: #4c4184;
   color: #ffffff;
   text-transform: uppercase;
   border-radius: 4px;
