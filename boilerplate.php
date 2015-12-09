@@ -10,15 +10,14 @@
   // $template = 'ho-notification';     // SCSS theme should be set to $c-ltblue
   // $template = 'ho-updates';          // SCSS theme should be set to $c-dkblue
 
-  // $template = 'privacy';             // SCSS theme should be set to $c-orange
-  // $template = 'recap';               // SCSS theme should be set to $c-orange
-
   // $template = 'tune-academy';        // SCSS theme should be set to $c-green
   // $template = 'tune-drip';           // SCSS theme should be set to $c-purple
   // $template = 'tune-events';         // SCSS theme should be set to $c-orange
   // $template = 'tune-lost-accounts';  // SCSS theme should be set to $c-orange
   // $template = 'tune-newsletter';     // SCSS theme should be set to $c-blue
   // $template = 'tune-notification';   // SCSS theme should be set to $c-ltblue
+  $template = 'tune-privacy';             // SCSS theme should be set to $c-orange
+  // $template = 'tune-recap';               // SCSS theme should be set to $c-orange
   // $template = 'tune-updates';        // SCSS theme should be set to $c-dkblue
 
 
@@ -83,13 +82,12 @@
         <td class="center" align="center" valign="top">
           <center>
 
-          <?php 
+          <?php
+            // PREHEADER //
+            include('modules/preheader.php');
+
             // HEADER INFO //
-            if($isHasOffers) {
-              include('modules/header-ho.php');
-            } else {
-              include('modules/header-tune.php');
-            }
+            include('modules/logo-header.php');
           ?>
 
           <!-- CONTENT WRAPPER // -->

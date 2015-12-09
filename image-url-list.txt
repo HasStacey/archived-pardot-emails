@@ -21,6 +21,8 @@ Backgrounds:
 	Postback 2015:				http://storage.pardot.com/23402/67034/PB_EmailHeaderFinal.jpg
 	Postback Sunglasses:		http://storage.pardot.com/23402/67784/2015_email_bg_sunglasses.jpg
 	TUNE Cares: 				http://storage.pardot.com/23402/68350/2015_email_bg_tune_cares.jpg
+	Postback 15 Promenade: 		http://storage.pardot.com/23402/75032/2015_email_bg_postback_promenade.jpg
+	Postback 15 Panel: 			http://storage.pardot.com/23402/75030/2015_email_bg_postback_panel.jpg
   
   Generic:
 	Business Meeting:			http://storage.pardot.com/23402/58012/2015_email_bg_business_meeting_tablet.jpg

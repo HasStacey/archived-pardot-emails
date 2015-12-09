@@ -118,7 +118,7 @@ if($template == 'tune-newsletter') {
 }
 
 // IF THIS IS THE BLOG/MARKETING RECAP
-if($template == 'recap') {
+if($template == 'tune-recap') {
   $isNewsletter = true;
   $isRecap = true;
   $color = 'orange';
@@ -134,7 +134,7 @@ if($template == 'tune-updates') {
 }
 
 // IF THIS IS THE PRIVACY NEWSLETTER
-if($template == 'privacy') {
+if($template == 'tune-privacy') {
   $isNewsletter = true;
     $isPrivacy = true;
   $color = 'orange';
@@ -153,7 +153,7 @@ if($template == 'tune-lost-accounts') {
 if($template == 'tune-events') {
   $isNewsletter = true;
   $color = 'orange';
-  $heroImage = 'http://storage.pardot.com/23402/67784/2015_email_bg_sunglasses.jpg';
+  $heroImage = 'http://storage.pardot.com/23402/75032/2015_email_bg_postback_promenade.jpg';
 }
 
 
