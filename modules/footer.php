@@ -3,7 +3,7 @@
               <td>
 
                 <!-- EMAIL FOOTER // -->
-                <table class="container email-footer">
+                <table class="container email-footer one-off-email-footer">
                   <tr>
                     <td>
 
@@ -80,3 +80,16 @@
               </td>
             </tr>
             <!-- // NON-MOVABLE CONTENT: FOOTER -->
+
+          <?php
+          // DO NOT DELETE PAST THIS LINE
+          // CLOSING OUT THE HTML WRAPPER, WHICH WAS OPENED IN HEADER.PHP
+          ?>
+          </table>
+          <!-- // CONTENT WRAPPER -->
+          </center>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

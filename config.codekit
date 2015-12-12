@@ -1,16 +1,7 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19076",
+"creatorBuild": "19102",
 "files": {
-	"\/boilerplate.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/boilerplate.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/css\/blue.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -43,6 +34,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/ltblue.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/one-off-email-styles.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/one-off-email-styles.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -721,6 +721,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/header.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/header.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/images\/2015-email-bg-academy-ho.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1111,6 +1120,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/modules\/featured-content-for-recap-template.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/modules\/featured-content-for-recap-template.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/modules\/featured-content.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1333,6 +1351,130 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36962,
+		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.jpg",
+		"outputAbbreviatedPath": "\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71149,
+		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/one-off-emails\/2015.12-Smartbrief\/acquire-better-users.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4013,
+		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/acquire-better-users.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/acquire-better-users.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/2015.12-Smartbrief\/icon-facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 373,
+		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/icon-facebook.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/icon-facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/2015.12-Smartbrief\/icon-linkedin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 393,
+		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/icon-linkedin.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/icon-linkedin.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/2015.12-Smartbrief\/icon-twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 393,
+		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/icon-twitter.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/icon-twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/2015.12-Smartbrief\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/one-off-emails\/2015.12-Smartbrief\/ink.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/ink.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/one-off-emails\/2015.12-Smartbrief\/tune-logo-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 736,
+		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/tune-logo-blue.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/tune-logo-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/2015.12-Smartbrief\/tune-logo-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 781,
+		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/tune-logo-white.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/tune-logo-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/one-off-emails\/adweek\/Adweek Email\/adweek-header-image.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1524,6 +1666,31 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/pardot-templates-boilerplate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates-boilerplate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/scss\/one-off-email-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/one-off-email-styles.scss",
+		"outputAbbreviatedPath": "\/css\/one-off-email-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1539,6 +1706,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/tune-wrapper-one-off-email-boilerplate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tune-wrapper-one-off-email-boilerplate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/variables.php": {
 		"fileType": 8192,
@@ -1652,8 +1828,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"no_plusplus": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"no_stand_alone_at": {
@@ -1662,6 +1846,10 @@
 			},
 		"no_tabs": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"no_throwing_strings": {

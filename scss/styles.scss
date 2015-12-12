@@ -715,7 +715,10 @@ $theme: $c-purple; // Main Theme Color
 
       /*////// FOOTER //////*/
       table.email-footer {
-        background-color: #007aff;
+        background-color: $c-blue; // FOR THE PARDOT TEMPLATES --- NO, PLEASE DON'T CHANGE THIS
+      }
+      table.email-footer.one-off-email-footer {
+        background-color: $c-slate; // FOR THE ONE OFF EMAIL BOILERPLATE --- YES, YOU CAN CHANGE THIS
       }
 
       .email-footer .row {

@@ -9,7 +9,7 @@
                               <tr>
                                 
                                 <!-- HEADING // -->
-                                <td class="wrapper offset-by-one last <?php if($isRecap){ echo "no-padding-bottom"; } ?>">
+                                <td class="wrapper offset-by-one last <?php if($template == 'recap'){ echo "no-padding-bottom"; } ?>">
 
                                   <table class="ten columns">
                                     <tr>
@@ -17,60 +17,38 @@
 
                                         <h2 class="subheading" pardot-region pardot-removable>
                                           <?php
+                                            switch($template) {
+                                              default:
+                                                echo 'Subheading';
+                                              break;
 
-                                            if($isNewsletter && !$isAcademy && !$isLostAccount && !$isUpdate && !$isRecap) {
-                                              if($isHasOffers) {
-                                                echo "HasOffers ";
-                                              } else {
-                                                echo "TUNE ";
-                                              }
+                                              case 'newsletter':
+                                                echo $branding . ' [MONTH] Newsletter';
+                                              break;
 
-                                              echo "April Newsletter";
-                                            } // $isNewsletter
+                                              case 'academy':
+                                                echo $branding . ' Academy';
+                                              break;
 
-                                            elseif($isAcademy) {
-                                              if($isHasOffers) {
-                                                echo "HasOffers ";
-                                              } else {
-                                                echo "TUNE ";
-                                              }
+                                              case 'updates':
+                                                echo $branding . ' Product Updates';
+                                              break;
 
-                                              echo "Academy";
-                                            } 
+                                              case 'recap':
+                                                echo 'Must Read Blog Posts';
+                                              break;
 
-                                            elseif($isUpdate) {
-                                              if($isHasOffers) {
-                                                echo "HasOffers ";
-                                              } else {
-                                                echo "TUNE ";
-                                              }
-
-                                              echo "Product Updates";
-                                            }
-
-                                            elseif($isRecap) {
-                                              echo "Must Read Blog Posts";
-                                            }
-
-                                            elseif($isPrivacy) {
-                                              echo "TUNE Privacy &amp; Policy April Newsletter";
-                                            }
-
-                                            else {
-                                              echo "Subheading"; 
+                                              case 'privacy':
+                                                echo 'TUNE Privacy &amp; Policy [MONTH] Newsletter';
                                             }
                                           ?>
                                         </h2>
                                         <?php
-                                          if(!$isRecap) {
-                                            ob_start();
-                                            ?>
-                                              <h1 class="text-theme" pardot-region pardot-removable>Title Content Module; not removable, movable or repeatable. 2 line limit plz.</h1>
-                                            <?php
-                                            ob_end_flush();
+                                          if($template != 'recap') {
+                                            echo '<h1 class="text-theme" pardot-region pardot-removable>Title Content Module; not removable, movable or repeatable. 2 line limit plz.</h1>';
                                           }
 
-                                          if(!$isPrivacy && !$isRecap) {
+                                          if($template != 'privacy' && $template != 'recap') {
                                             ob_start();
                                             ?>
                                             <table pardot-removable>
@@ -84,7 +62,7 @@
                                             ob_end_flush();
                                           }
 
-                                          if(!$isRecap) {
+                                          if($template != 'recap') {
                                             ob_start();
                                             ?>
                                               <p style="margin-top: 1em; clear: both;" pardot-repeatable><span pardot-region>Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri un testo segnaposto utilizzato...</span> <span pardot-removable><a href="" pardot-region>Read the Full Article</a><img src="http://storage.pardot.com/23402/56802/2015_email_icon_link.png" style="display: inline; float: none; padding-left: 3px;"></span></p>

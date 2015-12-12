@@ -1,5 +1,6 @@
-                      <!-- HERO IMAGE // -->
-                      <table class="container email-hero-image">
+
+                      <!-- NON MOVABLE FEATURED CONTENT // -->
+                      <table class="container" pardot-repeatable>
                         <tr>
                           <td>
 
@@ -7,23 +8,21 @@
                             <table class="row">
                               <tr>
                                 
-                                <!-- HERO IMAGE // -->
-                                <td class="wrapper last no-padding-top">
+                                <!-- HEADING // -->
+                                <td class="wrapper offset-by-one last">
 
-                                  <table class="twelve columns">
+                                  <table class="ten columns">
                                     <tr>
                                       <td>
 
-                                        <!-- See variables.php for value of $heroImage -->
-                                        <img class="border-bottom-theme" src="<?php echo $heroImage; ?>" width="580" height="136" pardot-region>
-
+                                        <h2 class="subheading" pardot-region pardot-removable>Must Read Blog Posts</h2>
                                       </td>
                                       <td class="expander"></td>
                                     </tr>
                                   </table>
 
                                 </td>
-                                <!-- // HERO IMAGE -->
+                                <!-- // HEADING -->
 
                               </tr>
                             </table>
@@ -32,4 +31,4 @@
                           </td>
                         </tr>
                       </table>
-                      <!-- // HERO IMAGE -->
+                      <!-- // NON MOVABLE FEATURED CONTENT -->

@@ -6,13 +6,13 @@
                       <!-- HEADER // -->
                       <table class="row">
                         <tr>
-                          <td class="wrapper offset-by-one last no-padding-top <?php if($isPrivacy || $isUpdate){ echo ' no-padding-top'; } ?>">
+                          <td class="wrapper offset-by-one last no-padding-top <?php if($template == 'privacy' || $template == 'updates'){ echo ' no-padding-top'; } ?>">
 
                             <table class="ten columns">
                               <tr>
                                 <td>
 
-                                  <h2 class="center" pardot-region pardot-removable><?php if($isUpdate) { echo 'Additional Support Documentation'; } else { echo 'Have a Topic to Share?'; } ?></h2>
+                                  <h2 class="center" pardot-region pardot-removable><?php if($template == 'updates') { echo 'Additional Support Documentation'; } else { echo 'Have a Topic to Share?'; } ?></h2>
 
                                 </td>
                                 <td class="expander"></td>
@@ -36,7 +36,7 @@
                                   <p style="text-align: center;" class="center" pardot-region pardot-removable>
 
                                     <?php
-                                      if($isUpdate) {
+                                      if($template == 'updates') {
                                         echo 'Visit our support site to access all of our MAT documentation, see updated status of our services, and link to our free training sessions!';
                                       } else {
                                         echo 'Looking to find answers to or further discuss privacy and policy issues? Send us an email with your topic suggestions and we can feature them in an upcoming newsletter.';
@@ -56,7 +56,7 @@
                       <!-- // TEXT -->
 
                       <?php
-                        if(!$isPrivacy && !$isUpdate) {
+                        if($template != 'privacy' && $template != 'updates') {
                           ob_start();
                           ?>
                             <!-- TWO BUTTONS // -->
@@ -136,7 +136,7 @@
 
                                   <center>
                                   <?php
-                                    if($isUpdate) {
+                                    if($template == 'updates') {
                                       ob_start();
                                       ?>
 
