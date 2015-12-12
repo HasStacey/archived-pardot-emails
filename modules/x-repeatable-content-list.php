@@ -4,13 +4,13 @@
                     <td>
 
                       <?php
-                        if(!$isRecap) {
+                        if($template != 'recap') {
                           ob_start();
                           ?>
                             <!-- MODULE HEADING // -->
                             <table class="row">
                               <tr>
-                                <td class="wrapper offset-by-one last <?php if($isPrivacy){ echo ' no-padding-bottom'; } ?>">
+                                <td class="wrapper offset-by-one last <?php if($template == 'privacy'){ echo ' no-padding-bottom'; } ?>">
 
                                   <table class="ten columns">
                                     <tr>
@@ -18,7 +18,7 @@
 
                                         <h2 class="subheading" pardot-region>
                                           <?php 
-                                            if($isPrivacy) {
+                                            if($template == 'privacy') {
                                               echo "In The News";
                                             } else {
                                               echo "Repeatable Content Lists";
@@ -26,7 +26,7 @@
                                           ?>
                                         </h2>
                                         <?php
-                                          if(!$isPrivacy) {
+                                          if($template != 'privacy') {
                                             ob_start();
                                             ?>
                                               <p pardot-removable>This webinar will review the key concepts, technology and terms of the mobile attribution space, as well as reviewing common attribution methodologies.</p>
@@ -80,7 +80,7 @@
                             <!-- // LIST ITEM -->
 
                             <?php
-                              if(!$isPrivacy) {
+                              if($template != 'privacy') {
                                 ob_start();
                                 ?>
                                   <!-- TWO BUTTONS // -->

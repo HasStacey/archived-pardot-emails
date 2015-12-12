@@ -657,6 +657,9 @@ table.email-wrapper {
 table.email-footer {
   background-color: #007aff; }
 
+table.email-footer.one-off-email-footer {
+  background-color: #3d5265; }
+
 .email-footer .row {
   padding: 15px 0; }
 

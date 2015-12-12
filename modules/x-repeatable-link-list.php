@@ -13,7 +13,7 @@
                                 <td>
                                   <h2 class="subheading" pardot-region>
                                     <?php 
-                                      if($isUpdate) {
+                                      if($template == 'updates') {
                                         echo "More New Features";
                                       } else {
                                         echo "Repeatable Links List";

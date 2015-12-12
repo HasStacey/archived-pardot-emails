@@ -76,7 +76,7 @@
 
                                   <center>
                                   <?php
-                                    if($isUpdate) {
+                                    if($template == 'updates') {
                                       ob_start();
                                       ?>
 
