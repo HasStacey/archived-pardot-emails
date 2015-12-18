@@ -2,126 +2,45 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19102",
 "files": {
-	"\/css\/blue.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/blue.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/dkblue.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/dkblue.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/green.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/green.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/ltblue.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/ltblue.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/one-off-email-styles.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/one-off-email-styles.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/orange.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/orange.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/purple.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/purple.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/styles.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/styles.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/debugging\/march-11-updates-list-bug.html": {
+	"\/documentation\/marketing-documentation\/404.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/debugging\/march-11-updates-list-bug.html",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/404.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/documentation\/404.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/documentation\/404.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/documentation\/apple-touch-icon.png": {
+	"\/documentation\/marketing-documentation\/apple-touch-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3959,
-		"inputAbbreviatedPath": "\/documentation\/apple-touch-icon.png",
-		"outputAbbreviatedPath": "\/documentation\/apple-touch-icon.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/apple-touch-icon.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/apple-touch-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/css\/main.css": {
+	"\/documentation\/marketing-documentation\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/documentation\/css\/main.css",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/documentation\/css\/reset.css": {
+	"\/documentation\/marketing-documentation\/css\/reset.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/documentation\/css\/reset.css",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/css\/reset.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/documentation\/doc\/css.md": {
+	"\/documentation\/marketing-documentation\/doc\/css.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 0,
 		"enableLabels": 1,
@@ -130,9 +49,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/documentation\/doc\/css.md",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/doc\/css.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/documentation\/doc\/css.html",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/doc\/css.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -142,7 +61,7 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/documentation\/doc\/extend.md": {
+	"\/documentation\/marketing-documentation\/doc\/extend.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 0,
 		"enableLabels": 1,
@@ -151,9 +70,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/documentation\/doc\/extend.md",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/doc\/extend.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/documentation\/doc\/extend.html",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/doc\/extend.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -163,7 +82,7 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/documentation\/doc\/faq.md": {
+	"\/documentation\/marketing-documentation\/doc\/faq.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 0,
 		"enableLabels": 1,
@@ -172,9 +91,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/documentation\/doc\/faq.md",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/doc\/faq.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/documentation\/doc\/faq.html",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/doc\/faq.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -184,7 +103,7 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/documentation\/doc\/html.md": {
+	"\/documentation\/marketing-documentation\/doc\/html.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 0,
 		"enableLabels": 1,
@@ -193,9 +112,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/documentation\/doc\/html.md",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/doc\/html.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/documentation\/doc\/html.html",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/doc\/html.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -205,7 +124,7 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/documentation\/doc\/js.md": {
+	"\/documentation\/marketing-documentation\/doc\/js.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 0,
 		"enableLabels": 1,
@@ -214,9 +133,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/documentation\/doc\/js.md",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/doc\/js.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/documentation\/doc\/js.html",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/doc\/js.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -226,7 +145,7 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/documentation\/doc\/misc.md": {
+	"\/documentation\/marketing-documentation\/doc\/misc.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 0,
 		"enableLabels": 1,
@@ -235,9 +154,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/documentation\/doc\/misc.md",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/doc\/misc.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/documentation\/doc\/misc.html",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/doc\/misc.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -247,7 +166,7 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/documentation\/doc\/TOC.md": {
+	"\/documentation\/marketing-documentation\/doc\/TOC.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 0,
 		"enableLabels": 1,
@@ -256,9 +175,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/documentation\/doc\/TOC.md",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/doc\/TOC.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/documentation\/doc\/TOC.html",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/doc\/TOC.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -268,7 +187,7 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/documentation\/doc\/usage.md": {
+	"\/documentation\/marketing-documentation\/doc\/usage.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 0,
 		"enableLabels": 1,
@@ -277,9 +196,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/documentation\/doc\/usage.md",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/doc\/usage.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/documentation\/doc\/usage.html",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/doc\/usage.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -289,1401 +208,723 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/documentation\/img\/academy.png": {
+	"\/documentation\/marketing-documentation\/img\/academy.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 306860,
-		"inputAbbreviatedPath": "\/documentation\/img\/academy.png",
-		"outputAbbreviatedPath": "\/documentation\/img\/academy.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/academy.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/academy.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/business-card-template.jpg": {
+	"\/documentation\/marketing-documentation\/img\/business-card-template.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 55486,
-		"inputAbbreviatedPath": "\/documentation\/img\/business-card-template.jpg",
-		"outputAbbreviatedPath": "\/documentation\/img\/business-card-template.jpg",
+		"initialSize": 49851,
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/business-card-template.jpg",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/business-card-template.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/buttons.jpg": {
+	"\/documentation\/marketing-documentation\/img\/buttons.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 45447,
-		"inputAbbreviatedPath": "\/documentation\/img\/buttons.jpg",
-		"outputAbbreviatedPath": "\/documentation\/img\/buttons.jpg",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/buttons.jpg",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/buttons.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/copy-paste-after.png": {
+	"\/documentation\/marketing-documentation\/img\/copy-paste-after.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 144324,
-		"inputAbbreviatedPath": "\/documentation\/img\/copy-paste-after.png",
-		"outputAbbreviatedPath": "\/documentation\/img\/copy-paste-after.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/copy-paste-after.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/copy-paste-after.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/copy-paste-before.png": {
+	"\/documentation\/marketing-documentation\/img\/copy-paste-before.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 132939,
-		"inputAbbreviatedPath": "\/documentation\/img\/copy-paste-before.png",
-		"outputAbbreviatedPath": "\/documentation\/img\/copy-paste-before.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/copy-paste-before.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/copy-paste-before.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/drip.png": {
+	"\/documentation\/marketing-documentation\/img\/drip.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 208986,
-		"inputAbbreviatedPath": "\/documentation\/img\/drip.png",
-		"outputAbbreviatedPath": "\/documentation\/img\/drip.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/drip.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/drip.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/extra-images.png": {
+	"\/documentation\/marketing-documentation\/img\/extra-images.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 355662,
-		"inputAbbreviatedPath": "\/documentation\/img\/extra-images.png",
-		"outputAbbreviatedPath": "\/documentation\/img\/extra-images.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/extra-images.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/extra-images.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/headline-2line-limit.jpg": {
+	"\/documentation\/marketing-documentation\/img\/headline-2line-limit.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 41715,
-		"inputAbbreviatedPath": "\/documentation\/img\/headline-2line-limit.jpg",
-		"outputAbbreviatedPath": "\/documentation\/img\/headline-2line-limit.jpg",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/headline-2line-limit.jpg",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/headline-2line-limit.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/headline-exceptions.png": {
+	"\/documentation\/marketing-documentation\/img\/headline-exceptions.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 41306,
-		"inputAbbreviatedPath": "\/documentation\/img\/headline-exceptions.png",
-		"outputAbbreviatedPath": "\/documentation\/img\/headline-exceptions.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/headline-exceptions.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/headline-exceptions.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/image-library-icons.png": {
+	"\/documentation\/marketing-documentation\/img\/image-library-icons.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 488723,
-		"inputAbbreviatedPath": "\/documentation\/img\/image-library-icons.png",
-		"outputAbbreviatedPath": "\/documentation\/img\/image-library-icons.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/image-library-icons.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/image-library-icons.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/image-library.png": {
+	"\/documentation\/marketing-documentation\/img\/image-library.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 195632,
-		"inputAbbreviatedPath": "\/documentation\/img\/image-library.png",
-		"outputAbbreviatedPath": "\/documentation\/img\/image-library.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/image-library.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/image-library.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/newsletter.png": {
+	"\/documentation\/marketing-documentation\/img\/newsletter.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 321535,
-		"inputAbbreviatedPath": "\/documentation\/img\/newsletter.png",
-		"outputAbbreviatedPath": "\/documentation\/img\/newsletter.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/newsletter.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/newsletter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/no-header-links.jpg": {
+	"\/documentation\/marketing-documentation\/img\/no-header-links.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 57357,
-		"inputAbbreviatedPath": "\/documentation\/img\/no-header-links.jpg",
-		"outputAbbreviatedPath": "\/documentation\/img\/no-header-links.jpg",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/no-header-links.jpg",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/no-header-links.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/notification.png": {
+	"\/documentation\/marketing-documentation\/img\/notification.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 204073,
-		"inputAbbreviatedPath": "\/documentation\/img\/notification.png",
-		"outputAbbreviatedPath": "\/documentation\/img\/notification.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/notification.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/notification.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/paragraph-limits.png": {
+	"\/documentation\/marketing-documentation\/img\/paragraph-limits.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 20929,
-		"inputAbbreviatedPath": "\/documentation\/img\/paragraph-limits.png",
-		"outputAbbreviatedPath": "\/documentation\/img\/paragraph-limits.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/paragraph-limits.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/paragraph-limits.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/pardot-screenshot.png": {
+	"\/documentation\/marketing-documentation\/img\/pardot-screenshot.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 213350,
-		"inputAbbreviatedPath": "\/documentation\/img\/pardot-screenshot.png",
-		"outputAbbreviatedPath": "\/documentation\/img\/pardot-screenshot.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/pardot-screenshot.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/pardot-screenshot.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/privacy.png": {
+	"\/documentation\/marketing-documentation\/img\/privacy.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 260249,
-		"inputAbbreviatedPath": "\/documentation\/img\/privacy.png",
-		"outputAbbreviatedPath": "\/documentation\/img\/privacy.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/privacy.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/privacy.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/recap.png": {
+	"\/documentation\/marketing-documentation\/img\/recap.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 202922,
-		"inputAbbreviatedPath": "\/documentation\/img\/recap.png",
-		"outputAbbreviatedPath": "\/documentation\/img\/recap.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/recap.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/recap.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/spotlight-events-module.png": {
+	"\/documentation\/marketing-documentation\/img\/spotlight-events-module.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 120511,
-		"inputAbbreviatedPath": "\/documentation\/img\/spotlight-events-module.png",
-		"outputAbbreviatedPath": "\/documentation\/img\/spotlight-events-module.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/spotlight-events-module.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/spotlight-events-module.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/tune-logo-knockout.png": {
+	"\/documentation\/marketing-documentation\/img\/tune-logo-knockout.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 8364,
-		"inputAbbreviatedPath": "\/documentation\/img\/tune-logo-knockout.png",
-		"outputAbbreviatedPath": "\/documentation\/img\/tune-logo-knockout.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/tune-logo-knockout.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/tune-logo-knockout.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/img\/updates.png": {
+	"\/documentation\/marketing-documentation\/img\/updates.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 169314,
-		"inputAbbreviatedPath": "\/documentation\/img\/updates.png",
-		"outputAbbreviatedPath": "\/documentation\/img\/updates.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/updates.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/img\/updates.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/index.html": {
+	"\/documentation\/marketing-documentation\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/documentation\/index.html",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/documentation\/js\/main.js": {
+	"\/documentation\/marketing-documentation\/js\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/documentation\/js\/main.js",
-		"outputAbbreviatedPath": "\/documentation\/js\/min\/main-min.js",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/js\/main.js",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/js\/min\/main-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/documentation\/js\/min\/main-min.js": {
+	"\/documentation\/marketing-documentation\/js\/min\/main-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/documentation\/js\/min\/main-min.js",
-		"outputAbbreviatedPath": "\/documentation\/js\/min\/min\/main-min-min.js",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/js\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/js\/min\/min\/main-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/documentation\/js\/plugins.js": {
+	"\/documentation\/marketing-documentation\/js\/plugins.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/documentation\/js\/plugins.js",
-		"outputAbbreviatedPath": "\/documentation\/js\/min\/plugins-min.js",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/js\/plugins.js",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/js\/min\/plugins-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/documentation\/js\/vendor\/modernizr-2.8.3.min.js": {
+	"\/documentation\/marketing-documentation\/js\/vendor\/modernizr-2.8.3.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/documentation\/js\/vendor\/modernizr-2.8.3.min.js",
-		"outputAbbreviatedPath": "\/documentation\/js\/vendor\/min\/modernizr-2.8.3.min-min.js",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/js\/vendor\/modernizr-2.8.3.min.js",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/js\/vendor\/min\/modernizr-2.8.3.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/documentation\/tile-wide.png": {
+	"\/documentation\/marketing-documentation\/tile-wide.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1854,
-		"inputAbbreviatedPath": "\/documentation\/tile-wide.png",
-		"outputAbbreviatedPath": "\/documentation\/tile-wide.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/tile-wide.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/tile-wide.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/documentation\/tile.png": {
+	"\/documentation\/marketing-documentation\/tile.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3482,
-		"inputAbbreviatedPath": "\/documentation\/tile.png",
-		"outputAbbreviatedPath": "\/documentation\/tile.png",
+		"inputAbbreviatedPath": "\/documentation\/marketing-documentation\/tile.png",
+		"outputAbbreviatedPath": "\/documentation\/marketing-documentation\/tile.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/generated-emails\/October (Preheader Text Added)\/ho-academy.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/generated-emails\/October (Preheader Text Added)\/ho-academy.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/generated-emails\/October (Preheader Text Added)\/ho-drip.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/generated-emails\/October (Preheader Text Added)\/ho-drip.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/generated-emails\/October (Preheader Text Added)\/ho-lostaccounts.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/generated-emails\/October (Preheader Text Added)\/ho-lostaccounts.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/generated-emails\/October (Preheader Text Added)\/ho-newsletter.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/generated-emails\/October (Preheader Text Added)\/ho-newsletter.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/generated-emails\/October (Preheader Text Added)\/ho-notification.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/generated-emails\/October (Preheader Text Added)\/ho-notification.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/generated-emails\/October (Preheader Text Added)\/tune-academy.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/generated-emails\/October (Preheader Text Added)\/tune-academy.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/generated-emails\/October (Preheader Text Added)\/tune-drip.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/generated-emails\/October (Preheader Text Added)\/tune-drip.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/generated-emails\/October (Preheader Text Added)\/tune-events.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/generated-emails\/October (Preheader Text Added)\/tune-events.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/generated-emails\/October (Preheader Text Added)\/tune-lostaccounts.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/generated-emails\/October (Preheader Text Added)\/tune-lostaccounts.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/generated-emails\/October (Preheader Text Added)\/tune-newsletter.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/generated-emails\/October (Preheader Text Added)\/tune-newsletter.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/generated-emails\/October (Preheader Text Added)\/tune-notification.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/generated-emails\/October (Preheader Text Added)\/tune-notification.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/generated-emails\/October (Preheader Text Added)\/tune-privacy.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/generated-emails\/October (Preheader Text Added)\/tune-privacy.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/generated-emails\/October (Preheader Text Added)\/tune-recap.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/generated-emails\/October (Preheader Text Added)\/tune-recap.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/generated-emails\/October (Preheader Text Added)\/tune-updates.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/generated-emails\/October (Preheader Text Added)\/tune-updates.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/header.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/header.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/images\/2015-email-bg-academy-ho.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 27801,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-academy-ho.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-academy-ho.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-academy-tune.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 28341,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-academy-tune.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-academy-tune.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-business-meeting-tablet.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 24916,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-business-meeting-tablet.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-business-meeting-tablet.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-coffee-cup-on-top-of-tablet.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 19070,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-coffee-cup-on-top-of-tablet.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-coffee-cup-on-top-of-tablet.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-coffeecup-nologo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 147230,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-coffeecup-nologo.png",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-coffeecup-nologo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-hasteam.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 35140,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-hasteam.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-hasteam.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-laptop-with-books.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 27420,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-laptop-with-books.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-laptop-with-books.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-looking-up-building.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 31282,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-looking-up-building.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-looking-up-building.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-notepad.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 17554,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-notepad.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-notepad.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-phone-and-record.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 13821,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-phone-and-record.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-phone-and-record.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-phone.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 14246,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-phone.png",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-phone.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-postback-lanyard.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 35418,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-postback-lanyard.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-postback-lanyard.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-privacy-newsletter.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 24900,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-privacy-newsletter.png",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-privacy-newsletter.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-reports-tablet-mobile.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 28466,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-reports-tablet-mobile.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-reports-tablet-mobile.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-sketch-graphs.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 51426,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-sketch-graphs.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-sketch-graphs.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-stock-people-at-event.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 23782,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-stock-people-at-event.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-stock-people-at-event.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-sunglasses.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 26291,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-sunglasses.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-sunglasses.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-this-week-in-marketing.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16029,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-this-week-in-marketing.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-this-week-in-marketing.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-tune-cares.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 32548,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-tune-cares.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-tune-cares.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-we-heart-mobile.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 15320,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-we-heart-mobile.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-we-heart-mobile.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-we-heart-performance.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 29204,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-we-heart-performance.jpg",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-we-heart-performance.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-bg-wineglasses.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 156142,
-		"inputAbbreviatedPath": "\/images\/2015-email-bg-wineglasses.png",
-		"outputAbbreviatedPath": "\/images\/2015-email-bg-wineglasses.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-ho-by-tune-logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1014,
-		"inputAbbreviatedPath": "\/images\/2015-email-ho-by-tune-logo.png",
-		"outputAbbreviatedPath": "\/images\/2015-email-ho-by-tune-logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-ho-logo-knockout.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2421,
-		"inputAbbreviatedPath": "\/images\/2015-email-ho-logo-knockout.png",
-		"outputAbbreviatedPath": "\/images\/2015-email-ho-logo-knockout.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-icon-facebook.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1067,
-		"inputAbbreviatedPath": "\/images\/2015-email-icon-facebook.png",
-		"outputAbbreviatedPath": "\/images\/2015-email-icon-facebook.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-icon-gift.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1744,
-		"inputAbbreviatedPath": "\/images\/2015-email-icon-gift.png",
-		"outputAbbreviatedPath": "\/images\/2015-email-icon-gift.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-icon-link.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1101,
-		"inputAbbreviatedPath": "\/images\/2015-email-icon-link.png",
-		"outputAbbreviatedPath": "\/images\/2015-email-icon-link.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-icon-linkedin.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1115,
-		"inputAbbreviatedPath": "\/images\/2015-email-icon-linkedin.png",
-		"outputAbbreviatedPath": "\/images\/2015-email-icon-linkedin.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-icon-list.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2129,
-		"inputAbbreviatedPath": "\/images\/2015-email-icon-list.png",
-		"outputAbbreviatedPath": "\/images\/2015-email-icon-list.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-icon-twitter.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1174,
-		"inputAbbreviatedPath": "\/images\/2015-email-icon-twitter.png",
-		"outputAbbreviatedPath": "\/images\/2015-email-icon-twitter.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-tune-logo-knockout.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 678,
-		"inputAbbreviatedPath": "\/images\/2015-email-tune-logo-knockout.png",
-		"outputAbbreviatedPath": "\/images\/2015-email-tune-logo-knockout.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-email-tune-logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 937,
-		"inputAbbreviatedPath": "\/images\/2015-email-tune-logo.png",
-		"outputAbbreviatedPath": "\/images\/2015-email-tune-logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2015-emial-icon-googleplus.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1234,
-		"inputAbbreviatedPath": "\/images\/2015-emial-icon-googleplus.png",
-		"outputAbbreviatedPath": "\/images\/2015-emial-icon-googleplus.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/ink.css": {
+	"\/one-off-emails\/css\/one-off-email-styles.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/ink.css",
+		"inputAbbreviatedPath": "\/one-off-emails\/css\/one-off-email-styles.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/modules\/drip-centered-heading.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/drip-centered-heading.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/drip-general-content.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/drip-general-content.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/featured-content-for-recap-template.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/featured-content-for-recap-template.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/featured-content.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/featured-content.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/footer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/footer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/hero-image.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/hero-image.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/logo-header.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/logo-header.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/notification-general-content.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/notification-general-content.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/pre-footer-events-spotlight.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/pre-footer-events-spotlight.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/preheader.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/preheader.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/x-buttons.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/x-buttons.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/x-cta-grey-bg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/x-cta-grey-bg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/x-cta-white-bg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/x-cta-white-bg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/x-full-content.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/x-full-content.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/x-lesser-content.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/x-lesser-content.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/x-micro-post-double.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/x-micro-post-double.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/x-micro-post-single.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/x-micro-post-single.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/x-repeatable-content-list.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/x-repeatable-content-list.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/x-repeatable-link-list.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/x-repeatable-link-list.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/x-repeatable-static-list-unordered.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/x-repeatable-static-list-unordered.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/x-spotlight-training.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/x-spotlight-training.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/x-two-images.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modules\/x-two-images.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/one-off-emails\/2015.08-eMarketer-2\/2015.08-emarketer-2-green.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/one-off-emails\/2015.08-eMarketer-2\/2015.08-emarketer-2-green.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/one-off-emails\/2015.08-eMarketer-2\/2015.08-emarketer-2-hero.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 26084,
-		"inputAbbreviatedPath": "\/one-off-emails\/2015.08-eMarketer-2\/2015.08-emarketer-2-hero.png",
-		"outputAbbreviatedPath": "\/one-off-emails\/2015.08-eMarketer-2\/2015.08-emarketer-2-hero.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/one-off-emails\/2015.08-eMarketer\/2015.08-emarketer-graph.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 18390,
-		"inputAbbreviatedPath": "\/one-off-emails\/2015.08-eMarketer\/2015.08-emarketer-graph.png",
-		"outputAbbreviatedPath": "\/one-off-emails\/2015.08-eMarketer\/2015.08-emarketer-graph.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/one-off-emails\/2015.08-eMarketer\/2015.08-emarketer-green.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/one-off-emails\/2015.08-eMarketer\/2015.08-emarketer-green.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/one-off-emails\/2015.08-eMarketer\/2015.08-emarketer-hero.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 20517,
-		"inputAbbreviatedPath": "\/one-off-emails\/2015.08-eMarketer\/2015.08-emarketer-hero.png",
-		"outputAbbreviatedPath": "\/one-off-emails\/2015.08-eMarketer\/2015.08-emarketer-hero.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 36962,
-		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.jpg",
-		"outputAbbreviatedPath": "\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 71149,
-		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.png",
-		"outputAbbreviatedPath": "\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-BlackFriday\/2015.12-black-friday-email.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/one-off-emails\/2015.12-Smartbrief\/acquire-better-users.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4013,
-		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/acquire-better-users.png",
-		"outputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/acquire-better-users.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/one-off-emails\/2015.12-Smartbrief\/icon-facebook.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 373,
-		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/icon-facebook.png",
-		"outputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/icon-facebook.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/one-off-emails\/2015.12-Smartbrief\/icon-linkedin.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 393,
-		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/icon-linkedin.png",
-		"outputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/icon-linkedin.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/one-off-emails\/2015.12-Smartbrief\/icon-twitter.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 393,
-		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/icon-twitter.png",
-		"outputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/icon-twitter.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/one-off-emails\/2015.12-Smartbrief\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/one-off-emails\/2015.12-Smartbrief\/ink.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/ink.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/one-off-emails\/2015.12-Smartbrief\/tune-logo-blue.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 736,
-		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/tune-logo-blue.png",
-		"outputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/tune-logo-blue.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/one-off-emails\/2015.12-Smartbrief\/tune-logo-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 781,
-		"inputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/tune-logo-white.png",
-		"outputAbbreviatedPath": "\/one-off-emails\/2015.12-Smartbrief\/tune-logo-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/one-off-emails\/adweek\/Adweek Email\/adweek-header-image.png": {
+	"\/one-off-emails\/generated-emails\/2015.06-adweek\/Adweek Email\/adweek-header-image.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4738,
-		"inputAbbreviatedPath": "\/one-off-emails\/adweek\/Adweek Email\/adweek-header-image.png",
-		"outputAbbreviatedPath": "\/one-off-emails\/adweek\/Adweek Email\/adweek-header-image.png",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-adweek\/Adweek Email\/adweek-header-image.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-adweek\/Adweek Email\/adweek-header-image.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/one-off-emails\/adweek\/Adweek Email\/adweek-report-types.jpg": {
+	"\/one-off-emails\/generated-emails\/2015.06-adweek\/Adweek Email\/adweek-report-types.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 10206,
-		"inputAbbreviatedPath": "\/one-off-emails\/adweek\/Adweek Email\/adweek-report-types.jpg",
-		"outputAbbreviatedPath": "\/one-off-emails\/adweek\/Adweek Email\/adweek-report-types.jpg",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-adweek\/Adweek Email\/adweek-report-types.jpg",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-adweek\/Adweek Email\/adweek-report-types.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/one-off-emails\/adweek\/Adweek Email\/production.html": {
+	"\/one-off-emails\/generated-emails\/2015.06-adweek\/Adweek Email\/production.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/one-off-emails\/adweek\/Adweek Email\/production.html",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-adweek\/Adweek Email\/production.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/one-off-emails\/adweek\/Adweek Email\/tune-logo.png": {
+	"\/one-off-emails\/generated-emails\/2015.06-adweek\/Adweek Email\/tune-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 632,
-		"inputAbbreviatedPath": "\/one-off-emails\/adweek\/Adweek Email\/tune-logo.png",
-		"outputAbbreviatedPath": "\/one-off-emails\/adweek\/Adweek Email\/tune-logo.png",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-adweek\/Adweek Email\/tune-logo.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-adweek\/Adweek Email\/tune-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/one-off-emails\/adweek\/adweek-header-image.png": {
+	"\/one-off-emails\/generated-emails\/2015.06-adweek\/adweek-header-image.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4738,
-		"inputAbbreviatedPath": "\/one-off-emails\/adweek\/adweek-header-image.png",
-		"outputAbbreviatedPath": "\/one-off-emails\/adweek\/adweek-header-image.png",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-adweek\/adweek-header-image.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-adweek\/adweek-header-image.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/one-off-emails\/adweek\/adweek-report-types.jpg": {
+	"\/one-off-emails\/generated-emails\/2015.06-adweek\/adweek-report-types.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 10206,
-		"inputAbbreviatedPath": "\/one-off-emails\/adweek\/adweek-report-types.jpg",
-		"outputAbbreviatedPath": "\/one-off-emails\/adweek\/adweek-report-types.jpg",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-adweek\/adweek-report-types.jpg",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-adweek\/adweek-report-types.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/one-off-emails\/adweek\/boilerplate.php": {
+	"\/one-off-emails\/generated-emails\/2015.06-adweek\/boilerplate.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/one-off-emails\/adweek\/boilerplate.php",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-adweek\/boilerplate.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/one-off-emails\/adweek\/ink.css": {
+	"\/one-off-emails\/generated-emails\/2015.06-adweek\/ink.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/one-off-emails\/adweek\/ink.css",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-adweek\/ink.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/one-off-emails\/adweek\/tune-logo.png": {
+	"\/one-off-emails\/generated-emails\/2015.06-adweek\/tune-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 632,
-		"inputAbbreviatedPath": "\/one-off-emails\/adweek\/tune-logo.png",
-		"outputAbbreviatedPath": "\/one-off-emails\/adweek\/tune-logo.png",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-adweek\/tune-logo.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-adweek\/tune-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/one-off-emails\/ebook\/a-development.html": {
+	"\/one-off-emails\/generated-emails\/2015.06-ebook\/a-development.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/one-off-emails\/ebook\/a-development.html",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-ebook\/a-development.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/one-off-emails\/ebook\/a-production.html": {
+	"\/one-off-emails\/generated-emails\/2015.06-ebook\/a-production.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/one-off-emails\/ebook\/a-production.html",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-ebook\/a-production.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/one-off-emails\/ebook\/b-development.html": {
+	"\/one-off-emails\/generated-emails\/2015.06-ebook\/b-development.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/one-off-emails\/ebook\/b-development.html",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-ebook\/b-development.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/one-off-emails\/ebook\/b-production.html": {
+	"\/one-off-emails\/generated-emails\/2015.06-ebook\/b-production.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/one-off-emails\/ebook\/b-production.html",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-ebook\/b-production.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/one-off-emails\/ebook\/ink.css": {
+	"\/one-off-emails\/generated-emails\/2015.06-ebook\/ink.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/one-off-emails\/ebook\/ink.css",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-ebook\/ink.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/one-off-emails\/ebook\/left-quote.png": {
+	"\/one-off-emails\/generated-emails\/2015.06-ebook\/left-quote.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 507,
-		"inputAbbreviatedPath": "\/one-off-emails\/ebook\/left-quote.png",
-		"outputAbbreviatedPath": "\/one-off-emails\/ebook\/left-quote.png",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-ebook\/left-quote.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-ebook\/left-quote.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/one-off-emails\/ebook\/phone.jpg": {
+	"\/one-off-emails\/generated-emails\/2015.06-ebook\/phone.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 33047,
-		"inputAbbreviatedPath": "\/one-off-emails\/ebook\/phone.jpg",
-		"outputAbbreviatedPath": "\/one-off-emails\/ebook\/phone.jpg",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-ebook\/phone.jpg",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-ebook\/phone.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/one-off-emails\/ebook\/tune-logo.png": {
+	"\/one-off-emails\/generated-emails\/2015.06-ebook\/tune-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1161,
-		"inputAbbreviatedPath": "\/one-off-emails\/ebook\/tune-logo.png",
-		"outputAbbreviatedPath": "\/one-off-emails\/ebook\/tune-logo.png",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-ebook\/tune-logo.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-ebook\/tune-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/one-off-emails\/ebook\/two-dots-logo.png": {
+	"\/one-off-emails\/generated-emails\/2015.06-ebook\/two-dots-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1849,
-		"inputAbbreviatedPath": "\/one-off-emails\/ebook\/two-dots-logo.png",
-		"outputAbbreviatedPath": "\/one-off-emails\/ebook\/two-dots-logo.png",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-ebook\/two-dots-logo.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.06-ebook\/two-dots-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/one-off-emails\/tmc-fix.html": {
+	"\/one-off-emails\/generated-emails\/2015.08-eMarketer-2\/2015.08-emarketer-2-green.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/one-off-emails\/tmc-fix.html",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.08-eMarketer-2\/2015.08-emarketer-2-green.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/pardot-templates-boilerplate.php": {
+	"\/one-off-emails\/generated-emails\/2015.08-eMarketer-2\/2015.08-emarketer-2-hero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26084,
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.08-eMarketer-2\/2015.08-emarketer-2-hero.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.08-eMarketer-2\/2015.08-emarketer-2-hero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/generated-emails\/2015.08-eMarketer\/2015.08-emarketer-graph.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18390,
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.08-eMarketer\/2015.08-emarketer-graph.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.08-eMarketer\/2015.08-emarketer-graph.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/generated-emails\/2015.08-eMarketer\/2015.08-emarketer-green.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pardot-templates-boilerplate.php",
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.08-eMarketer\/2015.08-emarketer-green.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/scss\/one-off-email-styles.scss": {
+	"\/one-off-emails\/generated-emails\/2015.08-eMarketer\/2015.08-emarketer-hero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20517,
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.08-eMarketer\/2015.08-emarketer-hero.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.08-eMarketer\/2015.08-emarketer-hero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/generated-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36962,
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.jpg",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/generated-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71149,
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-BlackFriday\/2015.12-black-friday-email-header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/generated-emails\/2015.12-BlackFriday\/2015.12-black-friday-email.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-BlackFriday\/2015.12-black-friday-email.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/one-off-emails\/generated-emails\/2015.12-BlackFriday\/2015.12-black-friday-email.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-BlackFriday\/2015.12-black-friday-email.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/acquire-better-users.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4013,
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/acquire-better-users.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/acquire-better-users.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/icon-facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 373,
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/icon-facebook.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/icon-facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/icon-linkedin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 393,
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/icon-linkedin.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/icon-linkedin.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/icon-twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 393,
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/icon-twitter.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/icon-twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/ink.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/ink.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/tune-logo-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 736,
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/tune-logo-blue.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/tune-logo-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/tune-logo-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 781,
+		"inputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/tune-logo-white.png",
+		"outputAbbreviatedPath": "\/one-off-emails\/generated-emails\/2015.12-Smartbrief\/tune-logo-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/one-off-emails\/modules\/footer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/one-off-emails\/modules\/footer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/one-off-emails\/modules\/hero-image.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/one-off-emails\/modules\/hero-image.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/one-off-emails\/modules\/logo-header.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/one-off-emails\/modules\/logo-header.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/one-off-emails\/modules\/preheader.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/one-off-emails\/modules\/preheader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/one-off-emails\/scss\/one-off-email-styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/one-off-email-styles.scss",
-		"outputAbbreviatedPath": "\/css\/one-off-email-styles.css",
+		"inputAbbreviatedPath": "\/one-off-emails\/scss\/one-off-email-styles.scss",
+		"outputAbbreviatedPath": "\/one-off-emails\/css\/one-off-email-styles.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1691,15 +932,918 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/styles.scss": {
+	"\/one-off-emails\/tune-wrapper-one-off-email-boilerplate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/one-off-emails\/tune-wrapper-one-off-email-boilerplate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/css\/blue.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/css\/blue.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/css\/dkblue.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/css\/dkblue.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/css\/green.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/css\/green.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/css\/ltblue.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/css\/ltblue.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/css\/orange.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/css\/orange.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/css\/purple.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/css\/purple.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/css\/styles.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/css\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/December (New Modules)\/ho-academy.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/December (New Modules)\/ho-academy.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/December (New Modules)\/ho-drip.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/December (New Modules)\/ho-drip.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/December (New Modules)\/ho-lost-accounts.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/December (New Modules)\/ho-lost-accounts.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/December (New Modules)\/ho-newsletter.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/December (New Modules)\/ho-newsletter.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/December (New Modules)\/ho-notification.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/December (New Modules)\/ho-notification.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/December (New Modules)\/tune-academy.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/December (New Modules)\/tune-academy.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/December (New Modules)\/tune-drip.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/December (New Modules)\/tune-drip.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/December (New Modules)\/tune-events.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/December (New Modules)\/tune-events.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/December (New Modules)\/tune-lost-accounts.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/December (New Modules)\/tune-lost-accounts.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/December (New Modules)\/tune-newsletter.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/December (New Modules)\/tune-newsletter.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/December (New Modules)\/tune-notification.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/December (New Modules)\/tune-notification.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/December (New Modules)\/tune-privacy.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/December (New Modules)\/tune-privacy.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/December (New Modules)\/tune-recap.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/December (New Modules)\/tune-recap.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/December (New Modules)\/tune-updates.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/December (New Modules)\/tune-updates.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/ho-academy.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/ho-academy.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/ho-drip.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/ho-drip.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/ho-lostaccounts.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/ho-lostaccounts.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/ho-newsletter.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/ho-newsletter.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/ho-notification.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/ho-notification.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-academy.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-academy.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-drip.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-drip.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-events.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-events.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-lostaccounts.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-lostaccounts.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-newsletter.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-newsletter.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-notification.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-notification.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-privacy.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-privacy.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-recap.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-recap.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-updates.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/generated-emails\/October (Preheader Text Added)\/tune-updates.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/header.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/header.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-academy-ho.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27801,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-academy-ho.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-academy-ho.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-academy-tune.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28341,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-academy-tune.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-academy-tune.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-business-meeting-tablet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24916,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-business-meeting-tablet.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-business-meeting-tablet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-coffee-cup-on-top-of-tablet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19070,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-coffee-cup-on-top-of-tablet.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-coffee-cup-on-top-of-tablet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-coffeecup-nologo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 147230,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-coffeecup-nologo.png",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-coffeecup-nologo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-hasteam.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35140,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-hasteam.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-hasteam.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-laptop-with-books.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27420,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-laptop-with-books.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-laptop-with-books.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-looking-up-building.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31282,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-looking-up-building.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-looking-up-building.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-notepad.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17554,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-notepad.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-notepad.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-phone-and-record.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13821,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-phone-and-record.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-phone-and-record.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14246,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-phone.png",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-postback-lanyard.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35418,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-postback-lanyard.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-postback-lanyard.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-privacy-newsletter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24900,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-privacy-newsletter.png",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-privacy-newsletter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-reports-tablet-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28466,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-reports-tablet-mobile.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-reports-tablet-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-sketch-graphs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51426,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-sketch-graphs.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-sketch-graphs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-stock-people-at-event.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23782,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-stock-people-at-event.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-stock-people-at-event.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-sunglasses.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26291,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-sunglasses.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-sunglasses.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-this-week-in-marketing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16029,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-this-week-in-marketing.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-this-week-in-marketing.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-tune-cares.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32548,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-tune-cares.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-tune-cares.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-we-heart-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15320,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-we-heart-mobile.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-we-heart-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-we-heart-performance.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29204,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-we-heart-performance.jpg",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-we-heart-performance.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-bg-wineglasses.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156142,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-wineglasses.png",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-bg-wineglasses.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-ho-by-tune-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6519,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-ho-by-tune-logo.png",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-ho-by-tune-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-ho-logo-knockout.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2421,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-ho-logo-knockout.png",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-ho-logo-knockout.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-icon-facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1067,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-icon-facebook.png",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-icon-facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-icon-gift.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1744,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-icon-gift.png",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-icon-gift.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-icon-link.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1101,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-icon-link.png",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-icon-link.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-icon-linkedin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1115,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-icon-linkedin.png",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-icon-linkedin.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-icon-list.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2129,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-icon-list.png",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-icon-list.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-icon-twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1174,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-icon-twitter.png",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-icon-twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-tune-logo-knockout.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 678,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-tune-logo-knockout.png",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-tune-logo-knockout.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-email-tune-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 937,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-tune-logo.png",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-email-tune-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/images\/2015-emial-icon-googleplus.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1234,
+		"inputAbbreviatedPath": "\/pardot-templates\/images\/2015-emial-icon-googleplus.png",
+		"outputAbbreviatedPath": "\/pardot-templates\/images\/2015-emial-icon-googleplus.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pardot-templates\/modules\/drip-centered-heading.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/drip-centered-heading.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/drip-general-content.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/drip-general-content.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/featured-content.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/featured-content.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/footer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/footer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/hero-image.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/hero-image.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/logo-header.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/logo-header.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/notification-general-content.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/notification-general-content.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/pre-footer-events-spotlight.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/pre-footer-events-spotlight.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/preheader.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/preheader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/x-apple-button.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/x-apple-button.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/x-buttons.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/x-buttons.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/x-cta-grey-bg.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/x-cta-grey-bg.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/x-cta-white-bg.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/x-cta-white-bg.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/x-full-content.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/x-full-content.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/x-image-with-caption.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/x-image-with-caption.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/x-lesser-content.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/x-lesser-content.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/x-micro-post-double.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/x-micro-post-double.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/x-micro-post-single.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/x-micro-post-single.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/x-repeatable-content-list.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/x-repeatable-content-list.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/x-repeatable-link-list.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/x-repeatable-link-list.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/x-spotlight-training.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/x-spotlight-training.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/modules\/x-two-images.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/modules\/x-two-images.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/pardot-templates-boilerplate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pardot-templates\/pardot-templates-boilerplate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pardot-templates\/scss\/styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/styles.scss",
-		"outputAbbreviatedPath": "\/css\/styles.css",
+		"inputAbbreviatedPath": "\/pardot-templates\/scss\/styles.scss",
+		"outputAbbreviatedPath": "\/pardot-templates\/css\/styles.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1707,20 +1851,11 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/tune-wrapper-one-off-email-boilerplate.php": {
+	"\/pardot-templates\/variables.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/tune-wrapper-one-off-email-boilerplate.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/variables.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/variables.php",
+		"inputAbbreviatedPath": "\/pardot-templates\/variables.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
